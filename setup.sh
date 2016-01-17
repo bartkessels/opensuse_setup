@@ -89,11 +89,11 @@ zypper --non-interactive install virtualbox virtualbox-guest-utils
 # Financial
 zypper --non-interactive install kmymoney
 
+# Games
+zypper --non-interactive install supertuxkart
+
 # Other
 zypper --non-interactive install kaccounts-providers
-
-# Save oneclick packages with url to homefolder
-printf 'To be installed:\n- tuxguitar    https://software.opensuse.org/package/tuxguitar\n- ardour    https://software.opensuse.org/package/ardour\n- filezilla    https://software.opensuse.org/package/filezilla' > /home/$USER/missing_packages.txt
 
 #####################################################################################
 #####################################################################################
