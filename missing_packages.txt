@@ -1,4 +1,5 @@
 To be installed:
+- supertux	   https://software.opensuse.org/package/supertux2
 - tuxguitar    https://software.opensuse.org/package/tuxguitar
 - ardour       https://software.opensuse.org/package/ardour
 - filezilla    https://software.opensuse.org/package/filezilla

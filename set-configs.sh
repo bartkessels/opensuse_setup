@@ -12,3 +12,7 @@ cp -r /home/$USER/.vimrc configs/.
 
 # Remove kwallet content
 rm -rf configs/.local/share/kwalletd/*
+
+# Remove evolution data
+rm -rf configs/.local/share/evolution
+rm -rf configs/.config/evolution
