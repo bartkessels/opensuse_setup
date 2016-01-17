@@ -10,7 +10,7 @@
 zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman
 
 # fonts
-zypper --non-interactive install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
+zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 mkfontscale
 mkfontdir
