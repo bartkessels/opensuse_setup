@@ -109,6 +109,8 @@ zypper --non-interactive install kaccounts-providers
 # Set up mysql
 zypper --non-interactive install -f mariadb
 chown -R mysql:mysql /var/lib/mysql
+
+# Start mysql to make sure the installation can be run
 systemctl start mysql
 mysql_secure_installation
 
@@ -116,11 +118,12 @@ mysql_secure_installation
 zypper --non-interactive install phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
-# Make apache start on boot
-systemctl enable apache2
-
 # Enable php module
 a2enmod php5
+
+# Start services on boot
+systemctl enable apache2
+systemctl enable mysql
 
 #####################################################################################
 #####################################################################################
