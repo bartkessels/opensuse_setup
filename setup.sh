@@ -78,7 +78,7 @@ zypper --non-interactive install tmux vim geany geany-plugins qt-creator kate
 zypper --non-interactive install dia umbrello
 
 # Web
-zypper --non-interactive install chromium qbittorrent kmail
+zypper --non-interactive install chromium qbittorrent evolution
 
 # Office
 zypper --non-interactive install aspell-nl
