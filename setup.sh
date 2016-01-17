@@ -128,8 +128,8 @@ a2enmod php5
 #####################################################################################
 
 # Settings
-cp -r configs/* /home/$USER/.
-cp -r configs/* /etc/skel/.
+cp -r configs/. /home/$USER/.
+cp -r configs/. /etc/skel/.
 
 # Wallpaper
 cp wallpapers/d5esSs4.jpg /usr/share/arch_linux-wallpaper-1920x1080.jpg
