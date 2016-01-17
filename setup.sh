@@ -133,3 +133,17 @@ cp -r configs/. /etc/skel/.
 
 # Wallpaper
 cp wallpapers/d5esSs4.jpg /usr/share/arch_linux-wallpaper-1920x1080.jpg
+
+#####################################################################################
+#####################################################################################
+
+#		FINISH
+
+#####################################################################################
+#####################################################################################
+
+# Clear screen
+clear
+
+# Tell user to logout and login
+echo 'Please logout and login again for the settings to be applied'
