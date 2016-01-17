@@ -1,3 +1,6 @@
+# Set username
+user_name = 'bart'
+
 #####################################################################################
 #####################################################################################
 
@@ -39,11 +42,11 @@ sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
 printf '\nDefaults env_reset,insults\n' >> /etc/sudoers
 
 # Add user to wheel group
-useradd -m -g users -G wheel -s /bin/bash $USER
+usermod -a -G wheel $user_name
 
 # Make KDESU authenticate with sudo $USER instead of root
 printf '[super-user-command]\nsuper-user-command=sudo' > /etc/skel/.config/kdesurc
-printf '[super-user-command]\nsuper-user-command=sudo' > /home/$USER/.config/kdesurc
+printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
 
 # Set background for SDDM
 printf '\n[General]\nbackground=/usr/share/arch_linux-wallpaper-1920x1080.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
@@ -128,7 +131,7 @@ a2enmod php5
 #####################################################################################
 
 # Settings
-cp -r configs/. /home/$USER/.
+cp -r configs/. /home/$user_name/.
 cp -r configs/. /etc/skel/.
 
 # Wallpaper
