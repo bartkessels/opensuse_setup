@@ -1,0 +1,5 @@
+To be installed:
+- tuxguitar    https://software.opensuse.org/package/tuxguitar
+- ardour       https://software.opensuse.org/package/ardour
+- filezilla    https://software.opensuse.org/package/filezilla
+- cloudstation https://www.synology.com/en-us/support/download/DS215j
