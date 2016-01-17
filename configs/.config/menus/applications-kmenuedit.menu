@@ -79,43 +79,38 @@
  </Menu>
  <Menu>
   <Name>Internet</Name>
+  <Exclude>
+   <Filename>chromium-app-list.desktop</Filename>
+  </Exclude>
   <Layout>
+   <Merge type="files"/>
+   <Filename>Gnome Online Accounts.desktop</Filename>
    <Merge type="menus"/>
    <Menuname>Terminal</Menuname>
-   <Merge type="files"/>
-   <Filename>org.kde.akregator.desktop</Filename>
-   <Filename>bssh.desktop</Filename>
-   <Filename>bvnc.desktop</Filename>
-   <Filename>org.kde.blogilo.desktop</Filename>
-   <Filename>chromium.desktop</Filename>
+   <Filename>kde4-choqok.desktop</Filename>
+   <Filename>chromium-browser.desktop</Filename>
+   <Filename>evolution.desktop</Filename>
+   <Filename>org.kde.knetattach.desktop</Filename>
+   <Filename>kde4-konqbrowser.desktop</Filename>
+   <Filename>org.kde.konversation.desktop</Filename>
+   <Filename>qBittorrent.desktop</Filename>
+   <Filename>synology-cloud-station.desktop</Filename>
    <Filename>org.kde.storageservicemanager.desktop</Filename>
    <Filename>org.kde.contactprintthemeeditor.desktop</Filename>
    <Filename>org.kde.contactthemeeditor.desktop</Filename>
-   <Filename>filezilla.desktop</Filename>
    <Filename>firefox.desktop</Filename>
-   <Filename>org.kde.ktpcontactlist.desktop</Filename>
-   <Filename>org.kde.ktplogviewer.desktop</Filename>
-   <Filename>kde4-kget.desktop</Filename>
    <Filename>org.kde.headerthemeeditor.desktop</Filename>
    <Filename>org.kde.kmail.desktop</Filename>
    <Filename>kde4-knetattach.desktop</Filename>
-   <Filename>kde4-Kppp.desktop</Filename>
-   <Filename>kde4-krdc.desktop</Filename>
-   <Filename>org.kde.ktnef.desktop</Filename>
    <Filename>kde4-ktorrent.desktop</Filename>
    <Filename>kde4-kopete.desktop</Filename>
-   <Filename>org.kde.krfb.desktop</Filename>
-   <Filename>opera.desktop</Filename>
-   <Filename>org.kde.pimsettingexporter.desktop</Filename>
-   <Filename>qupzilla.desktop</Filename>
-   <Filename>org.kde.ksshaskpass.desktop</Filename>
    <Filename>org.kde.sieveeditor.desktop</Filename>
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
-  <Exclude>
-   <Filename>chromium-app-list.desktop</Filename>
-  </Exclude>
+  <Include>
+   <Filename>Gnome Online Accounts.desktop</Filename>
+  </Include>
  </Menu>
  <Menu>
   <Name>Education</Name>

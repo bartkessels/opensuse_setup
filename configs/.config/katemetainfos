@@ -64,6 +64,17 @@ Mode=XML
 Time=2016,1,8,22,27,36
 URL=file:///home/bart/.local/share/mime/packages/application-vnd.sun.xml.base.xml
 
+[file:///home/bart/Documents/opensuse_setup/setup.sh]
+Bookmarks=
+Checksum=194051b0ff9f3758d3b5100b94f7e12e2b4c18c2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,13,20,15
+URL=file:///home/bart/Documents/opensuse_setup/setup.sh
+
 [file:///home/bart/Downloads/codecs-kde.ymp]
 Bookmarks=
 Checksum=aeb4f2adbb268c3c75ecda1d6e971432232b3640
@@ -129,6 +140,17 @@ Indentation Mode=normal
 Mode=Bash
 Time=2016,1,17,10,52,19
 URL=file:///home/bart/openSuseSetup/set-configs.sh
+
+[file:///home/bart/openSuseSetup/setup.sh]
+Bookmarks=
+Checksum=f41c8c98cd297cb5c82625d228210ba26b8814d8
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,12,19,48
+URL=file:///home/bart/openSuseSetup/setup.sh
 
 [file:///home/bart/public_html/index.html]
 Bookmarks=

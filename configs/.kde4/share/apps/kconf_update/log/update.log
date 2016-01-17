@@ -241,3 +241,450 @@
 2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'knetwalk' does not exist or empty, skipping
 2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kpat'
 2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kpat' does not exist or empty, skipping
+2016-01-17T12:14:01 Checking update-file '/usr/share/kde4/apps/kconf_update/kile.upd' for new updates
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile1.5v1'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile1.5v1'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile1.6v1'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile1.6v1'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile1.7v1'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile1.7v1'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile1.9v1'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile1.9v1'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile1.9v2'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile1.9v2'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile2.0v1'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile2.0v1'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile2.0v2'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile2.0v2'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile2.0v3'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile2.0v3'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile2.0v4'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile2.0v4'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:01 kile.upd: Found new update 'Kile2.0v5'
+2016-01-17T12:14:01 kile.upd: Skipping update 'Kile2.0v5'
+2016-01-17T12:14:01 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-01-17T12:14:02 Checking update-file '/usr/share/kde4/apps/kconf_update/kmymoney.upd' for new updates
+2016-01-17T12:14:02 kmymoney.upd: Found new update '1'
+2016-01-17T12:14:02 kmymoney.upd: Skipping update '1'
+2016-01-17T12:14:02 kmymoney.upd: File 'kmymoneyrc' does not exist or empty, skipping
+2016-01-17T13:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-01-17T13:45:46 kmail.upd: Checking update '1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '5'
+2016-01-17T13:45:46 kmail.upd: Skipping update '5'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '6'
+2016-01-17T13:45:46 kmail.upd: Skipping update '6'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '7'
+2016-01-17T13:45:46 kmail.upd: Skipping update '7'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '8'
+2016-01-17T13:45:46 kmail.upd: Skipping update '8'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '9'
+2016-01-17T13:45:46 kmail.upd: Skipping update '9'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4a'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4a'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4b'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4b'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.12'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.12'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13'
+2016-01-17T13:45:46 kmail.upd: File 'akonadi_folderarchive_agentrc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-01-17T13:45:46 kmail.upd: Checking update '1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '5'
+2016-01-17T13:45:46 kmail.upd: Skipping update '5'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '6'
+2016-01-17T13:45:46 kmail.upd: Skipping update '6'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '7'
+2016-01-17T13:45:46 kmail.upd: Skipping update '7'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '8'
+2016-01-17T13:45:46 kmail.upd: Skipping update '8'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '9'
+2016-01-17T13:45:46 kmail.upd: Skipping update '9'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4a'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4a'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4b'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4b'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.12'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.12'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13'
+2016-01-17T13:45:46 kmail.upd: File 'akonadi_folderarchive_agentrc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-01-17T13:45:46 kmail.upd: Checking update '1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '5'
+2016-01-17T13:45:46 kmail.upd: Skipping update '5'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '6'
+2016-01-17T13:45:46 kmail.upd: Skipping update '6'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '7'
+2016-01-17T13:45:46 kmail.upd: Skipping update '7'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '8'
+2016-01-17T13:45:46 kmail.upd: Skipping update '8'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '9'
+2016-01-17T13:45:46 kmail.upd: Skipping update '9'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4a'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4a'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4b'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4b'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.12'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.12'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13'
+2016-01-17T13:45:46 kmail.upd: File 'akonadi_folderarchive_agentrc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-01-17T13:45:46 kmail.upd: Checking update '1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '5'
+2016-01-17T13:45:46 kmail.upd: Skipping update '5'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '6'
+2016-01-17T13:45:46 kmail.upd: Skipping update '6'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '7'
+2016-01-17T13:45:46 kmail.upd: Skipping update '7'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '8'
+2016-01-17T13:45:46 kmail.upd: Skipping update '8'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '9'
+2016-01-17T13:45:46 kmail.upd: Skipping update '9'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-update-identities'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1-new-mail-notification'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.2-moves'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-update-filter-rules'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T13:45:46 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T13:45:46 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.3b1-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4a'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4a'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4b'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4b'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.4.1'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.4'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.0-misc'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.4-akonadi'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.12'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.12'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13'
+2016-01-17T13:45:46 kmail.upd: File 'akonadi_folderarchive_agentrc' does not exist or empty, skipping
+2016-01-17T13:45:46 kmail.upd: Checking update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: Skipping update '4.13.2'
+2016-01-17T13:45:46 kmail.upd: File 'kmail2rc' does not exist or empty, skipping

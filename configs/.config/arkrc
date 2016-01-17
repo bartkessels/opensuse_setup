@@ -9,8 +9,10 @@ Width 1920=750
 Recent Files[$e]=file://$HOME/configs.tar.gz,file://$HOME/configs.tar.gz
 
 [MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAF7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
 splitterSizes=426,213
 
 [Recent Files]
-File1[$e]=/run/media/bart/et/configs.tar.gz
-Name1[$e]=configs.tar.gz
+File1[$e]=$HOME/Downloads/synology-cloud-station-3.2-3497.x86_64.rpm
+Name1[$e]=synology-cloud-station-3.2-3497.x86_64.rpm

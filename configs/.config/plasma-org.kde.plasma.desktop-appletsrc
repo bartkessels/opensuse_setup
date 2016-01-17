@@ -188,7 +188,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][59][Configuration][General]
-favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop
+favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,Gnome Online Accounts.desktop
 showRecentApps=false
 showRecentDocs=false
 

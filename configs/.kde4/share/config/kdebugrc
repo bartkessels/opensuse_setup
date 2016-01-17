@@ -6,3 +6,6 @@ InfoOutput=2
 
 [kio_trash]
 InfoOutput=4
+
+[kmail2]
+InfoOutput=4

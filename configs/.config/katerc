@@ -1,3 +1,9 @@
+[Desktop Entry]
+DefaultProfile=Profile #1.profile
+
+[Favorite Profiles]
+Favorites=
+
 [General]
 Config Revision=10
 Days Meta Infos=30
@@ -13,8 +19,8 @@ Show Tab Bar=true
 Startup Session=last
 
 [KFileDialog Settings]
-Recent Files[$e]=$HOME/openSuseSetup/set-configs.sh,$HOME/Setup.sh,$HOME/instellingen.txt,$HOME/LO_looks.txt,$HOME/bkarch/Kde/skel/encrypt-chroot-install.sh,$HOME/bkarch/Kde/skel/encrypt-chroot-install-efi.sh,$HOME/bkarch/Kde/skel/chroot-install.sh,$HOME/bkarch/Kde/skel/chroot-install-efi.sh,$HOME/bkarch/GNOME/BK arch gnome.txt
-Recent URLs[$e]=$HOME/bkarch/GNOME/,$HOME/bkarch/Kde/skel/,smb://bart.kessels@192.168.179.253/home/CloudStation/Prive/Arch/Kde/skel/instellingen.txt/,$HOME/openSuseSetup/
+Recent Files[$e]=$HOME/openSuseSetup/set-configs.sh,$HOME/Documents/opensuse_setup/missing_packages.txt,$HOME/Setup.sh,$HOME/instellingen.txt,$HOME/LO_looks.txt,$HOME/bkarch/Kde/skel/encrypt-chroot-install.sh,$HOME/bkarch/Kde/skel/encrypt-chroot-install-efi.sh,$HOME/bkarch/Kde/skel/chroot-install.sh,$HOME/bkarch/Kde/skel/chroot-install-efi.sh,$HOME/bkarch/GNOME/BK arch gnome.txt
+Recent URLs[$e]=$HOME/bkarch/GNOME/,$HOME/bkarch/Kde/skel/,smb://bart.kessels@192.168.179.253/home/CloudStation/Prive/Arch/Kde/skel/instellingen.txt/,$HOME/openSuseSetup/,$HOME/Documents/opensuse_setup/
 
 [KTextEditor::Search]
 Search History=user,vim

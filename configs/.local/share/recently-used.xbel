@@ -144,12 +144,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///tmp/mozilla_bart0/Zypper-cheat-sheet-1.pdf" added="2016-01-16T22:21:37Z" modified="2016-01-16T22:21:37Z" visited="2016-01-16T22:21:37.760615Z">
+  <bookmark href="file:///tmp/mozilla_bart0/Zypper-cheat-sheet-1.pdf" added="2016-01-16T22:21:37Z" modified="2016-01-16T22:21:37Z" visited="2016-01-16T22:21:37Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/pdf"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-01-16T22:21:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Downloads/synology-cloud-station-3.2-3497.x86_64.rpm" added="2016-01-17T11:37:57Z" modified="2016-01-17T11:37:57Z" visited="2016-01-17T11:37:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rpm"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-01-17T11:37:57Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

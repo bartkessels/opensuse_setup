@@ -1,12 +1,12 @@
 <!DOCTYPE kpartgui>
 <!-- This file should be synchronized with kmail_part.rc to provide
      the same menu entries at the same place in KMail and Kontact  -->
-<kpartgui version="506" translationDomain="kmail" name="kmmainwin">
+<kpartgui version="506" name="kmmainwin" translationDomain="kmail">
  <MenuBar>
-  <Menu noMerge="1" name="file">
+  <Menu name="file" noMerge="1">
    <text translationDomain="kmail">&amp;File</text>
    <Menu name="file_new">
-    <text context="@title:menu New message, folder or new window." translationDomain="kmail">New</text>
+    <text translationDomain="kmail" context="@title:menu New message, folder or new window.">New</text>
     <Action name="new_message"/>
     <Action name="new_from_template"/>
     <Separator/>
@@ -38,7 +38,7 @@
    <Separator/>
    <Action name="file_quit"/>
   </Menu>
-  <Menu noMerge="1" name="edit">
+  <Menu name="edit" noMerge="1">
    <text translationDomain="kmail">&amp;Edit</text>
    <Action name="kmail_undo"/>
    <Action name="kmail_redo"/>
@@ -62,7 +62,7 @@
    <Action name="mark_all_messages"/>
    <Action name="mark_all_text"/>
   </Menu>
-  <Menu noMerge="1" name="view">
+  <Menu name="view" noMerge="1">
    <text translationDomain="kmail">&amp;View</text>
    <Action name="view_message_list"/>
    <Action name="view_headers"/>
@@ -79,7 +79,7 @@
    <Action name="toggle_fixedfont"/>
    <Action name="encoding"/>
    <Separator/>
-   <Menu noMerge="1" name="zoom">
+   <Menu name="zoom" noMerge="1">
     <text translationDomain="kmail">Zoom</text>
     <Action name="zoom_in"/>
     <Action name="zoom_out"/>
@@ -89,7 +89,7 @@
     <Action name="toggle_zoomtextonly"/>
    </Menu>
   </Menu>
-  <Menu noMerge="1" name="go">
+  <Menu name="go" noMerge="1">
    <text translationDomain="kmail">&amp;Go</text>
    <Action name="jump_to_folder"/>
    <Separator/>
@@ -103,7 +103,7 @@
    <Separator/>
    <Action name="go_next_unread_text"/>
   </Menu>
-  <Menu noMerge="1" name="folder">
+  <Menu name="folder" noMerge="1">
    <text translationDomain="kmail">F&amp;older</text>
    <Action name="akonadi_collection_properties"/>
    <Separator/>
@@ -131,14 +131,14 @@
    <Action name="folder_shortcut_command"/>
    <Action name="modify"/>
   </Menu>
-  <Menu noMerge="1" name="message">
+  <Menu name="message" noMerge="1">
    <text translationDomain="kmail">&amp;Message</text>
    <Action name="new_message"/>
    <Action name="post_message"/>
    <Separator/>
    <Action name="reply"/>
    <Action name="reply_all"/>
-   <Menu noMerge="1" name="reply_special">
+   <Menu name="reply_special" noMerge="1">
     <text translationDomain="kmail">Reply Special</text>
     <Action name="reply_author"/>
     <Action name="reply_list"/>
@@ -176,7 +176,7 @@
    <Separator/>
    <Action name="annotate"/>
   </Menu>
-  <Menu noMerge="1" name="tools">
+  <Menu name="tools" noMerge="1">
    <text translationDomain="kmail">&amp;Tools</text>
    <Action name="search_messages"/>
    <Separator/>
@@ -197,20 +197,20 @@
    <Action name="antiSpamWizard"/>
    <Action name="antiVirusWizard"/>
   </Menu>
-  <Menu noMerge="1" name="settings">
+  <Menu name="settings" noMerge="1">
    <text translationDomain="kmail">&amp;Settings</text>
    <Merge name="StandardToolBarMenuHandler"/>
-   <Action group="settings_configure" name="options_show_menubar"/>
+   <Action name="options_show_menubar" group="settings_configure"/>
    <Action name="show_quick_search"/>
    <Action append="save_merge" name="filter"/>
    <Action append="save_merge" name="sieveFilters"/>
    <Separator/>
    <Action name="tools_automatic_archiving"/>
    <Separator/>
-   <Action group="settings_configure" name="options_configure_keybinding"/>
-   <Action group="settings_configure" name="kmail_configure_notifications"/>
-   <Action group="settings_configure" name="options_configure_toolbars"/>
-   <Action group="settings_configure" name="kmail_configure_kmail"/>
+   <Action name="options_configure_keybinding" group="settings_configure"/>
+   <Action name="kmail_configure_notifications" group="settings_configure"/>
+   <Action name="options_configure_toolbars" group="settings_configure"/>
+   <Action name="kmail_configure_kmail" group="settings_configure"/>
   </Menu>
   <Menu name="help">
    <text translationDomain="kmail">&amp;Help</text>
@@ -287,7 +287,7 @@
   <Separator/>
   <Action name="annotate"/>
  </Menu>
- <ToolBar noMerge="1" name="mainToolBar" fullWidth="true">
+ <ToolBar name="mainToolBar" fullWidth="true" noMerge="1">
   <text translationDomain="kmail">Main Toolbar</text>
   <Action name="file_print"/>
   <Separator/>

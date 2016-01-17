@@ -1,4 +1,7 @@
-Cannot resume a timer that is not paused. 
-Cannot resume a timer that is not paused. 
-Cannot resume a timer that is not paused. 
-Cannot resume a timer that is not paused. 
+Database process exited unexpectedly during initial connection! 
+executable: "/usr/sbin/mysqld" 
+arguments: ("--defaults-file=/home/bart/.local/share/akonadi/mysql.conf", "--datadir=/home/bart/.local/share/akonadi/db_data/", "--socket=/tmp/akonadi-bart.a5IJCP/mysql.socket") 
+stdout: "" 
+stderr: "160117 14:10:16 [Note] /usr/sbin/mysqld (mysqld 10.0.21-MariaDB) starting as process 21050 ...\n" 
+exit code: 1 
+process error: "Unknown error" 

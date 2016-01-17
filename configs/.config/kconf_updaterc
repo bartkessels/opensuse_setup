@@ -1,9 +1,9 @@
 updateInfoAdded=true
 
 [akonadiconsole.upd]
-ctime=1452799972
+ctime=1453036116
 done=akonadiconsole-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [akregator.upd]
 ctime=1452799973
@@ -36,9 +36,9 @@ done=GTKBreeze5.5
 mtime=1452081498
 
 [importwizard.upd]
-ctime=1452799994
+ctime=1453036117
 done=importwizard-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [kaddressbook.upd]
 ctime=1452799982
@@ -64,14 +64,14 @@ ctime=1452989108
 mtime=1447189768
 
 [kleopatra.upd]
-ctime=1452799994
+ctime=1453036193
 done=kleopatra-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [kmail.upd]
-ctime=1452799994
+ctime=1453036195
 done=kmail-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [knotes.upd]
 ctime=1452799997
@@ -79,9 +79,9 @@ done=knotes-15.08-kickoff
 mtime=1451828069
 
 [kontact.upd]
-ctime=1452799998
+ctime=1453036194
 done=kontact-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [konversation.upd]
 ctime=1452975728
@@ -102,21 +102,21 @@ done=0.1-autolock
 mtime=1446727770
 
 [messageviewer.upd]
-ctime=1452799971
+ctime=1453036117
 done=messageviewer_move_gravatar
-mtime=1451828069
+mtime=1449553932
 
 [pimsettingexporter.upd]
-ctime=1452799971
+ctime=1453036117
 done=pimsettingexporter-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [sieveeditor.upd]
-ctime=1452799994
+ctime=1453036195
 done=sieveeditor-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
 
 [storageservicemanager.upd]
-ctime=1452799994
+ctime=1453036117
 done=storageservicemanager-15.08-kickoff
-mtime=1451828069
+mtime=1449553932
