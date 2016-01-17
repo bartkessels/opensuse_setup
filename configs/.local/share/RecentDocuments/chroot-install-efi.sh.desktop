@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=chroot-install-efi.sh
+Type=Link
+URL[$e]=file://$HOME/chroot-install-efi.sh
+X-KDE-LastOpenedWith=org.kde.kate

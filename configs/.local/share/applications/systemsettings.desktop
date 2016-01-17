@@ -1,0 +1,24 @@
+[Desktop Entry]
+Categories=Qt;KDE;Settings;
+Comment[en_US]=
+Comment=
+Exec=systemsettings5
+GenericName[en_US]=System Settings
+GenericName=System Settings
+Icon=preferences-system
+MimeType=
+Name[en_US]=Settings
+Name=System Settings
+NoDisplay=false
+OnlyShowIn=KDE;
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=unique
+X-DocPath=systemsettings/index.html
+X-KDE-StartupNotify=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,42 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaYAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAArAAAAAEAAAAAAAAD6AA=
+
+[ConfigDialog]
+Height 1080=497
+Width 1920=578
+
+[Containments][22][General]
+AppletOrder=23;24;25;26;27
+
+[Containments][30][General]
+AppletOrder=31;32;33;34;35
+
+[Containments][45][General]
+AppletOrder=46
+
+[Containments][59][General]
+AppletOrder=60
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=arch_linux-wallpaper-1920x1080.jpg,/usr/share/arch_linux-wallpaper-1920x1080.jpg
+Recent URLs[$e]=/usr/share/,/usr/share/,$HOME/Pictures/
+
+[KPropertiesDialog]
+Height 1080=446
+Width 1920=412
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_powerdevilglobalconfig.desktop
+pluginWhiteList=services,desktopsessions
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=29
+
+[PlasmaViews][Panel 1][Vertical1080]
+thickness=41
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

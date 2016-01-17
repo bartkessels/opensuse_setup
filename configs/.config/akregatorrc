@@ -1,0 +1,23 @@
+[Appearance]
+Fixed Font=Oxygen Mono
+Sans Serif Font=Oxygen-Sans
+Serif Font=Oxygen-Sans
+Standard Font=Oxygen-Sans
+
+[General]
+ArticleListFeedHeaders=
+ArticleListGroupHeaders=
+Show Tray Icon=false
+SubscriptionListHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAADBgAAAAIAAAABAAAAAwAAAAIAAABkAAAAZAAAAAMBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAABkAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAA==
+
+[HTML Settings]
+Fonts=Oxygen-Sans,Oxygen Mono,Oxygen-Sans,Oxygen-Sans,0
+MediumFontSize=10
+MinimumFontSize=8
+
+[Migratekde4]
+Version=1
+
+[View]
+Splitter 1 Sizes=49,49
+Splitter 2 Sizes=14,14

@@ -1,0 +1,243 @@
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2016-01-17T11:21:53 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2016-01-17T11:21:53 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2016-01-17T11:21:53 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2016-01-17T11:21:53 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2016-01-17T11:21:53 kcookiescfg.upd: Found new update 'kde4.10/git'
+2016-01-17T11:21:53 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2016-01-17T11:21:53 kded.upd: Found new update 'kde3.0'
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2016-01-17T11:21:53 kio_help.upd: Found new update 'kde3_2'
+2016-01-17T11:21:53 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2016-01-17T11:21:53 [Script] mv: cannot stat ‘/home/bart/.kde4/share/apps/kio_help/cache’: No such file or directory
+2016-01-17T11:21:53 [Script] rmdir: failed to remove ‘/home/bart/.kde4/share/apps/kio_help’: No such file or directory
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2016-01-17T11:21:53 kioslave.upd: Found new update 'kde2.2/r1'
+2016-01-17T11:21:53 kioslave.upd: Skipping update 'kde2.2/r1'
+2016-01-17T11:21:53 kioslave.upd: Found new update 'kde2.2/r2'
+2016-01-17T11:21:53 kioslave.upd: Running script 'useragent.pl'
+2016-01-17T11:21:53 kioslave.upd: Script removes kioslaverc:UserAgent:EntriesCount
+2016-01-17T11:21:53 kioslave.upd: Found new update 'kde2.2/r3'
+2016-01-17T11:21:53 kioslave.upd: Running script 'proxytype.pl'
+2016-01-17T11:21:53 kioslave.upd: Script removes kioslaverc:Proxy Settings:UseProxy
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2016-01-17T11:21:53 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2016-01-17T11:21:53 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2016-01-17T11:21:53 [Script] rm: cannot remove ‘/home/bart/.kde4//share/config/ksslcertificatemanager’: No such file or directory
+2016-01-17T11:21:53 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/mailtransports.upd' for new updates
+2016-01-17T11:21:53 mailtransports.upd: Found new update 'initial-kmail-migration'
+2016-01-17T11:21:53 mailtransports.upd: File 'kmailrc' does not exist or empty, skipping
+2016-01-17T11:21:53 mailtransports.upd: Found new update 'initial-knode-migration'
+2016-01-17T11:21:53 mailtransports.upd: File 'knoderc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2016-01-17T11:21:53 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2016-01-17T11:21:53 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2016-01-17T11:21:53 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2016-01-17T11:21:53 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2016-01-17T11:21:53 drkonqi-rename-config-section.upd: Found new update 'kde-4.11'
+2016-01-17T11:21:53 drkonqi-rename-config-section.upd: File 'drkonqirc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2016-01-17T11:21:53 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2016-01-17T11:21:53 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2016-01-17T11:21:53 kuriikwsfilter.upd: Found new update 'pre-kde4.9'
+2016-01-17T11:21:53 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2016-01-17T11:21:53 kwallet-4.13.upd: Found new update 'kde4.13'
+2016-01-17T11:21:53 kwallet-4.13.upd: File 'kwalletrc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2016-01-17T11:21:53 okular.upd: Found new update 'sep_settings'
+2016-01-17T11:21:53 okular.upd: File 'okularpartrc' does not exist or empty, skipping
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2016-01-17T11:21:53 kopete-account-kconf_update.upd: Found new update 'kopete0.7/r1'
+2016-01-17T11:21:53 kopete-account-kconf_update.upd: Running script 'kopete-account-kconf_update.sh'
+2016-01-17T11:21:53 [Script] /usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.sh: line 9: kde-config: command not found
+2016-01-17T11:21:53 kopete-account-kconf_update.upd: Found new update 'kopete0.10/r1'
+2016-01-17T11:21:53 kopete-account-kconf_update.upd: Running script 'kopete-account-0.10.pl'
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2016-01-17T11:21:53 kopete-gaim_to_pidgin_style.upd: Found new update 'kopete0.70.85/r1'
+2016-01-17T11:21:53 kopete-gaim_to_pidgin_style.upd: Running script 'kopete-gaim_to_pidgin_style.pl'
+2016-01-17T11:21:53 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2016-01-17T11:21:53 kopete-initialstatus.upd: Found new update 'kopete0.60.80/r1'
+2016-01-17T11:21:53 kopete-initialstatus.upd: Running script 'kopete-initialstatus.pl'
+2016-01-17T11:21:53 kopete-initialstatus.upd: Script removes kopeterc:Behavior:autoConnect
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2016-01-17T11:21:54 kopete-jabberpriorityaddition-kconf_update.upd: Found new update 'kopete0.9/r1'
+2016-01-17T11:21:54 kopete-jabberpriorityaddition-kconf_update.upd: Running script 'kopete-jabberpriorityaddition-kconf_update.sh'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2016-01-17T11:21:54 kopete-jabberproxytype-kconf_update.upd: Found new update 'kopete0.9/r1'
+2016-01-17T11:21:54 kopete-jabberproxytype-kconf_update.upd: Running script 'kopete-jabberproxytype-kconf_update.sh'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2016-01-17T11:21:54 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2016-01-17T11:21:54 kopete-nameTracking.upd:3:'Script=kopete-nameTracking-kconf_update': Script 'kopete-nameTracking-kconf_update' not found
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2016-01-17T11:21:54 kopete-pluginloader.upd: Found new update 'kopete0.7/r1'
+2016-01-17T11:21:54 kopete-pluginloader.upd: Running script 'kopete-pluginloader.pl'
+2016-01-17T11:21:54 kopete-pluginloader.upd: Script removes kopeterc::Modules
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2016-01-17T11:21:54 kopete-pluginloader2.upd: Found new update 'kopete0.8/r1'
+2016-01-17T11:21:54 kopete-pluginloader2.upd: Running script 'kopete-pluginloader2.sh'
+2016-01-17T11:21:54 [Script] /usr/share/kde4/apps/kconf_update/kopete-pluginloader2.sh: line 9: kde-config: command not found
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2016-01-17T11:21:54 kopete-update_icq_server.upd: Found new update 'kopete-update-icq-server/r1'
+2016-01-17T11:21:54 kopete-update_icq_server.upd: Running script 'kopete-update_icq_server.pl'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_ssl.upd' for new updates
+2016-01-17T11:21:54 kopete-update_icq_ssl.upd: Found new update 'kopete-update-icq-ssl/r1'
+2016-01-17T11:21:54 kopete-update_icq_ssl.upd: Running script 'kopete-update_icq_ssl.pl'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2016-01-17T11:21:54 kopete-update_yahoo_server.upd: Found new update 'kopete-update-yahoo-server/r1'
+2016-01-17T11:21:54 kopete-update_yahoo_server.upd: Running script 'kopete-update_yahoo_server.pl'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/konsole.upd' for new updates
+2016-01-17T11:21:54 konsole.upd: Found new update '2.9.0-global-options'
+2016-01-17T11:21:54 konsole.upd: File 'konsolerc' does not exist or empty, skipping
+2016-01-17T11:21:54 konsole.upd: Found new update '2.9.0-colorscheme-bold-key'
+2016-01-17T11:21:54 konsole.upd: Running script 'konsole-2.9.0-colorscheme-bold-key.sh'
+2016-01-17T11:21:54 konsole.upd: Found new update '2.10.0-remove-menuindex-from-profiles'
+2016-01-17T11:21:54 konsole.upd: Running script 'konsole-2.10.0-remove-menuindex-from-profiles.sh'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/konsole_remove_background_mode.upd' for new updates
+2016-01-17T11:21:54 konsole_remove_background_mode.upd: Found new update '2.11.0-remove-background-mode'
+2016-01-17T11:21:54 konsole_remove_background_mode.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/newmailnotifier.upd' for new updates
+2016-01-17T11:21:54 newmailnotifier.upd: Found new update 'initial-newmailnotifier-migration'
+2016-01-17T11:21:54 newmailnotifier.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2016-01-17T11:21:54 amarok.upd: Found new update '1'
+2016-01-17T11:21:54 amarok.upd: File 'amarokrc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-cache.upd' for new updates
+2016-01-17T11:21:54 plasma-cache.upd: Found new update '0.6plasma-cache'
+2016-01-17T11:21:54 plasma-cache.upd: Running script 'plasma-cache.sh'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/sysinfo_to_kinfocenter.upd' for new updates
+2016-01-17T11:21:54 sysinfo_to_kinfocenter.upd: Found new update 'kde4_10'
+2016-01-17T11:21:54 sysinfo_to_kinfocenter.upd: Running script 'sysinfo_to_kinfocenter.sh'
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/adjustlevelstool.upd' for new updates
+2016-01-17T11:21:54 adjustlevelstool.upd: Found new update 'adjustlevels2.6.0'
+2016-01-17T11:21:54 adjustlevelstool.upd: File 'digikamrc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/grantleetheme.upd' for new updates
+2016-01-17T11:21:54 grantleetheme.upd: Found new update 'initial-grantlee-theme-migration'
+2016-01-17T11:21:54 grantleetheme.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kpgp.upd' for new updates
+2016-01-17T11:21:54 kpgp.upd: Found new update 'preKDE3_a'
+2016-01-17T11:21:54 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T11:21:54 kpgp.upd: Found new update '3.1-1'
+2016-01-17T11:21:54 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/mailfilteragent.upd' for new updates
+2016-01-17T11:21:54 mailfilteragent.upd: Found new update 'initial-mailfilteragent-migration'
+2016-01-17T11:21:54 mailfilteragent.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/noteglobalsettings.upd' for new updates
+2016-01-17T11:21:54 noteglobalsettings.upd: Found new update 'initial-noteagent-migration'
+2016-01-17T11:21:54 noteglobalsettings.upd: File 'knotesrc' does not exist or empty, skipping
+2016-01-17T11:21:54 noteglobalsettings.upd: Found new update 'selectcollection-noteagent-migration'
+2016-01-17T11:21:54 noteglobalsettings.upd: File 'knotesrc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/korganizer.upd' for new updates
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_3.4_GroupwareCleanup'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_3.4_WebExport'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_3.4_FilterAction'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_3.4_HolidayPlugin'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_4.3_ShowTodos'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_4.4_MoveFreeBusy'
+2016-01-17T11:21:54 korganizer.upd: Found new update 'korganizer_4.13_RenamePrintingRC'
+2016-01-17T11:21:54 korganizer.upd: File 'korganizer_printing.rc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-01-17T11:21:54 kmail.upd: Found new update '1'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '5'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '6'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '7'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '8'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '9'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.1-update-identities'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.1-use-identity-uoids'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.1-new-mail-notification'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.2-update-loop-on-goto-unread-settings'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.1.4-dont-use-UOID-0-for-any-identity'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.2-misc'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.2-moves'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-use-ID-for-accounts'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-update-filter-rules'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-move-identities-to-own-file'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-kmailrc'
+2016-01-17T11:21:54 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2016-01-17T11:21:54 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2016-01-17T11:21:54 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3-misc'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.3b1-misc'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.4'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.4a'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.4b'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.4.1'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.5.4'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '3.5.7-imap-flag-migration'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.0-misc'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.2'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.4-akonadi'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.12'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.13'
+2016-01-17T11:21:54 kmail.upd: File 'akonadi_folderarchive_agentrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kmail.upd: Found new update '4.13.2'
+2016-01-17T11:21:54 kmail.upd: File 'kmail2rc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kget.upd' for new updates
+2016-01-17T11:21:54 kget.upd: Found new update '2.8.0'
+2016-01-17T11:21:54 kget.upd: File 'kgetrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kget.upd: Found new update '2.8.0/multiseg'
+2016-01-17T11:21:54 kget.upd: File 'kget_multisegkiofactory.rc' does not exist or empty, skipping
+2016-01-17T11:21:54 kget.upd: Found new update '2.8.0/sensitive'
+2016-01-17T11:21:54 kget.upd: File 'kgetrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kget.upd: Found new update '2.8.0/limitdownloads'
+2016-01-17T11:21:54 kget.upd: File 'kgetrc' does not exist or empty, skipping
+2016-01-17T11:21:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kgthemeprovider-migration.upd' for new updates
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'bomber'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'bomberrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'granatier'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'granatierrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kbounce'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kbouncerc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kbreakout'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kbreakoutrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kdiamond'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kdiamondrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'killbots'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'killbotsrc' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'klickety'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'klickety' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'klines'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'klines' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kmines'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kmines' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'knetwalk'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'knetwalk' does not exist or empty, skipping
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: Found new update 'kpat'
+2016-01-17T11:21:54 kgthemeprovider-migration.upd: File 'kpat' does not exist or empty, skipping

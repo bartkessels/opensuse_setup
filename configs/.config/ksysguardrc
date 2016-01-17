@@ -1,0 +1,15 @@
+[DownloadDialog Settings]
+Height 1080=522
+Width 1920=700
+
+[MainWindow]
+CommandList=
+Height 1080=566
+HostList=
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Simple Read and Write Hard Disk Information-1.0.hotstuff-access
+SplitterSizeList=425,271
+State=AAAA/wAAAAD9AAAAAAAAArkAAAIBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=697
+currentSheet=0
+isMinimized=false

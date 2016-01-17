@@ -1,0 +1,14 @@
+[PlasmaToolTips]
+Delay=-1
+
+[Theme]
+name=openSUSE
+
+[Theme-plasmashell_org.kde.plasma.mediacenter]
+name=breeze-dark
+
+[Theme-plasmathemeexplorer]
+name=air
+
+[Wallpapers]
+usersWallpapers=/usr/share/arch_linux-wallpaper-1920x1080.jpg

@@ -1,0 +1,15 @@
+baseTheme=BK_arch
+Panel Background=BK_arch
+Shutdown Dialog=BK_arch
+Icons=BK_arch
+Pager=BK_arch
+Run Command Dialog=BK_arch
+Notes=BK_arch
+Tooltip=BK_arch
+Dialog Background=BK_arch
+Analog Clock=BK_arch
+Widget Background=BK_arch
+Translucent Background=BK_arch
+Kickoff=BK_arch
+Task Items=BK_arch
+Color Scheme=/home/bart/.kde4/share/apps/color-schemes/BKarch.colors

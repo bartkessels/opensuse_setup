@@ -1,0 +1,31 @@
+[Desktop Action NewDocument]
+Exec=libreoffice --writer
+Name=New Document
+
+[Desktop Entry]
+Actions=NewDocument;
+Categories=Office;WordProcessor;X-Red-Hat-Base;X-MandrivaLinux-Office-Wordprocessors;
+Comment[en_US]=Create and edit text and graphics in letters, reports, documents and Web pages by using Writer.
+Comment=Create and edit text and graphics in letters, reports, documents and Web pages by using Writer.
+Exec=libreoffice --writer %U
+GenericName[en_US]=Word Processor
+GenericName=Word Processor
+Icon=libreoffice-writer
+InitialPreference=5
+Keywords=Text;Letter;Fax;Document;OpenDocument Text;Microsoft Word;Microsoft Works;Lotus WordPro;OpenOffice Writer;CV;odt;doc;docx;rtf;
+MimeType=text/plain;application/x-t602;application/x-hwp;application/x-fictionbook+xml;application/x-aportisdoc;application/x-abiword;application/vnd.wordperfect;application/vnd.wordperfect;application/vnd.sun.xml.writer.template;application/vnd.sun.xml.writer.global;application/vnd.sun.xml.writer;application/vnd.stardivision.writer;application/vnd.palm;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.oasis.opendocument.text-web;application/vnd.oasis.opendocument.text-template;application/vnd.oasis.opendocument.text-master-template;application/vnd.oasis.opendocument.text-master;application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.text;application/vnd.ms-works;application/vnd.ms-word.template.macroenabled.12;application/vnd.ms-word.document.macroenabled.12;application/vnd.lotus-wordpro;application/rtf;application/rtf;application/prs.plucker;application/msword;application/msword;
+Name[en_US]=Writer
+Name=Writer
+Path=
+StartupNotify=true
+StartupWMClass=libreoffice-writer
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GIO-NoFuse=true
+X-KDE-Protocols=file,http,ftp,webdav
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,31 @@
+[Desktop Action NewDocument]
+Exec=libreoffice --calc
+Name=New Spreadsheet
+
+[Desktop Entry]
+Actions=NewDocument;
+Categories=Office;Spreadsheet;X-Red-Hat-Base;X-MandrivaLinux-Office-Spreadsheets;
+Comment[en_US]=Perform calculations, analyze information and manage lists in spreadsheets by using Calc.
+Comment=Perform calculations, analyze information and manage lists in spreadsheets by using Calc.
+Exec=libreoffice --calc %U
+GenericName[en_US]=Spreadsheet
+GenericName=Spreadsheet
+Icon=libreoffice-calc
+InitialPreference=5
+Keywords=Accounting;Stats;OpenDocument Spreadsheet;Chart;Microsoft Excel;Microsoft Works;OpenOffice Calc;ods;xls;xlsx;
+MimeType=text/tab-separated-values;text/spreadsheet;text/csv;text/csv;text/csv;application/x-quattropro;application/x-dbf;application/x-dbf;application/vnd.sun.xml.calc.template;application/vnd.sun.xml.calc;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.oasis.opendocument.spreadsheet-template;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.chart-template;application/vnd.oasis.opendocument.chart;application/vnd.ms-works;application/vnd.ms-excel.template.macroenabled.12;application/vnd.ms-excel.sheet.macroenabled.12;application/vnd.ms-excel.sheet.binary.macroenabled.12;application/vnd.ms-excel;application/vnd.ms-excel;application/vnd.ms-excel;application/vnd.lotus-1-2-3;application/vnd.lotus-1-2-3;
+Name[en_US]=Calc
+Name=Calc
+Path=
+StartupNotify=true
+StartupWMClass=libreoffice-calc
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GIO-NoFuse=true
+X-KDE-Protocols=file,http,ftp,webdav
+X-KDE-SubstituteUID=false
+X-KDE-Username=

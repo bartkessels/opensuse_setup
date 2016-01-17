@@ -1,0 +1,16 @@
+[AddDialog]
+LastMimeType=application/x-compressed-tar
+
+[CreateDialog]
+Height 1080=730
+Width 1920=750
+
+[KFileDialog Settings]
+Recent Files[$e]=file://$HOME/configs.tar.gz,file://$HOME/configs.tar.gz
+
+[MainWindow]
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=/run/media/bart/et/configs.tar.gz
+Name1[$e]=configs.tar.gz
