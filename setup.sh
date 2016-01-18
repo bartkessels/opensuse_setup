@@ -38,7 +38,7 @@ zypper addrepo http://packman.inode.at/suse/$os_version/ packman
 zypper addrepo http://download.opensuse.org/repositories/Education/$os_version/ education
 
 # KDE:Extra
-zypper addrepo http://download.opensuse.org/repositories/KDE:/extra/$os_version/ KDE:extra
+zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
 
 #####################################################################################
 #####################################################################################
@@ -64,7 +64,7 @@ mkfontscale
 mkfontdir
 
 # Settings
-zypper --non-interactive install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE gnome-control-center
+zypper --non-interactive install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE gnome-control-center kcm_systemd
 
 # Codecs
 zyper --non-interactive install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2
@@ -102,7 +102,7 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # Utilities
-zypper --non-interactive install git nano whois unetbootin openssh kfind krename
+zypper --non-interactive install git nano whois unetbootin openssh kfind krename kbackup
 
 # LaTex
 zypper --non-interactive install kile
