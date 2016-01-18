@@ -49,7 +49,10 @@ zypper addrepo -f http://download.opensuse.org/repositories/KDE:/extra/$os_versi
 #####################################################################################
 
 # Boot with numlock
-printf '\n\n[General]\nNumlock=on\n' > /etc/sddm.conf
+printf '\n\n[General]\nNumlock=on\n' >> /etc/sddm.conf
+
+# Set background for SDDM
+printf '\n[General]\nbackground=/usr/share/arch_linux-wallpaper-1920x1080.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
 
 # Virtualbox module
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
@@ -89,9 +92,6 @@ usermod -a -G wheel $user_name
 # Make KDESU authenticate with sudo $USER instead of root
 printf '[super-user-command]\nsuper-user-command=sudo' > /etc/skel/.config/kdesurc
 printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
-
-# Set background for SDDM
-printf '\n[General]\nbackground=/usr/share/arch_linux-wallpaper-1920x1080.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
 
 #####################################################################################
 #####################################################################################
