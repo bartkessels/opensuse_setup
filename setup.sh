@@ -48,6 +48,12 @@ zypper addrepo -f http://download.opensuse.org/repositories/KDE:/extra/$os_versi
 #####################################################################################
 #####################################################################################
 
+# Boot with numlock
+printf '\n\n[General]\nNumlock=on\n' > /etc/sddm.conf
+
+# Virtualbox module
+printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
+
 # Fonts
 zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
