@@ -72,7 +72,7 @@ zypper --non-interactive install clementine audacity
 zypper --non-interactive install calligra-krita gimp kdegraphics-thumbnailers
 
 # Video
-zypper --non-interactive install blender simplescreenrecorder kdenlive k3b
+zypper --non-interactive install blender simplescreenrecorder kdenlive k3b vlc
 
 # Development
 zypper --non-interactive install tmux vim geany geany-plugins qt-creator kate
@@ -87,7 +87,7 @@ zypper --non-interactive install chromium qbittorrent evolution
 zypper --non-interactive install aspell-nl
 
 # Virtualization
-zypper --non-interactive install virtualbox virtualbox-guest-utils
+zypper --non-interactive install virtualbox
 
 # Financial
 zypper --non-interactive install kmymoney
