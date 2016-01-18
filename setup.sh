@@ -1,5 +1,44 @@
-# Set username
+#####################################################################################
+#####################################################################################
+
+#		VARIABELS
+
+#####################################################################################
+#####################################################################################
+
+# Username
 user_name='bart'
+
+# OpenSUSE version
+os_version='openSUSE_Leap_42.1'
+
+#####################################################################################
+#####################################################################################
+
+#		REPOSITORIES
+
+#####################################################################################
+#####################################################################################
+
+# Multimedia
+zypper addrepo -f http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
+zypper addrepo -f http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
+
+# Network
+zypper addrepo -f http://download.opensuse.org/repositories/network/$os_version/ network
+
+# Games
+zypper addrepo -f http://download.opensuse.org/repositories/games/$os_version/ games
+zypper addrepo -f http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
+
+# Packman
+zypper addrepo -f http://packman.inode.at/suse/$os_version/ packman
+
+# Education
+zypper addrepo -f http://download.opensuse.org/repositories/Education/$os_version/ education
+
+# KDE:Extra
+zypper addrepo -f http://download.opensuse.org/repositories/KDE:/extra/$os_version/ KDE:extra
 
 #####################################################################################
 #####################################################################################
@@ -9,10 +48,7 @@ user_name='bart'
 #####################################################################################
 #####################################################################################
 
-# Add packman repository to zypper
-zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman
-
-# fonts
+# Fonts
 zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 mkfontscale
@@ -124,6 +160,21 @@ a2enmod php5
 # Start services on boot
 systemctl enable apache2
 systemctl enable mysql
+
+# Read/write access for users in htdocs
+chown -R :users /srv/www/htdocs
+chmod 777 /srv/www/htdocs
+
+#####################################################################################
+#####################################################################################
+
+#		ADD USER TO GROUPS
+
+#####################################################################################
+#####################################################################################
+
+# Virtualbox
+usermod -a -G vboxusers $user_name
 
 #####################################################################################
 #####################################################################################
