@@ -1,7 +1,3 @@
 To be installed:
-- supertux	   https://software.opensuse.org/package/supertux2
-- tuxguitar    https://software.opensuse.org/package/tuxguitar
-- ardour       https://software.opensuse.org/package/ardour
-- filezilla    https://software.opensuse.org/package/filezilla
 - cloudstation https://www.synology.com/en-us/support/download/DS215j
 - luckybackup  https://software.opensuse.org/package/luckybackup

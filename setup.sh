@@ -21,24 +21,24 @@ os_version='openSUSE_Leap_42.1'
 #####################################################################################
 
 # Multimedia
-zypper addrepo -f http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
-zypper addrepo -f http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
+zypper addrepo http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
+zypper addrepo http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
 
 # Network
-zypper addrepo -f http://download.opensuse.org/repositories/network/$os_version/ network
+zypper addrepo http://download.opensuse.org/repositories/network/$os_version/ network
 
 # Games
-zypper addrepo -f http://download.opensuse.org/repositories/games/$os_version/ games
-zypper addrepo -f http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
+zypper addrepo http://download.opensuse.org/repositories/games/$os_version/ games
+zypper addrepo http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
 
 # Packman
-zypper addrepo -f http://packman.inode.at/suse/$os_version/ packman
+zypper addrepo http://packman.inode.at/suse/$os_version/ packman
 
 # Education
-zypper addrepo -f http://download.opensuse.org/repositories/Education/$os_version/ education
+zypper addrepo http://download.opensuse.org/repositories/Education/$os_version/ education
 
 # KDE:Extra
-zypper addrepo -f http://download.opensuse.org/repositories/KDE:/extra/$os_version/ KDE:extra
+zypper addrepo http://download.opensuse.org/repositories/KDE:/extra/$os_version/ KDE:extra
 
 #####################################################################################
 #####################################################################################
@@ -108,7 +108,7 @@ zypper --non-interactive install git nano whois unetbootin openssh kfind krename
 zypper --non-interactive install kile
 
 # Audio
-zypper --non-interactive install clementine audacity
+zypper --non-interactive install clementine audacity ardour
 
 # Image
 zypper --non-interactive install calligra-krita gimp kdegraphics-thumbnailers
@@ -123,7 +123,7 @@ zypper --non-interactive install tmux vim geany geany-plugins qt-creator kate
 zypper --non-interactive install dia umbrello
 
 # Web
-zypper --non-interactive install chromium qbittorrent evolution
+zypper --non-interactive install chromium qbittorrent evolution filezilla
 
 # Office
 zypper --non-interactive install aspell-nl
@@ -135,10 +135,10 @@ zypper --non-interactive install virtualbox
 zypper --non-interactive install kmymoney
 
 # Games
-zypper --non-interactive install supertuxkart
+zypper --non-interactive install supertuxkart supertux2
 
 # Other
-zypper --non-interactive install kaccounts-providers
+zypper --non-interactive install kaccounts-providers tuxguitar
 
 #####################################################################################
 #####################################################################################
