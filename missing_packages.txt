@@ -1,3 +1,2 @@
 To be installed:
 - cloudstation https://www.synology.com/en-us/support/download/DS215j
-- luckybackup  https://software.opensuse.org/package/luckybackup

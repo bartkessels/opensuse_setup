@@ -102,7 +102,7 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # Utilities
-zypper --non-interactive install git nano whois unetbootin openssh kfind krename kbackup
+zypper --non-interactive install git nano whois unetbootin openssh kfind krename luckybackup
 
 # LaTex
 zypper --non-interactive install kile
