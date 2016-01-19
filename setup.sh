@@ -163,6 +163,9 @@ sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/
 # Enable php module
 a2enmod php5
 
+# Set PHP display_errors to on
+sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
+
 # Start services on boot
 systemctl enable apache2
 systemctl enable mysql
