@@ -117,7 +117,7 @@ zypper --non-interactive install calligra-krita gimp kdegraphics-thumbnailers
 zypper --non-interactive install blender simplescreenrecorder kdenlive k3b vlc
 
 # Development
-zypper --non-interactive install tmux vim geany geany-plugins qt-creator kate
+zypper --non-interactive install tmux vim geany geany-plugins libqt5-creator kate
 
 # Development extra
 zypper --non-interactive install dia umbrello
