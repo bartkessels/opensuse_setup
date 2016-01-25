@@ -114,7 +114,7 @@ zypper --non-interactive install clementine audacity ardour
 zypper --non-interactive install calligra-krita gimp kdegraphics-thumbnailers
 
 # Video
-zypper --non-interactive install blender simplescreenrecorder kdenlive k3b vlc
+zypper --non-interactive install blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
 zypper --non-interactive install tmux vim geany geany-plugins libqt5-creator kate
