@@ -64,13 +64,17 @@ mkfontscale
 mkfontdir
 
 # Settings
-zypper --non-interactive install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE gnome-control-center kcm_systemd
+zypper install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE gnome-control-center kcm_systemd
 
 # Codecs
-zypper --non-interactive install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2
+zypper install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2
 
 # Remove gstreamer
-zypper --non-interactive remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer
+zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer
+
+# Use kdesu instead of ROOT user
+printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
+chown $user_name /home/$user_name/.config/kdesurc
 
 #####################################################################################
 #####################################################################################
@@ -102,57 +106,43 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # Utilities
-zypper --non-interactive install git nano whois unetbootin openssh kfind krename luckybackup
+zypper install git nano whois unetbootin openssh kfind krename luckybackup
 
 # LaTex
-zypper --non-interactive install kile
+zypper install kile
 
 # Audio
-zypper --non-interactive install clementine audacity ardour
+zypper install clementine audacity ardour
 
 # Image
-zypper --non-interactive install calligra-krita gimp kdegraphics-thumbnailers
+zypper install calligra-krita gimp kdegraphics-thumbnailers
 
 # Video
-zypper --non-interactive install blender simplescreenrecorder kdenlive k3b kaffeine
+zypper install blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
-zypper --non-interactive install tmux vim geany geany-plugins libqt5-creator kate
+zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer 
 
 # Development extra
-zypper --non-interactive install dia umbrello
+zypper install dia umbrello
 
 # Web
-zypper --non-interactive install chromium qbittorrent evolution filezilla
+zypper install chromium qbittorrent evolution filezilla
 
 # Office
-zypper --non-interactive install aspell-nl
+zypper install aspell-nl planner libreoffice-l10n-nl
 
 # Virtualization
-zypper --non-interactive install virtualbox
+zypper install virtualbox
 
 # Financial
-zypper --non-interactive install kmymoney
+zypper install kmymoney
 
 # Games
-zypper --non-interactive install supertuxkart supertux2
+zypper install supertuxkart supertux2
 
 # Other
-zypper --non-interactive install kaccounts-providers tuxguitar
-
-#####################################################################################
-#####################################################################################
-
-#		SET UP JAVA for android-studio
-
-#####################################################################################
-#####################################################################################
-
-# Remove old packages
-zypper remove java-1_7_0-openjdk, java-1_7_0-openjdk-headless, java-1_7_0-openjdk-plugin
-
-# Install new packages
-zypper install java-1_7_0-openjdk-bootstrap, java-1_7_0-openjdk-bootstrap-devel, java-1_7_0-openjdk-bootstrap-headless, java-1_7_0-openjdk-javadoc 
+zypper install kaccounts-providers tuxguitar
 
 #####################################################################################
 #####################################################################################
@@ -163,7 +153,7 @@ zypper install java-1_7_0-openjdk-bootstrap, java-1_7_0-openjdk-bootstrap-devel,
 #####################################################################################
 
 # Set up mysql
-zypper --non-interactive install -f mariadb
+zypper install -f mariadb
 chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
@@ -171,7 +161,7 @@ systemctl start mysql
 mysql_secure_installation
 
 # Install phpmyadmin
-zypper --non-interactive install phpmyadmin
+zypper install phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Enable php module
