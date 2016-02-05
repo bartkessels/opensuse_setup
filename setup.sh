@@ -108,6 +108,12 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 # KDE PIM suite
 zypper remove -U libkdepim
 
+# Akonadi
+zypper remove -U akonadi-server
+
+# Flash player
+zypper remove -U flash-player
+
 #####################################################################################
 #####################################################################################
 
