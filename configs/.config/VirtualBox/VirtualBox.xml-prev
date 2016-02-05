@@ -15,7 +15,7 @@
       <ExtraDataItem name="GUI/SplitterSizes" value="245,519"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutAutoCapture,confirmInputCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="10"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2016-01-08, stable, 5.0.12"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2016-01-09, stable, 5.0.12"/>
     </ExtraData>
     <MachineRegistry/>
     <MediaRegistry>

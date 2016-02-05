@@ -2,5 +2,5 @@
 Icon=application-x-shellscript
 Name=set-configs.sh
 Type=Link
-URL[$e]=file://$HOME/openSuseSetup/set-configs.sh
-X-KDE-LastOpenedWith=org.kde.kate
+URL[$e]=file://$HOME/Documents/opensuse_setup/set-configs.sh
+X-KDE-LastOpenedWith=org.kde.kwrite

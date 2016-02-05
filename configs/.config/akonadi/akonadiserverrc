@@ -7,6 +7,6 @@ Driver=QMYSQL
 [QMYSQL]
 Host=
 Name=akonadi
-Options="UNIX_SOCKET=/tmp/akonadi-bart.a5IJCP/mysql.socket"
+Options="UNIX_SOCKET=/tmp/akonadi-bart.7yeTdt/mysql.socket"
 ServerPath=/usr/sbin/mysqld
 StartServer=true

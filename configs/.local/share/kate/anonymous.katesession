@@ -5,16 +5,16 @@ Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-URL=file:///home/bart/Documents/opensuse_setup/setup.sh
+URL=file:///home/bart/Documents/opensuse_setup/set-configs.sh
 
 [Document 1]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
-URL=file:///home/bart/chroot-install-efi.sh
+Mode=Normal
+URL=file:///home/bart/Documents/configs.txt
 
 [Document 2]
 Bookmarks=
@@ -112,14 +112,14 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,964,200
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,993,200
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAP/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
 Window-Maximized 1080x1920=true
 
 [MainWindow0 Settings]
 Height 1080=494
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAP/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
 Window-Maximized 1080x1920=true
 WindowState=10
@@ -130,11 +130,11 @@ Orientation=1
 Sizes=1890
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/bart/Documents/opensuse_setup/setup.sh
+Active View=file:///home/bart/Documents/opensuse_setup/set-configs.sh
 Count=1
-Documents=file:///home/bart/Documents/opensuse_setup/setup.sh
-View 0=file:///home/bart/Documents/opensuse_setup/setup.sh
-View 1=file:///home/bart/Setup.sh
+Documents=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+View 0=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+View 1=file:///home/bart/Documents/configs.txt
 View 2=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
 View 3=file:///home/bart/scripts/encrypt-chroot-install.sh
 View 4=file:///home/bart/scripts/encrypt-chroot-install.sh
@@ -169,12 +169,26 @@ JumpList=
 TextFolding=[]
 ViMarks=
 
-[MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/setup.sh]
-CursorColumn=63
-CursorLine=80
+[MainWindow0-ViewSpace 0 file:///home/bart/Documents/configs.txt]
+CursorColumn=52
+CursorLine=31
 JumpList=
 TextFolding=[]
-ViMarks=.,80,62,[,80,54,],80,62
+ViMarks=.,31,0,[,0,11,],31,51
+
+[MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/set-configs.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/setup.sh]
+CursorColumn=5
+CursorLine=234
+JumpList=
+TextFolding=[]
+ViMarks=.,259,9,[,259,9,],259,13
 
 [MainWindow0-ViewSpace 0 file:///home/bart/LO_looks.txt]
 CursorColumn=85
@@ -344,6 +358,13 @@ JumpList=
 TextFolding=[]
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///srv/www/htdocs/test.php]
+CursorColumn=19
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=.,0,18,[,0,2,],0,18
+
 [MainWindow0-ViewSpace 0 file:///usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/Splash.qml]
 CursorColumn=0
 CursorLine=0
@@ -432,9 +453,11 @@ SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/chroot-install-efi.sh
-File2[$e]=$HOME/openSuseSetup/set-configs.sh
-File3[$e]=$HOME/Documents/opensuse_setup/setup.sh
-Name1[$e]=chroot-install-efi.sh
-Name2[$e]=set-configs.sh
-Name3[$e]=setup.sh
+File1[$e]=$HOME/Documents/configs.txt
+File2[$e]=$HOME/Documents/opensuse_setup/setup.sh
+File3[$e]=/srv/www/htdocs/test.php
+File4[$e]=$HOME/Documents/opensuse_setup/set-configs.sh
+Name1[$e]=configs.txt
+Name2[$e]=setup.sh
+Name3[$e]=test.php
+Name4[$e]=set-configs.sh

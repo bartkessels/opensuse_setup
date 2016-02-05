@@ -224,6 +224,45 @@ cp wallpapers/d5esSs4.jpg /usr/share/arch_linux-wallpaper-1920x1080.jpg
 #####################################################################################
 #####################################################################################
 
+#		SET FILE PERMISSIONS
+
+#####################################################################################
+#####################################################################################
+
+# Config folder
+chown $user_name -R /home/$user_name/.config
+
+# Dia
+chown $user_name -R /home/$user_name/.dia
+
+# Gimp folder
+chown $user_name -R /home/$user_name/.gimp-2.8
+
+# Kde4 folder
+chown $user_name -R /home/$user_name/.kde4
+
+# Local folder
+chown $user_name -R /home/$user_name/.local
+
+# Icons folder
+chown $user_name -R /home/$user_name/.icons
+
+# Mozilla folder
+chown $user_name -R /home/$user_name/.mozilla
+
+# gtkrc file
+chown $user_name -R /home/$user_name/.gtkrc-2.0
+chown $user_name -R /home/$user_name/.gtkrc-2.0-kde4
+
+# Vimrc file
+chown $user_name -R /home/$user_name/.vimrc
+
+# Kdesurc file
+chown $user_name -R /home/$user_name/.config/kdesurc
+
+#####################################################################################
+#####################################################################################
+
 #		FINISH
 
 #####################################################################################

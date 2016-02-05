@@ -58,19 +58,10 @@ IcedTea-Web Plugin (using IcedTea-Web 1.6.1 (suse-1.2-x86_64)):$
 35:application/x-java-bean;version=1.8:IcedTea:class,jar:$
 36:application/x-java-bean;jpi-version=1.8.0_50:IcedTea:class,jar:$
 37:application/x-java-vm-npruntime:IcedTea::$
-libflashplayer.so:$
-/usr/lib64/browser-plugins/libflashplayer.so:$
-11.2.202.559:$
-1451372940000:0:0:0:$
-Shockwave Flash 11.2 r202:$
-Shockwave Flash:$
-2
-0:application/x-shockwave-flash:Shockwave Flash:swf:$
-1:application/futuresplash:FutureSplash Player:spl:$
 skypebuttons.so:$
 /usr/lib64/browser-plugins/skypebuttons.so:$
 :$
-1451772829000:0:0:0:$
+1453477270000:0:0:0:$
 Mime Type x-skype for Skype Buttons:$
 Skype Buttons for Kopete:$
 1

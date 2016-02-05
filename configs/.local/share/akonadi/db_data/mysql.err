@@ -1,24 +1,24 @@
-2016-01-17 14:10:16 7f211bc1b740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
-160117 14:10:16 [Note] InnoDB: Using mutexes to ref count buffer pool pages
-160117 14:10:16 [Note] InnoDB: The InnoDB memory heap is disabled
-160117 14:10:16 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
-160117 14:10:16 [Note] InnoDB: Memory barrier is not used
-160117 14:10:16 [Note] InnoDB: Compressed tables use zlib 1.2.8
-160117 14:10:16 [Note] InnoDB: Using Linux native AIO
-160117 14:10:16 [Note] InnoDB: Not using CPU crc32 instructions
-160117 14:10:16 [Note] InnoDB: Initializing buffer pool, size = 80.0M
-160117 14:10:16 [Note] InnoDB: Completed initialization of buffer pool
-160117 14:10:16 [Note] InnoDB: Highest supported file format is Barracuda.
-160117 14:10:16 [Note] InnoDB: The log sequence numbers 1860274 and 1860274 in ibdata files do not match the log sequence number 1860284 in the ib_logfiles!
-160117 14:10:16 [Note] InnoDB: Database was not shutdown normally!
-160117 14:10:16 [Note] InnoDB: Starting crash recovery.
-160117 14:10:16 [Note] InnoDB: Reading tablespace information from the .ibd files...
-160117 14:10:16 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_index_stats uses space ID: 2 at filepath: ./mysql/innodb_index_stats.ibd. Cannot open tablespace akonadi/resourcetable which uses space ID: 2 at filepath: ./akonadi/resourcetable.ibd
-2016-01-17 14:10:16 7f211bc1b740  InnoDB: Operating system error number 2 in a file operation.
+2016-02-05 21:37:17 7ff8e130a740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+160205 21:37:17 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+160205 21:37:17 [Note] InnoDB: The InnoDB memory heap is disabled
+160205 21:37:17 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160205 21:37:17 [Note] InnoDB: Memory barrier is not used
+160205 21:37:17 [Note] InnoDB: Compressed tables use zlib 1.2.8
+160205 21:37:17 [Note] InnoDB: Using Linux native AIO
+160205 21:37:17 [Note] InnoDB: Not using CPU crc32 instructions
+160205 21:37:17 [Note] InnoDB: Initializing buffer pool, size = 80.0M
+160205 21:37:17 [Note] InnoDB: Completed initialization of buffer pool
+160205 21:37:17 [Note] InnoDB: Highest supported file format is Barracuda.
+160205 21:37:17 [Note] InnoDB: The log sequence numbers 1860274 and 1860274 in ibdata files do not match the log sequence number 1860284 in the ib_logfiles!
+160205 21:37:17 [Note] InnoDB: Database was not shutdown normally!
+160205 21:37:17 [Note] InnoDB: Starting crash recovery.
+160205 21:37:17 [Note] InnoDB: Reading tablespace information from the .ibd files...
+160205 21:37:17 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace akonadi/collectiontable uses space ID: 3 at filepath: ./akonadi/collectiontable.ibd. Cannot open tablespace mysql/gtid_slave_pos which uses space ID: 3 at filepath: ./mysql/gtid_slave_pos.ibd
+2016-02-05 21:37:17 7ff8e130a740  InnoDB: Operating system error number 2 in a file operation.
 InnoDB: The error means the system cannot find the path specified.
 InnoDB: If you are installing InnoDB, remember that you must create
 InnoDB: directories yourself, InnoDB does not create them.
-InnoDB: Error: could not open single-table tablespace file ./akonadi/resourcetable.ibd
+InnoDB: Error: could not open single-table tablespace file ./mysql/gtid_slave_pos.ibd
 InnoDB: We do not continue the crash recovery, because the table may become
 InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
 InnoDB: To fix the problem and start mysqld:

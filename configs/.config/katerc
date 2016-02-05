@@ -19,15 +19,15 @@ Show Tab Bar=true
 Startup Session=last
 
 [KFileDialog Settings]
-Recent Files[$e]=$HOME/openSuseSetup/set-configs.sh,$HOME/Documents/opensuse_setup/missing_packages.txt,$HOME/Setup.sh,$HOME/instellingen.txt,$HOME/LO_looks.txt,$HOME/bkarch/Kde/skel/encrypt-chroot-install.sh,$HOME/bkarch/Kde/skel/encrypt-chroot-install-efi.sh,$HOME/bkarch/Kde/skel/chroot-install.sh,$HOME/bkarch/Kde/skel/chroot-install-efi.sh,$HOME/bkarch/GNOME/BK arch gnome.txt
-Recent URLs[$e]=$HOME/bkarch/GNOME/,$HOME/bkarch/Kde/skel/,smb://bart.kessels@192.168.179.253/home/CloudStation/Prive/Arch/Kde/skel/instellingen.txt/,$HOME/openSuseSetup/,$HOME/Documents/opensuse_setup/
+Recent Files[$e]=$HOME/Documents/configs.txt,$HOME/Documents/opensuse_setup/missing_packages.txt,$HOME/Setup.sh,$HOME/instellingen.txt,$HOME/LO_looks.txt,$HOME/bkarch/Kde/skel/encrypt-chroot-install.sh,$HOME/bkarch/Kde/skel/encrypt-chroot-install-efi.sh,$HOME/bkarch/Kde/skel/chroot-install.sh,$HOME/bkarch/Kde/skel/chroot-install-efi.sh,$HOME/bkarch/GNOME/BK arch gnome.txt
+Recent URLs[$e]=$HOME/bkarch/GNOME/,$HOME/bkarch/Kde/skel/,smb://bart.kessels@192.168.179.253/home/CloudStation/Prive/Arch/Kde/skel/instellingen.txt/,$HOME/openSuseSetup/,$HOME/Documents/opensuse_setup/,$HOME/Documents/opensuse_setup/
 
 [KTextEditor::Search]
 Search History=user,vim
 
 [MainWindow]
 Height 1080=494
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAP/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=958
 Window-Maximized 1080x1920=true

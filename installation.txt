@@ -84,3 +84,9 @@ click 'OK'
 
 CONFIRM INSTALLATION
 click 'Install'
+
+BEFORE EXECUTING SETUP.SH
+Drop to tty2 (CTRL + ALT + F2)
+Clone repository
+Execute setup.sh
+Reboot

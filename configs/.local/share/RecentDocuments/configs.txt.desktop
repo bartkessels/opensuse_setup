@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=configs.txt
+Type=Link
+URL[$e]=file://$HOME/Documents/configs.txt
+X-KDE-LastOpenedWith=kate

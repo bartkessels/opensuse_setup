@@ -1,17 +1,16 @@
-VirtualBox GUI VM Selector Window 5.0.12_OSE r104815 linux.amd64 (Dec 19 2015 15:31:57) release log
-00:00:00.421375 Log opened 2016-01-08T22:30:56.736713000Z
-00:00:00.421376 Build Type: release
-00:00:00.421379 OS Product: Linux
-00:00:00.421380 OS Release: 4.3.3-2-ARCH
-00:00:00.421381 OS Version: #1 SMP PREEMPT Wed Dec 23 20:09:18 CET 2015
-00:00:00.421403 DMI Product Name: System Product Name
-00:00:00.421410 DMI Product Version: System Version
-00:00:00.421543 Host RAM: 12019MB total, 10984MB available
-00:00:00.421545 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.421546 Process ID: 2647
-00:00:00.421547 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.426923 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.611130 GUI: UISelectorWindow: Geometry loaded to: Origin=405x176, Size=770x550
-00:00:00.644621 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:00.675979 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
-00:00:02.328117 GUI: UISelectorWindow: Geometry saved as: Origin=405x176, Size=770x550
+VirtualBox GUI VM Selector Window 5.0.10_SUSE r104061 linux.amd64 (openSUSE Buildservice) release log
+00:00:00.618259 Log opened 2016-02-05T20:20:38.547009000Z
+00:00:00.618261 Build Type: release
+00:00:00.618263 OS Product: Linux
+00:00:00.618264 OS Release: 4.1.15-8-default
+00:00:00.618265 OS Version: #1 SMP PREEMPT Wed Jan 20 16:41:00 UTC 2016 (0e3b3ab)
+00:00:00.618288 DMI Product Name: System Product Name
+00:00:00.618295 DMI Product Version: System Version
+00:00:00.618396 Host RAM: 12014MB total, 11279MB available
+00:00:00.618398 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.618399 Process ID: 2519
+00:00:00.618400 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.622219 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.851641 GUI: UISelectorWindow: Geometry loaded to: Origin=405x176, Size=770x550
+00:00:00.931087 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.645561 GUI: UISelectorWindow: Geometry saved as: Origin=405x176, Size=770x550

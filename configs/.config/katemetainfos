@@ -64,15 +64,37 @@ Mode=XML
 Time=2016,1,8,22,27,36
 URL=file:///home/bart/.local/share/mime/packages/application-vnd.sun.xml.base.xml
 
-[file:///home/bart/Documents/opensuse_setup/setup.sh]
+[file:///home/bart/Documents/configs.txt]
 Bookmarks=
-Checksum=194051b0ff9f3758d3b5100b94f7e12e2b4c18c2
+Checksum=a490eebd75dd296762e72baba9a572a895ced4a5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,20,15
+URL=file:///home/bart/Documents/configs.txt
+
+[file:///home/bart/Documents/opensuse_setup/set-configs.sh]
+Bookmarks=
+Checksum=003a827b2051dca9bb125de1d20eeb0ba8a50bfc
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-Time=2016,1,17,13,20,15
+Time=2016,2,5,20,43,10
+URL=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+
+[file:///home/bart/Documents/opensuse_setup/setup.sh]
+Bookmarks=
+Checksum=56a650362f2682a602eaab0d0282c64afcee0bac
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,2,5,20,20,15
 URL=file:///home/bart/Documents/opensuse_setup/setup.sh
 
 [file:///home/bart/Downloads/codecs-kde.ymp]
@@ -107,17 +129,6 @@ Indentation Mode=normal
 Mode=Bash
 Time=2016,1,17,10,51,20
 URL=file:///home/bart/chroot-install-efi.sh
-
-[file:///home/bart/instellingen.txt]
-Bookmarks=
-Checksum=bcd340aee5a20e5f05cd0737ccecf996d9c148c1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Time=2016,1,4,6,39,55
-URL=file:///home/bart/instellingen.txt
 
 [file:///home/bart/openSuseSetup/Setup.sh]
 Bookmarks=
@@ -163,28 +174,6 @@ Mode=HTML
 Time=2016,1,16,22,51,43
 URL=file:///home/bart/public_html/index.html
 
-[file:///home/bart/scripts/chroot-install-efi.sh]
-Bookmarks=
-Checksum=cc1cb9f976b54caa4db4d599055016641617acae
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Time=2016,1,4,6,40,46
-URL=file:///home/bart/scripts/chroot-install-efi.sh
-
-[file:///home/bart/scripts/chroot-install.sh]
-Bookmarks=
-Checksum=280297ed84edbab4556f520e33cce6b44cd2157a
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Time=2016,1,4,6,40,46
-URL=file:///home/bart/scripts/chroot-install.sh
-
 [file:///home/bart/scripts/encrypt-chroot-install-efi.sh]
 Bookmarks=
 Checksum=73d66ba375b9240f24655f75628ef8407d51c1bc
@@ -195,17 +184,6 @@ Indentation Mode=normal
 Mode=Bash
 Time=2016,1,7,20,58,2
 URL=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
-
-[file:///home/bart/scripts/encrypt-chroot-install.sh]
-Bookmarks=
-Checksum=41fcd00b7789edcf38b87b69716f0a51c6446d75
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Time=2016,1,4,6,40,46
-URL=file:///home/bart/scripts/encrypt-chroot-install.sh
 
 [file:///run/media/bart/et/chroot-install-efi.sh]
 Bookmarks=
@@ -228,3 +206,14 @@ Indentation Mode=normal
 Mode=HTML
 Time=2016,1,16,22,52,13
 URL=file:///srv/www/htdocs/index.html
+
+[file:///srv/www/htdocs/test.php]
+Bookmarks=
+Checksum=c9f5eeb1291d85983e383d3f958ee85f35fff636
+Encoding=UTF-8
+Highlighting=PHP (HTML)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=PHP (HTML)
+Time=2016,2,5,20,33,44
+URL=file:///srv/www/htdocs/test.php

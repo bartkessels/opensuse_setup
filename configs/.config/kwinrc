@@ -82,6 +82,10 @@ wobblywindowsEnabled=true
 PopupHideDelay=700
 TextOnly=false
 
+[SubSession: 9fc0e4fe-60b3-4c4a-bca8-dc7a871d86a1]
+active=-1
+count=0
+
 [TabBox]
 ActivitiesMode=1
 ApplicationsMode=0
