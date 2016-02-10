@@ -157,7 +157,7 @@ zypper install calligra-krita gimp kdegraphics-thumbnailers
 zypper install blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
-zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer 
+zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
@@ -174,7 +174,7 @@ zypper install chromium qbittorrent evolution filezilla
 zypper install aspell-nl planner libreoffice-l10n-nl
 
 # Virtualization
-zypper install virtualbox
+zypper install virtualbox docker
 
 # Financial
 zypper install kmymoney
@@ -211,13 +211,40 @@ a2enmod php5
 # Set PHP display_errors to on
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 
-# Start services on boot
-systemctl enable apache2
-systemctl enable mysql
-
 # Read/write access for users in htdocs
 chown -R :users /srv/www/htdocs
 chmod 777 /srv/www/htdocs
+
+#####################################################################################
+#####################################################################################
+
+#		COPY DOCKER FILES
+
+#####################################################################################
+#####################################################################################
+
+# Create docker dir
+mkdir -p /home/$user_name/docker-files
+
+# Copy docker files
+cp -r dockerfiles/* /home/$user_name/docker-files/.
+
+#####################################################################################
+#####################################################################################
+
+#		START SERVICES ON BOOT
+
+#####################################################################################
+#####################################################################################
+
+# Apache
+systemctl enable apache2
+
+# Mysql
+systemctl enable mysql
+
+# Docker
+systemctl enable docker
 
 #####################################################################################
 #####################################################################################
@@ -229,6 +256,9 @@ chmod 777 /srv/www/htdocs
 
 # Virtualbox
 usermod -a -G vboxusers $user_name
+
+# Docker
+usermod -a -G docker $user_name
 
 #####################################################################################
 #####################################################################################
@@ -286,6 +316,12 @@ chown $user_name -R /home/$user_name/.config/kdesurc
 
 # Git config file
 chown $user_name -R /home/$user_name/.gitconfig
+
+# Atom config
+chown $user_name -R /home/$user_name/.atom
+
+# Docker files
+chown $user_name -R /home/docker-files
 
 #####################################################################################
 #####################################################################################

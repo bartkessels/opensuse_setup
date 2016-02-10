@@ -1,0 +1,16 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  core:
+    audioBeep: false
+    automaticallyUpdate: false
+  editor:
+    invisibles: {}
+    softTabs: false
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "91a1d891-dc5e-9ff8-c930-bea26cf503b8"
+  "git-plus": {}
+  welcome:
+    showOnStartup: false
