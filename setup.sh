@@ -159,6 +159,11 @@ zypper install blender simplescreenrecorder kdenlive k3b kaffeine
 # Development
 zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer 
 
+# Install Atom
+wget -O atom.rpm https://atom.io/download/rpm
+zypper install atom.rpm
+rm atom.rpm
+
 # Development extra
 zypper install dia umbrello
 
