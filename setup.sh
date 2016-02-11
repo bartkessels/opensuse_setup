@@ -76,6 +76,10 @@ zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer
 printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
 chown $user_name /home/$user_name/.config/kdesurc
 
+# Increase inotify
+printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
+printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
+
 #####################################################################################
 #####################################################################################
 

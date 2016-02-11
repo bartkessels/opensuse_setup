@@ -2,6 +2,7 @@
 #                                                                              #
 #                   Dockerfile to run Ubuntu 14.04 LAMP stack                  #
 #                                  Laravel                                     #
+# 																			   #
 ################################################################################
 
 # Set base image
@@ -17,7 +18,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 # Install packages
-RUN apt-get install curl git -y
+RUN apt-get install curl git php5-mysql -y
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php
@@ -28,6 +29,7 @@ RUN sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.
 
 # Allow url rewriting
 RUN sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/apache2.conf
+RUN a2enmod rewrite
 
 # Open port 80
 EXPOSE 80
