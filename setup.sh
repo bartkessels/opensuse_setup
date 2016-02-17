@@ -216,7 +216,7 @@ zypper install phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-zypper install php-ZendFramework
+zypper install php-ZendFramework php-composer
 
 # Enable php module
 a2enmod php5
