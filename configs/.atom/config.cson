@@ -4,6 +4,7 @@
   core:
     audioBeep: false
     automaticallyUpdate: false
+    openEmptyEditorOnStart: false
   editor:
     invisibles: {}
     softTabs: false

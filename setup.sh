@@ -40,6 +40,9 @@ zypper addrepo http://download.opensuse.org/repositories/Education/$os_version/ 
 # KDE:Extra
 zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
 
+# Server
+zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
+
 #####################################################################################
 #####################################################################################
 
@@ -80,6 +83,9 @@ chown $user_name /home/$user_name/.config/kdesurc
 printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
 printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
 
+# Set zf as zf.sh command
+printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
+
 #####################################################################################
 #####################################################################################
 
@@ -97,7 +103,7 @@ echo 'Git full name:'
 read git_name
 
 # Write git config
-printf '[user]\nemail='$git_mail'\nname='$git_name > /home/$user_name/.gitconfig
+printf '[user]\nemail='$git_mail'\nname='$git_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -169,7 +175,7 @@ zypper install atom.rpm
 rm atom.rpm
 
 # Development extra
-zypper install dia umbrello
+zypper install dia umbrello meld
 
 # Web
 zypper install chromium qbittorrent evolution filezilla
@@ -208,6 +214,9 @@ mysql_secure_installation
 # Install phpmyadmin
 zypper install phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
+
+# Install PHP
+zypper install php-ZendFramework
 
 # Enable php module
 a2enmod php5

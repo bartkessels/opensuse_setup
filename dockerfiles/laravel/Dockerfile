@@ -40,10 +40,6 @@ WORKDIR /var/www/example.com/public_html
 # Add user
 RUN useradd -m bart
 
-# Set git config
-RUN printf '[user]\nemail = b.kessels@bk-mail.com\nname = Bart Kessels' > /home/bart/.gitconfig
-RUN chown -R bart /home/bart
-
 # Make bart owner of apache root
 RUN chown -R bart /var/www
 
@@ -54,4 +50,4 @@ RUN chmod -R 777 /var/www
 RUN sed -i 's|%admin ALL=(ALL) ALL|bart ALL=(ALL) NOPASSWD: ALL|g' /etc/sudoers
 
 # Login as bart
-ENTRYPOINT su bart
+ENTRYPOINT service apache2 start;su bart
