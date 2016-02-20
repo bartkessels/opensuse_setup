@@ -1,7 +1,7 @@
 {
   "name": "git-diff-details",
   "main": "./lib/main",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "View git diffs directly in atom.",
   "keywords": [
     "git",
@@ -30,10 +30,10 @@
     "url": "https://github.com/samu/git-diff-details/issues"
   },
   "homepage": "https://github.com/samu/git-diff-details#readme",
-  "_id": "git-diff-details@0.21.0",
-  "_shasum": "5ac68dde3425afc1d30ed4cc5be23501d1184172",
-  "_resolved": "file:../d-116113-17497-538sb1/package.tgz",
-  "_from": "../d-116113-17497-538sb1/package.tgz",
+  "_id": "git-diff-details@0.22.0",
+  "_shasum": "ca11764449b4fdc5737ad44df8cc9cf63d54f7bd",
+  "_resolved": "file:../d-116120-4132-13ci2ol/package.tgz",
+  "_from": "../d-116120-4132-13ci2ol/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
