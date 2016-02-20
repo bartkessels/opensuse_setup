@@ -1,11 +1,11 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
-URL=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+Mode=Normal
+URL=
 
 [Document 1]
 Bookmarks=
@@ -85,11 +85,11 @@ textfilterplugin=false
 [MainWindow0]
 Active ViewSpace=0
 Height 1080=494
-Kate-MDI-H-Splitter=200,1890,200
-Kate-MDI-Sidebar-0-Splitter=0,0,0
+Kate-MDI-H-Splitter=200,928,200
+Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=0,0
+Kate-MDI-Sidebar-3-Splitter=0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
@@ -112,28 +112,26 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,993,200
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAP/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,434,200
+State=AAAA/wAAAAD9AAAAAAAAA74AAAHQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
-Window-Maximized 1080x1920=true
 
 [MainWindow0 Settings]
 Height 1080=494
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAP/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA74AAAHQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
-Window-Maximized 1080x1920=true
-WindowState=10
+WindowState=8
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=1890
+Sizes=928
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+Active View=
 Count=1
-Documents=file:///home/bart/Documents/opensuse_setup/set-configs.sh
-View 0=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+Documents=\\0
+View 0=file:///home/bart/Documents/opensuse_setup/Android-studio.txt
 View 1=file:///home/bart/Documents/configs.txt
 View 2=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
 View 3=file:///home/bart/scripts/encrypt-chroot-install.sh
@@ -175,6 +173,20 @@ CursorLine=31
 JumpList=
 TextFolding=[]
 ViMarks=.,31,0,[,0,11,],31,51
+
+[MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/Android-studio.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/installation.txt]
+CursorColumn=6
+CursorLine=91
+JumpList=
+TextFolding=[]
+ViMarks=.,91,6,[,91,6,],91,6
 
 [MainWindow0-ViewSpace 0 file:///home/bart/Documents/opensuse_setup/set-configs.sh]
 CursorColumn=0
@@ -457,7 +469,13 @@ File1[$e]=$HOME/Documents/configs.txt
 File2[$e]=$HOME/Documents/opensuse_setup/setup.sh
 File3[$e]=/srv/www/htdocs/test.php
 File4[$e]=$HOME/Documents/opensuse_setup/set-configs.sh
+File5[$e]=$HOME/Documents/opensuse_setup/installation.txt
+File6[$e]=$HOME/Documents/opensuse_setup/Android-studio.txt
+File7[$e]=$HOME/Documents/opensuse_setup/setup.sh
 Name1[$e]=configs.txt
 Name2[$e]=setup.sh
 Name3[$e]=test.php
 Name4[$e]=set-configs.sh
+Name5[$e]=installation.txt
+Name6[$e]=Android-studio.txt
+Name7[$e]=setup.sh

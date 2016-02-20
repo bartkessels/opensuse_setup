@@ -75,6 +75,28 @@ Mode=Normal
 Time=2016,2,5,20,20,15
 URL=file:///home/bart/Documents/configs.txt
 
+[file:///home/bart/Documents/opensuse_setup/Android-studio.txt]
+Bookmarks=
+Checksum=e81213f6bbd88c804adf179917fd4d3ef5dc7459
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,44,57
+URL=file:///home/bart/Documents/opensuse_setup/Android-studio.txt
+
+[file:///home/bart/Documents/opensuse_setup/installation.txt]
+Bookmarks=
+Checksum=44a19fcfb899d97d7c2f98701ea94e0f8ed6bd6d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,44,35
+URL=file:///home/bart/Documents/opensuse_setup/installation.txt
+
 [file:///home/bart/Documents/opensuse_setup/set-configs.sh]
 Bookmarks=
 Checksum=003a827b2051dca9bb125de1d20eeb0ba8a50bfc
@@ -88,14 +110,25 @@ URL=file:///home/bart/Documents/opensuse_setup/set-configs.sh
 
 [file:///home/bart/Documents/opensuse_setup/setup.sh]
 Bookmarks=
-Checksum=56a650362f2682a602eaab0d0282c64afcee0bac
+Checksum=7c60097754dc334ebc47dba72d9bc95c71e8efa6
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-Time=2016,2,5,20,20,15
+Time=2016,2,5,21,1,32
 URL=file:///home/bart/Documents/opensuse_setup/setup.sh
+
+[file:///home/bart/Documents/set_git.sh]
+Bookmarks=
+Checksum=b7eb668f1045e7aefba3986b09bad4d2173f8dd5
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,2,5,21,1,33
+URL=file:///home/bart/Documents/set_git.sh
 
 [file:///home/bart/Downloads/codecs-kde.ymp]
 Bookmarks=

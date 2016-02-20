@@ -1,11 +1,11 @@
 [Compositing]
-AnimationSpeed=3
+AnimationSpeed=2
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
 GLCore=true
 GLPlatformInterface=glx
-GLPreferBufferSwap=a
+GLPreferBufferSwap=n
 GLTextureFilter=2
 HiddenPreviews=5
 OpenGLIsUnsafe=false

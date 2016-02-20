@@ -177,7 +177,6 @@ DialogWidth=720
 
 [Containments][1][Applets][50][Configuration][General]
 groupingStrategy=0
-showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=true
 showToolTips=false
 sortingStrategy=0
@@ -201,12 +200,16 @@ global=Alt+F1
 [Containments][1][Applets][6][Configuration][Appearance]
 selectedTimeZones=Europe/Amsterdam
 
+[Containments][1][Applets][65]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
 [Containments][1][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][1][General]
-AppletOrder=59;50;28;3;5;19;47;48
+AppletOrder=59;50;28;3;5;65;19;47;48
 
 [Containments][16]
 activityId=68760b5e-c0c6-4929-a0bd-4a3e97a5ac9e
@@ -218,8 +221,8 @@ plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][16][ConfigDialog]
-DialogHeight=1023
-DialogWidth=1920
+DialogHeight=504
+DialogWidth=865
 
 [Containments][16][General]
 pressToMoveHelp=false
@@ -261,6 +264,48 @@ plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][62][Wallpaper][org.kde.image][General]
+height=1080
+width=1920
+
+[Containments][63]
+activityId=d1706cb6-2e83-412f-9fb4-f490d2e20c3b
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][63][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][63][General]
+showToolbox=false
+
+[Containments][63][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/DanceOfTheSpirits.jpg
+height=1080
+width=1920
+
+[Containments][64]
+activityId=d1706cb6-2e83-412f-9fb4-f490d2e20c3b
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][64][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][64][General]
+showToolbox=false
+
+[Containments][64][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/DanceOfTheSpirits.jpg
 height=1080
 width=1920
 

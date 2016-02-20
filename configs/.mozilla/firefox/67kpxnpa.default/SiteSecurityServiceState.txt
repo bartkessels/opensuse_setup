@@ -11,7 +11,7 @@ avatars1.githubusercontent.com:HSTS	0	16817	1484590713096,1,0
 mail.gnome.org:HSTS	0	16836	1455308917513,1,0
 github.com:HSTS	0	16817	1484569433240,1,1
 live.github.com:HSTS	0	16817	1484569433294,1,0
-duckduckgo.com:HSTS	0	16836	1486240745680,1,0
+duckduckgo.com:HSTS	0	16836	1486241545545,1,0
 www.opensuse.org:HSTS	0	16817	1453122896806,1,0
 blocklist.addons.mozilla.org:HSTS	0	16836	1486240789966,1,0
 apis.google.com:HSTS	1	16836	1465590582374,1,0

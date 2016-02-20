@@ -1,2 +1,7 @@
 [Plugin-org.kde.ActivityManager.Resources.Scoring]
+allowed-applications=kate,kwrite,org.kde.kate,org.kde.kwrite,org.kde.plasma.kicker
+blocked-applications=
+blocked-by-default=false
+keep-history-for=0
 off-the-record-activities=
+what-to-remember=2
