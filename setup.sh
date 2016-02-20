@@ -83,8 +83,11 @@ chown $user_name /home/$user_name/.config/kdesurc
 printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
 printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
 
-# Set zf as zf.sh command
+# Aliases
 printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
+
+# Export paths
+printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 
 #####################################################################################
 #####################################################################################
