@@ -221,6 +221,9 @@ sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/
 # Install PHP
 zypper install php-ZendFramework php-composer
 
+# Install laravel installer
+composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
+
 # Allow url rewriting
 sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
 sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
@@ -340,6 +343,9 @@ chown $user_name -R /home/$user_name/.gitconfig
 
 # Atom config
 chown $user_name -R /home/$user_name/.atom
+
+# Composer config
+chown $user_name -R /home/$user_name/.composer
 
 # Docker files
 chown $user_name -R /home/docker-files
