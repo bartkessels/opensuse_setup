@@ -221,6 +221,11 @@ sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/
 # Install PHP
 zypper install php-ZendFramework php-composer
 
+# Allow url rewriting
+sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
+sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
+a2enmod rewrite
+
 # Enable php module
 a2enmod php5
 
