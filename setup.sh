@@ -298,6 +298,7 @@ cp -r configs/. /etc/skel/.
 
 # Wallpaper
 cp wallpapers/d5esSs4.jpg /usr/share/arch_linux-wallpaper-1920x1080.jpg
+cp wallpapers/DanceOfTheSpirits.jpg /usr/share/DanceOfTheSpirits.jpg
 
 #####################################################################################
 #####################################################################################
