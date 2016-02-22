@@ -11,11 +11,15 @@
   core:
     audioBeep: false
     automaticallyUpdate: false
+    disabledPackages: [
+      "docblock-format-helper"
+    ]
     openEmptyEditorOnStart: false
     themes: [
       "atom-material-ui"
       "material-syntax"
     ]
+  docblockr: {}
   editor:
     invisibles: {}
     scrollPastEnd: true
@@ -26,6 +30,7 @@
   "exception-reporting":
     userId: "91a1d891-dc5e-9ff8-c930-bea26cf503b8"
   "git-plus": {}
+  "info-comment": {}
   minimap:
     absoluteMode: true
   welcome:
