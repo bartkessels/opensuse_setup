@@ -236,6 +236,9 @@ a2enmod php5
 # Set PHP display_errors to on
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 
+# Install Rails
+zypper install ruby2.1-rubygem-rails-4_2
+
 # Read/write access for users in htdocs
 chown -R :users /srv/www/htdocs
 chmod 777 /srv/www/htdocs
