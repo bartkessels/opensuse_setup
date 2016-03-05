@@ -16,3 +16,6 @@ rm -rf configs/.local/share/keyrings/*
 # Remove evolution data
 rm -rf configs/.local/share/evolution
 rm -rf configs/.config/evolution
+
+# Remove bookmarks
+cat /dev/null > configs/.config/gtk-3.0/bookmarks

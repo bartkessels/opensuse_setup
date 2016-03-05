@@ -10,7 +10,7 @@
 user_name='bart'
 
 # Full name
-full_name=getent passwd $user_name | cut -d: -f5 | cut -d, -f1
+full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
 
 # OpenSUSE version
 os_version='openSUSE_Leap_42.1'
@@ -109,6 +109,10 @@ printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
 # Export paths
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
+
+# Bookmarks
+user_name='bart'
+printf 'file:///home/'$user_name'/Documents\nfile:///home/'$user_name'/Music\nfile:///home/'$user_name'/Pictures\nfile:///home/'$user_name'/Videos\nfile:///home/'$user_name'/Downloads\nfile:///home/'$user_name'/bk-cloud\nfile:///srv/www/htdocs' > /home/$user_name/.config/gtk-3.0/bookmarks
 
 #####################################################################################
 #####################################################################################
