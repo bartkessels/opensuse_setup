@@ -97,7 +97,7 @@ mkfontscale
 mkfontdir
 
 # Codecs
-zypper install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2
+zypper install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs gstreamer-0_10-fluendo-mp3 gstreamer-0_10-plugins-ffmpeg gstreamer-0_10-plugins-good
 
 # Increase inotify
 printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
