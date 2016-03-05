@@ -5,9 +5,9 @@ cp -r /home/$USER/.dia configs/.
 cp -r /home/$USER/.gimp-2.8 configs/.
 cp -r /home/$USER/.gnome2 configs/.
 cp -r /home/$USER/.local configs/.
+cp -r /home/$USER/.icons configs/.
 cp -r /home/$USER/.mozilla configs/.
 cp -r /home/$USER/.themes configs/.
-cp -r /home/$USER/.gtkrc-2.0 configs/.
 cp -r /home/$USER/.vimrc configs/.
 
 # Remove kwallet content

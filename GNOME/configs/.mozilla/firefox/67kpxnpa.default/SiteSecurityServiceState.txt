@@ -1,6 +1,6 @@
 github.com:HPKP	0	16817	1453033733245,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg=
 wiki.archlinux.org:HSTS	0	16836	1470774399327,1,0
-services.addons.mozilla.org:HSTS	0	16836	1486240669857,1,0
+services.addons.mozilla.org:HSTS	1	16865	1488740187893,1,0
 pixel.facebook.com:HSTS	0	16817	1468582769298,1,0
 www.facebook.com:HSTS	1	16836	1470256182806,1,0
 cdn.syndication.twimg.com:HSTS	0	16817	2084169247409,1,0

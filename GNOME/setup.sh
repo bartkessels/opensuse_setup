@@ -9,6 +9,9 @@
 # Username
 user_name='bart'
 
+# Full name
+full_name=getent passwd $user_name | cut -d: -f5 | cut -d, -f1
+
 # OpenSUSE version
 os_version='openSUSE_Leap_42.1'
 
@@ -60,6 +63,9 @@ zypper install breeze5-cursors
 # Icons
 zypper install breeze5-icons libreoffice-icon-theme-breeze
 
+# Configuration
+zypper install gconf-editor dconf-editor
+
 # Fonts
 zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
@@ -78,7 +84,7 @@ printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
 
 # Export paths
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
-printf '\nexport PATH="./vendor/bin:$PATH' >> /home/$user_name/.bashrc
+printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 
 #####################################################################################
 #####################################################################################
@@ -92,12 +98,8 @@ printf '\nexport PATH="./vendor/bin:$PATH' >> /home/$user_name/.bashrc
 echo 'Git e-mail address:'
 read git_mail
 
-# Ask for full name
-echo 'Git full name:'
-read git_name
-
 # Write git config
-printf '[user]\nemail='$git_mail'\nname='$git_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
+printf '[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -136,7 +138,7 @@ zypper remove openssh-askpass openssh-helpers
 #####################################################################################
 
 # Utilities
-zypper install git nano whois unetbootin openssh kfind krename luckybackup
+zypper install git gitg nano whois unetbootin luckybackup
 
 # LaTex
 zypper install kile
@@ -151,7 +153,7 @@ zypper install gimp
 zypper install blender simplescreenrecorder kdenlive
 
 # Development
-zypper install tmux vim geany geany-plugins libqt5-creator nodejs-npm kdewebkit-devel
+zypper install tmux vim geany geany-plugins libqt5-creator nodejs-npm
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
@@ -165,7 +167,7 @@ zypper install dia umbrello meld
 zypper install chromium qbittorrent filezilla
 
 # Office
-zypper install aspell-nl planner libreoffice-l10n-nl
+zypper install aspell-nl planner libreoffice-l10n-nl okular
 
 # Virtualization
 zypper install virtualbox docker
@@ -331,7 +333,7 @@ chown $user_name -R /home/$user_name/.atom
 chown $user_name -R /home/$user_name/.composer
 
 # Docker files
-chown $user_name -R /home/docker-files
+chown $user_name -R /home/$user_name/docker-files
 
 #####################################################################################
 #####################################################################################

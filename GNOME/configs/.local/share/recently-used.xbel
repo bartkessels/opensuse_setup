@@ -162,7 +162,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/set-configs.sh" added="2016-03-05T10:57:12Z" modified="2016-03-05T11:15:49Z" visited="2016-03-05T10:57:12Z">
+  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/set-configs.sh" added="2016-03-05T10:57:12Z" modified="2016-03-05T19:04:14Z" visited="2016-03-05T10:57:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/x-shellscript"/>
@@ -170,12 +170,13 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:15:49Z" count="12"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T19:04:14Z" count="17"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-03-05T18:58:21Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/setup.sh" added="2016-03-05T10:58:24Z" modified="2016-03-05T11:21:39Z" visited="2016-03-05T10:58:25Z">
+  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/setup.sh" added="2016-03-05T10:58:24Z" modified="2016-03-05T18:58:07Z" visited="2016-03-05T10:58:25Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/x-shellscript"/>
@@ -183,7 +184,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:21:39Z" count="40"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T18:58:07Z" count="43"/>
         </bookmark:applications>
       </metadata>
     </info>

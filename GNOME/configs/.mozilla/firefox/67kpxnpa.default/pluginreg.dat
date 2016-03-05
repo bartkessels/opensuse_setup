@@ -13,6 +13,14 @@ Plugin for Installing Applications (new):$
 PackageKit:$
 1
 0:application/x-packagekit-plugin:PackageKit Plugin:bsc:$
+libgnome-shell-browser-plugin.so:$
+/usr/lib64/browser-plugins/libgnome-shell-browser-plugin.so:$
+:$
+1445779255000:0:0:0:$
+This plugin provides integration with Gnome Shell for live extension enabling and disabling. It can be used only by extensions.gnome.org:$
+Gnome Shell Integration:$
+1
+0:application/x-gnome-shell-integration:Gnome Shell Integration Dummy Content-Type::$
 IcedTeaPlugin.so:$
 /usr/lib64/java-1_8_0-openjdk-plugin/lib/IcedTeaPlugin.so:$
 :$
@@ -58,13 +66,5 @@ IcedTea-Web Plugin (using IcedTea-Web 1.6.1 (suse-1.2-x86_64)):$
 35:application/x-java-bean;version=1.8:IcedTea:class,jar:$
 36:application/x-java-bean;jpi-version=1.8.0_50:IcedTea:class,jar:$
 37:application/x-java-vm-npruntime:IcedTea::$
-skypebuttons.so:$
-/usr/lib64/browser-plugins/skypebuttons.so:$
-:$
-1453477270000:0:0:0:$
-Mime Type x-skype for Skype Buttons:$
-Skype Buttons for Kopete:$
-1
-0:application/x-skype:Skype Buttons::$
 
 [INVALID]
