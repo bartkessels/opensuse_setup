@@ -37,9 +37,6 @@ zypper addrepo http://packman.inode.at/suse/$os_version/ packman
 # Education
 zypper addrepo http://download.opensuse.org/repositories/Education/$os_version/ education
 
-# KDE:Extra
-zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
-
 # Server
 zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
 
