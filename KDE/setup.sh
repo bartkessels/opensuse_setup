@@ -88,7 +88,7 @@ printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
 
 # Export paths
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
-printf '\nexport PATH="./vendor/bin:$PATH' >> /home/$user_name/.bashrc
+printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 
 #####################################################################################
 #####################################################################################
