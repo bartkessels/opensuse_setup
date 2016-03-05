@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=set_git.sh
+Type=Link
+URL[$e]=file://$HOME/Documents/set_git.sh
+X-KDE-LastOpenedWith=kate

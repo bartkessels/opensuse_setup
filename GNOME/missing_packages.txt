@@ -1,0 +1,2 @@
+To be installed:
+- cloudstation		https://www.synology.com/en-us/support/download/DS215j

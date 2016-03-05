@@ -1,0 +1,9 @@
+[MainWindow]
+Height 1080=335
+State=AAAA/wAAAAD9AAAAAAAAARAAAAEyAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=272
+
+[WalletEditor]
+AlwaysShowContents=false
+SplitterSize=196,270

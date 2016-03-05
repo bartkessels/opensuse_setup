@@ -1,0 +1,252 @@
+[file:///home/bart/.config/kde.org/plasmashell.conf]
+Bookmarks=
+Checksum=555b0b08cde3f5d9213f3d7bf65b7714b37302b3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,1,16,20,55,56
+URL=file:///home/bart/.config/kde.org/plasmashell.conf
+
+[file:///home/bart/.config/kdeglobals]
+Bookmarks=
+Checksum=bac385d1ee58fc7f33b2e31250b0c2432692190f
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,1,16,20,56,47
+URL=file:///home/bart/.config/kdeglobals
+
+[file:///home/bart/.config/menus/applications-kmenuedit.menu]
+Bookmarks=
+Checksum=c7d7e22df65d8f861dc329bf5dcc4c321ef85913
+Encoding=UTF-8
+Highlighting=AMPLE
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=AMPLE
+Time=2016,1,16,20,56,19
+URL=file:///home/bart/.config/menus/applications-kmenuedit.menu
+
+[file:///home/bart/.local/share/mime/application/x-pkcs7-certificates.xml]
+Bookmarks=
+Checksum=012678c128cea16952ce1362aa807247fa3bdce3
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Time=2016,1,8,22,26,40
+URL=file:///home/bart/.local/share/mime/application/x-pkcs7-certificates.xml
+
+[file:///home/bart/.local/share/mime/application/x-x509-ca-cert.xml]
+Bookmarks=
+Checksum=4c3e8646c7f7f80bafe93cbea59cc328a6fa6374
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Time=2016,1,8,22,26,50
+URL=file:///home/bart/.local/share/mime/application/x-x509-ca-cert.xml
+
+[file:///home/bart/.local/share/mime/packages/application-vnd.sun.xml.base.xml]
+Bookmarks=
+Checksum=fce57dffbe61e1ce73274410a730f29b6401d0bd
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Time=2016,1,8,22,27,36
+URL=file:///home/bart/.local/share/mime/packages/application-vnd.sun.xml.base.xml
+
+[file:///home/bart/Documents/configs.txt]
+Bookmarks=
+Checksum=a490eebd75dd296762e72baba9a572a895ced4a5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,20,15
+URL=file:///home/bart/Documents/configs.txt
+
+[file:///home/bart/Documents/opensuse_setup/Android-studio.txt]
+Bookmarks=
+Checksum=e81213f6bbd88c804adf179917fd4d3ef5dc7459
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,44,57
+URL=file:///home/bart/Documents/opensuse_setup/Android-studio.txt
+
+[file:///home/bart/Documents/opensuse_setup/installation.txt]
+Bookmarks=
+Checksum=44a19fcfb899d97d7c2f98701ea94e0f8ed6bd6d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,2,5,20,44,35
+URL=file:///home/bart/Documents/opensuse_setup/installation.txt
+
+[file:///home/bart/Documents/opensuse_setup/set-configs.sh]
+Bookmarks=
+Checksum=003a827b2051dca9bb125de1d20eeb0ba8a50bfc
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,2,5,20,43,10
+URL=file:///home/bart/Documents/opensuse_setup/set-configs.sh
+
+[file:///home/bart/Documents/opensuse_setup/setup.sh]
+Bookmarks=
+Checksum=7c60097754dc334ebc47dba72d9bc95c71e8efa6
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,2,5,21,1,32
+URL=file:///home/bart/Documents/opensuse_setup/setup.sh
+
+[file:///home/bart/Documents/set_git.sh]
+Bookmarks=
+Checksum=b7eb668f1045e7aefba3986b09bad4d2173f8dd5
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,2,5,21,1,33
+URL=file:///home/bart/Documents/set_git.sh
+
+[file:///home/bart/Downloads/codecs-kde.ymp]
+Bookmarks=
+Checksum=aeb4f2adbb268c3c75ecda1d6e971432232b3640
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,1,16,22,16,8
+URL=file:///home/bart/Downloads/codecs-kde.ymp
+
+[file:///home/bart/Setup.sh]
+Bookmarks=
+Checksum=38edd510bca90cfda5cbf1e2428a7e32780263ad
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,0,2,15
+URL=file:///home/bart/Setup.sh
+
+[file:///home/bart/chroot-install-efi.sh]
+Bookmarks=
+Checksum=afda8c27fce90a5005f7e88fdb95a39a2e8e09ea
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,10,51,20
+URL=file:///home/bart/chroot-install-efi.sh
+
+[file:///home/bart/openSuseSetup/Setup.sh]
+Bookmarks=
+Checksum=5b47944f567004e15f1e7d04a6a7813d9624ea23
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,10,27,28
+URL=file:///home/bart/openSuseSetup/Setup.sh
+
+[file:///home/bart/openSuseSetup/set-configs.sh]
+Bookmarks=
+Checksum=bf085ed9e9b7fd3e041ce1286fe409c86903ff04
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,10,52,19
+URL=file:///home/bart/openSuseSetup/set-configs.sh
+
+[file:///home/bart/openSuseSetup/setup.sh]
+Bookmarks=
+Checksum=f41c8c98cd297cb5c82625d228210ba26b8814d8
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,17,12,19,48
+URL=file:///home/bart/openSuseSetup/setup.sh
+
+[file:///home/bart/public_html/index.html]
+Bookmarks=
+Checksum=9ab8defe0a3d2b777ec1fd3abc6d00942eb67950
+Encoding=UTF-8
+Highlighting=HTML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=HTML
+Time=2016,1,16,22,51,43
+URL=file:///home/bart/public_html/index.html
+
+[file:///home/bart/scripts/encrypt-chroot-install-efi.sh]
+Bookmarks=
+Checksum=73d66ba375b9240f24655f75628ef8407d51c1bc
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,7,20,58,2
+URL=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
+
+[file:///run/media/bart/et/chroot-install-efi.sh]
+Bookmarks=
+Checksum=13b37f4cda796c5ed0bd5a00dca35654950ce69a
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,1,16,21,35,35
+URL=file:///run/media/bart/et/chroot-install-efi.sh
+
+[file:///srv/www/htdocs/index.html]
+Bookmarks=
+Checksum=f5f1c377b64ac12a85119591b453c83b1a4afdbf
+Encoding=UTF-8
+Highlighting=HTML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=HTML
+Time=2016,1,16,22,52,13
+URL=file:///srv/www/htdocs/index.html
+
+[file:///srv/www/htdocs/test.php]
+Bookmarks=
+Checksum=c9f5eeb1291d85983e383d3f958ee85f35fff636
+Encoding=UTF-8
+Highlighting=PHP (HTML)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=PHP (HTML)
+Time=2016,2,5,20,33,44
+URL=file:///srv/www/htdocs/test.php

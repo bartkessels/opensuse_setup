@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>ArchCFX</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=ArchCaesar">ArchCaesar</author>
+  <homepage>https://opendesktop.org/content/show.php?content=112860</homepage>
+  <licence>1</licence>
+  <version>1.0</version>
+  <rating>56</rating>
+  <downloads>172</downloads>
+  <installedfile>/home/bart/.local/share/color-schemes//112860-ArchCFX.colors</installedfile>
+  <id>112860</id>
+  <releasedate>2009-09-29</releasedate>
+  <summary>Color Scheme for KDE4</summary>
+  <changelog></changelog>
+  <preview>https://openDesktop.org/CONTENT/content-m1/m112860-1.png</preview>
+  <previewBig>https://openDesktop.org/CONTENT/content-pre1/112860-1.png</previewBig>
+  <payload>https://opendesktop.org/CONTENT/content-files/112860-ArchCFX.colors</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

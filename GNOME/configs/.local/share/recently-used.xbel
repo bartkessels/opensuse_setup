@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/bart/Install%20applications.txt" added="2016-03-05T09:50:34Z" modified="2016-03-05T11:07:35Z" visited="2016-03-05T09:50:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:07:35Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Installed%20shell-extensions.txt" added="2016-03-05T10:02:55Z" modified="2016-03-05T11:04:49Z" visited="2016-03-05T10:02:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:04:49Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Downloads/xenlism-minimalism-cd37cf8.tar.gz" added="2016-03-05T10:23:34Z" modified="2016-03-05T10:23:34Z" visited="2016-03-05T10:23:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-05T10:23:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.themes/xenlism-minimalism.tar.gz" added="2016-03-05T10:24:19Z" modified="2016-03-05T10:24:19Z" visited="2016-03-05T10:24:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-05T10:24:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Downloads/174476-Uranus-V0.0.2.tar.gz" added="2016-03-05T10:25:46Z" modified="2016-03-05T10:25:46Z" visited="2016-03-05T10:25:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-05T10:25:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.themes/174476-Uranus-V0.0.2.tar.gz" added="2016-03-05T10:26:13Z" modified="2016-03-05T10:26:13Z" visited="2016-03-05T10:26:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-05T10:26:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/background.jpg" added="2016-03-05T10:28:31Z" modified="2016-03-05T10:28:31Z" visited="2016-03-05T10:28:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-05T10:28:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/background.jpg" added="2016-03-05T10:31:18Z" modified="2016-03-05T10:45:41Z" visited="2016-03-05T10:31:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-tweak-tool" exec="&apos;gnome-tweak-tool %u&apos;" modified="2016-03-05T10:45:41Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_bart0/141%20Material%20Design%20Wallpapers.zip" added="2016-03-05T10:36:33Z" modified="2016-03-05T10:36:33Z" visited="2016-03-05T10:36:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-05T10:36:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Pictures" added="2016-03-05T10:37:12Z" modified="2016-03-05T10:37:12Z" visited="2016-03-05T10:37:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2016-03-05T10:37:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Pictures/14%20-%202.jpg" added="2016-03-05T10:37:28Z" modified="2016-03-05T10:37:28Z" visited="2016-03-05T10:37:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-03-05T10:37:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Pictures/14%20-%207(1).png" added="2016-03-05T10:41:33Z" modified="2016-03-05T10:41:33Z" visited="2016-03-05T10:41:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-03-05T10:41:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Pictures/14%20-%2085.png" added="2016-03-05T10:41:42Z" modified="2016-03-05T10:41:42Z" visited="2016-03-05T10:41:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-03-05T10:41:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/background.png" added="2016-03-05T10:45:17Z" modified="2016-03-05T10:45:17Z" visited="2016-03-05T10:45:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-tweak-tool" exec="&apos;gnome-tweak-tool %u&apos;" modified="2016-03-05T10:45:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/configs/.vimrc" added="2016-03-05T10:56:58Z" modified="2016-03-05T10:56:58Z" visited="2016-03-05T10:56:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T10:56:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/set-configs.sh" added="2016-03-05T10:57:12Z" modified="2016-03-05T11:12:27Z" visited="2016-03-05T10:57:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:12:27Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Documents/openSUSE_setup/GNOME/setup.sh" added="2016-03-05T10:58:24Z" modified="2016-03-05T11:07:37Z" visited="2016-03-05T10:58:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:07:37Z" count="31"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Documents/run.sh" added="2016-03-05T11:11:39Z" modified="2016-03-05T11:12:29Z" visited="2016-03-05T11:11:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-05T11:12:29Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

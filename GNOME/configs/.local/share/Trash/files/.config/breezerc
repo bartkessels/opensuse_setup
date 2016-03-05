@@ -1,0 +1,7 @@
+[Common]
+ShadowStrength=89
+
+[Windeco]
+AnimationsDuration=10
+ButtonSize=ButtonSmall
+TitleAlignment=AlignLeft

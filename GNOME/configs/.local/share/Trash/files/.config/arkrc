@@ -1,0 +1,18 @@
+[AddDialog]
+LastMimeType=application/x-compressed-tar
+
+[CreateDialog]
+Height 1080=730
+Width 1920=750
+
+[KFileDialog Settings]
+Recent Files[$e]=file://$HOME/configs.tar.gz,file://$HOME/configs.tar.gz
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAF7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/synology-cloud-station-3.2-3497.x86_64.rpm
+Name1[$e]=synology-cloud-station-3.2-3497.x86_64.rpm

@@ -1,0 +1,7 @@
+[autodisable]
+DisableWhenMousePluggedIn=true
+OnlyDisableTapAndScrollOnKeyboardActivity=false
+
+[parameters]
+InvertVertScroll=true
+Tapping=true

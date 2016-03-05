@@ -1,0 +1,16 @@
+VirtualBox GUI VM Selector Window 5.0.10_SUSE r104061 linux.amd64 (openSUSE Buildservice) release log
+00:00:00.618259 Log opened 2016-02-05T20:20:38.547009000Z
+00:00:00.618261 Build Type: release
+00:00:00.618263 OS Product: Linux
+00:00:00.618264 OS Release: 4.1.15-8-default
+00:00:00.618265 OS Version: #1 SMP PREEMPT Wed Jan 20 16:41:00 UTC 2016 (0e3b3ab)
+00:00:00.618288 DMI Product Name: System Product Name
+00:00:00.618295 DMI Product Version: System Version
+00:00:00.618396 Host RAM: 12014MB total, 11279MB available
+00:00:00.618398 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.618399 Process ID: 2519
+00:00:00.618400 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.622219 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.851641 GUI: UISelectorWindow: Geometry loaded to: Origin=405x176, Size=770x550
+00:00:00.931087 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.645561 GUI: UISelectorWindow: Geometry saved as: Origin=405x176, Size=770x550

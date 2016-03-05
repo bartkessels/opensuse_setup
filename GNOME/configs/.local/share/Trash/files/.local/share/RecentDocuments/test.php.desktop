@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-php
+Name=test.php
+Type=Link
+URL[$e]=file:///srv/www/htdocs/test.php
+X-KDE-LastOpenedWith=org.kde.kate

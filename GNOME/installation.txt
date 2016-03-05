@@ -1,0 +1,88 @@
+INSTALLATION OPTIONS
+check 'Add Online Repositories Before Installation'
+click 'Next'
+
+SUGGESTED PARTITIONING
+click 'Expert Partitioner...'
+
+EXPERT PARTITIONER
+right click on /home partition -> click 'Edit'
+select 'Encrypt device'
+click Next
+enter password
+click 'Finish'
+click 'Accept'
+click 'Yes'
+
+SUGGESTED PARTITIONING
+click 'Next'
+
+CLOCK AND TIME ZONE
+select 'Europe' under 'Region'
+select 'Netherlands' under 'Time Zone'
+click 'Next'
+
+LIST OF REPOSITORIES
+check 'Update Repository (Non-Oss)'
+check 'Main Update Repository'
+check 'Main Repository (NON-OSS)'
+check 'Main Repository (OSS)'
+click 'Next'
+
+DESKTOP SELECTION
+check 'GNOME Desktop'
+click 'Next'
+
+CREATE NEW USER
+fill in all fields
+check 'Use this password for system administrator'
+uncheck 'Automatic login'
+click 'Next'
+
+INSTALLATION SETTINGS
+click 'Software'
+
+SOFTWARE SELECTION AND SYSTEM TASKS
+- Graphical Environments
+select 'GNOME Base'
+select 'GNOME Desktop Environmen'
+select 'Fonts'
+select 'X Window System'
+
+- Desktop Functions
+select 'Multimedia'
+select 'Office Software'
+select 'Graphics'
+deselect 'Games'
+select 'Remote Desktop'
+
+- Base Technologies
+select 'Base System'
+select 'Enhanced Base System'
+select 'AppArmor'
+select 'Laptop' if needed
+select 'x64 bit-runtime Environment'
+select 'x86 bit-runtime Environment'
+select 'YaST System Administration'
+select 'Software Management'
+
+- Server Functions
+select 'Web and LAMP Server'
+
+- Proprietary Software
+select 'Misc. Proprietary Packages'
+
+- Development
+select 'Base Development'
+select 'GNOME development'
+select 'C/C++ Development'
+select 'Integrated Development Environments'
+select 'Java Development'
+select 'QT 5 Development'
+select 'Ruby development'
+select 'Web Development'
+
+click 'OK'
+
+CONFIRM INSTALLATION
+click 'Install'

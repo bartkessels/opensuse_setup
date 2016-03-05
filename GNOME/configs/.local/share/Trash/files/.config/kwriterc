@@ -1,0 +1,13 @@
+[General Options]
+ShowMenuBar=true
+ShowPath=false
+ShowStatusBar=true
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 1080x1920=true
+
+[Recent Files]
+File1[$e]=$HOME/Documents/opensuse_setup/set-configs.sh
+Name1[$e]=set-configs.sh

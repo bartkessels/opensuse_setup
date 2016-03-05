@@ -1,0 +1,30 @@
+// N0kjNm8TTSuAh9OBlKXY1aDNhY5khNj2iP/fsed8mAXVAmDBSvKdEZv8TTvKS2VQjJP+LgEXkIyVmC78Er1oJus4HlS+FJYDlDWaG9ZSHC8OJC7Gg/H4sCBeZY41x7+DOYBH3talvZ5TJvaKNCMfyCcBaVhyuYZylJw2DHSTlAImO87jt50OmpAZXbZM86e1XESa/0IUJpD78fvyXG9/96fNd0WduLfbkUsPH+BgBuVcZbGhg90BB6LdmqbebOYpX9MdUBM3MLVu/WwaLICiVhYZVCY21B7TZ+n+rex7uDnCtdqSqihHlj7cRmlrUAbiLvnsf+UIQaERw5P0y8xldQ==
+{
+	"@encoding": "UTF-8",
+	"@version": "1.0",
+	"preferences": {
+		"config": {
+			"useragent": [{
+				"@value": "Mozilla/5.0 ($PLATFORM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36",
+				"@id": "32"
+			}, {
+				"@value": "Mozilla/5.0 ($PLATFORM; rv:24.0) Gecko/20100101 Firefox/24.0 $OPR",
+				"@id": "31"
+			}, {
+				"@value": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+				"@id": "34"
+			}]
+		},
+		"@clean_all": "1",
+		"host": [{
+			"@name": "hangouts.google.com",
+			"section": {
+				"pref": {
+					"@value": "32",
+					"@name": "Spoof UserAgent ID"
+				},
+				"@name": "User Agent"
+			}
+		}]
+	}
+}

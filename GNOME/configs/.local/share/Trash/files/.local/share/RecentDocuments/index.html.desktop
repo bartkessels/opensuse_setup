@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-html
+Name=index.html
+Type=Link
+URL[$e]=file:///srv/www/htdocs/index.html
+X-KDE-LastOpenedWith=org.kde.kate

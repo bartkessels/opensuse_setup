@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=installation.txt
+Type=Link
+URL[$e]=file://$HOME/Documents/opensuse_setup/installation.txt
+X-KDE-LastOpenedWith=org.kde.kate
