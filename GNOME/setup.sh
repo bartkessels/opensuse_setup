@@ -181,7 +181,7 @@ zypper install gimp
 zypper install blender simplescreenrecorder kdenlive
 
 # Development
-zypper install tmux vim geany geany-plugins libqt5-creator nodejs-npm
+zypper install tmux vim geany geany-plugins libqt5-creator nodejs-npm java-1_7_0-openjdk-devel
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
