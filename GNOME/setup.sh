@@ -46,6 +46,30 @@ zypper addrepo http://download.opensuse.org/repositories/server:/php:/applicatio
 #####################################################################################
 #####################################################################################
 
+#		DEFAULT FOLDERS
+
+#####################################################################################
+#####################################################################################
+
+# Create folders inside home dir
+mkdir /home/$user_name/Desktop
+mkdir /home/$user_name/Downloads
+mkdir /home/$user_name/Documents
+mkdir /home/$user_name/Music
+mkdir /home/$user_name/Pictures
+mkdir /home/$user_name/Videos
+
+# Create folders inside /etc/skel dir
+mkdir /etc/skel/Desktop
+mkdir /etc/skel/Downloads
+mkdir /etc/skel/Documents
+mkdir /etc/skel/Music
+mkdir /etc/skel/Pictures
+mkdir /etc/skel/Videos
+
+#####################################################################################
+#####################################################################################
+
 #		SETTINGS
 
 #####################################################################################
@@ -294,46 +318,7 @@ cp wallpapers/background.jpg /usr/share/background.jpg
 #####################################################################################
 
 # Config folder
-chown $user_name -R /home/$user_name/.config
-
-# Dia
-chown $user_name -R /home/$user_name/.dia
-
-# Gimp folder
-chown $user_name -R /home/$user_name/.gimp-2.8
-
-# Gnome2 folder
-chown $user_name -R /home/$user_name/.gnome2
-
-# Local folder
-chown $user_name -R /home/$user_name/.local
-
-# Icons folder
-chown $user_name -R /home/$user_name/.icons
-
-# Mozilla folder
-chown $user_name -R /home/$user_name/.mozilla
-
-# Themes folder
-chown $user_name -R /home/$user_name/.themes
-
-# gtkrc file
-chown $user_name -R /home/$user_name/.gtkrc-2.0
-
-# Vimrc file
-chown $user_name -R /home/$user_name/.vimrc
-
-# Git config file
-chown $user_name -R /home/$user_name/.gitconfig
-
-# Atom config
-chown $user_name -R /home/$user_name/.atom
-
-# Composer config
-chown $user_name -R /home/$user_name/.composer
-
-# Docker files
-chown $user_name -R /home/$user_name/docker-files
+chown $user_name -R /home/$user_name
 
 #####################################################################################
 #####################################################################################
