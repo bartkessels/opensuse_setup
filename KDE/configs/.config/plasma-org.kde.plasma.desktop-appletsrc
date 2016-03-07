@@ -190,7 +190,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][59][Configuration][General]
-favoriteApps=preferred://browser,evolution.desktop,geany.desktop,systemsettings.desktop,org.kde.dolphin.desktop
+favoriteApps=preferred://browser,atom.desktop,evolution.desktop,gitg.desktop,systemsettings.desktop,org.kde.dolphin.desktop
 showRecentApps=false
 showRecentDocs=false
 
@@ -306,6 +306,23 @@ showToolbox=false
 
 [Containments][64][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/DanceOfTheSpirits.jpg
+height=1080
+width=1920
+
+[Containments][67]
+activityId=da1d0bc3-94f5-45f8-9c4f-d788895a54e1
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][67][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][67][Wallpaper][org.kde.image][General]
 height=1080
 width=1920
 

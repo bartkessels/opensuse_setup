@@ -1,38 +1,38 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+URL=file:///home/bart/openSUSE_setup/GNOME/setup.sh
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+URL=file:///home/bart/openSUSE_setup/KDE/setup.sh
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 URL=
 
-[Document 1]
+[Document 3]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
-URL=file:///home/bart/Documents/configs.txt
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-URL=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
-
-[Document 3]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-URL=file:///home/bart/scripts/encrypt-chroot-install.sh
+URL=file:///home/bart/openSUSE_setup/GNOME/installation.txt
 
 [Document 4]
 Bookmarks=
@@ -41,7 +41,7 @@ Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-URL=file:///home/bart/scripts/encrypt-chroot-install.sh
+URL=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
 
 [Document 5]
 Bookmarks=
@@ -85,11 +85,11 @@ textfilterplugin=false
 [MainWindow0]
 Active ViewSpace=0
 Height 1080=494
-Kate-MDI-H-Splitter=200,928,200
-Kate-MDI-Sidebar-0-Splitter=0,0
+Kate-MDI-H-Splitter=200,1890,200
+Kate-MDI-Sidebar-0-Splitter=0,0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-3-Splitter=1890,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
@@ -112,30 +112,32 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,434,200
-State=AAAA/wAAAAD9AAAAAAAAA74AAAHQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,964,200
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
+Window-Maximized 1080x1920=true
 
 [MainWindow0 Settings]
 Height 1080=494
-State=AAAA/wAAAAD9AAAAAAAAA74AAAHQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 Width 1920=958
-WindowState=8
+Window-Maximized 1080x1920=true
+WindowState=10
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=928
+Sizes=1890
 
 [MainWindow0-ViewSpace 0]
-Active View=
-Count=1
-Documents=\\0
-View 0=file:///home/bart/Documents/opensuse_setup/Android-studio.txt
-View 1=file:///home/bart/Documents/configs.txt
+Active View=file:///home/bart/openSUSE_setup/GNOME/installation.txt
+Count=5
+Documents=file:///home/bart/openSUSE_setup/GNOME/setup.sh,file:///home/bart/openSUSE_setup/KDE/setup.sh,,file:///home/bart/openSUSE_setup/KDE/set-configs.sh,file:///home/bart/openSUSE_setup/GNOME/installation.txt
+View 0=file:///home/bart/openSUSE_setup/GNOME/setup.sh
+View 1=file:///home/bart/openSUSE_setup/KDE/setup.sh
 View 2=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
-View 3=file:///home/bart/scripts/encrypt-chroot-install.sh
-View 4=file:///home/bart/scripts/encrypt-chroot-install.sh
+View 3=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
+View 4=file:///home/bart/openSUSE_setup/GNOME/installation.txt
 View 5=file:///home/bart/bkarch/Kde/skel/lamp.sh
 View 6=file:///home/bart/bkarch/Kde/skel/chroot-install.sh
 
@@ -278,6 +280,34 @@ CursorLine=119
 JumpList=
 TextFolding=[]
 ViMarks=.,148,45,[,148,45,],148,45
+
+[MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/GNOME/installation.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/GNOME/setup.sh]
+CursorColumn=16
+CursorLine=9
+JumpList=
+TextFolding=[]
+ViMarks=.,323,5,[,323,2,],323,5
+
+[MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/KDE/set-configs.sh]
+CursorColumn=37
+CursorLine=3
+JumpList=
+TextFolding=[]
+ViMarks=.,3,36,[,3,15,],3,36
+
+[MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/KDE/setup.sh]
+CursorColumn=0
+CursorLine=57
+JumpList=
+TextFolding=[]
+ViMarks=.,12,0,[,10,0,],12,64
 
 [MainWindow0-ViewSpace 0 file:///home/bart/openSuseSetup/Setup.sh]
 CursorColumn=14
@@ -427,7 +457,7 @@ TextFolding=[]
 ViMarks=
 
 [Open Documents]
-Count=1
+Count=5
 
 [Open MainWindows]
 Count=1
@@ -458,24 +488,20 @@ HiddenFiles=false
 MatchCase=false
 Place=1
 Recursive=true
-Replaces=
-Search=
+Replaces=$USER
+Search=$user_name
 SearchDiskFiles=
 SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Documents/configs.txt
-File2[$e]=$HOME/Documents/opensuse_setup/setup.sh
-File3[$e]=/srv/www/htdocs/test.php
-File4[$e]=$HOME/Documents/opensuse_setup/set-configs.sh
-File5[$e]=$HOME/Documents/opensuse_setup/installation.txt
-File6[$e]=$HOME/Documents/opensuse_setup/Android-studio.txt
-File7[$e]=$HOME/Documents/opensuse_setup/setup.sh
-Name1[$e]=configs.txt
+File1[$e]=$HOME/openSUSE_setup/GNOME/setup.sh
+File2[$e]=$HOME/openSUSE_setup/KDE/setup.sh
+File3[$e]=$HOME/openSUSE_setup/GNOME/installation.txt
+File4[$e]=$HOME/openSUSE_setup/GNOME/set-configs.sh
+File5[$e]=$HOME/openSUSE_setup/KDE/set-configs.sh
+Name1[$e]=setup.sh
 Name2[$e]=setup.sh
-Name3[$e]=test.php
+Name3[$e]=installation.txt
 Name4[$e]=set-configs.sh
-Name5[$e]=installation.txt
-Name6[$e]=Android-studio.txt
-Name7[$e]=setup.sh
+Name5[$e]=set-configs.sh

@@ -1,6 +1,7 @@
 # Copy all config files
 cp -r /home/$USER/.atom configs/.
 cp -r /home/$USER/.config configs/.
+cp -r /home/$USER/.composer configs/.
 cp -r /home/$USER/.dia configs/.
 cp -r /home/$USER/.gimp-2.8 configs/.
 cp -r /home/$USER/.kde4 configs/.

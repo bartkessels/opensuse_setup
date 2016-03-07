@@ -1,7 +1,6 @@
 "*":
   "atom-material-ui":
     fonts:
-      fontSize: "Big"
       useRoboto: true
     tabs:
       tabMinWidth: true
@@ -31,7 +30,6 @@
     userId: "91a1d891-dc5e-9ff8-c930-bea26cf503b8"
   "git-plus": {}
   "info-comment": {}
-  minimap:
-    absoluteMode: true
+  minimap: {}
   welcome:
     showOnStartup: false

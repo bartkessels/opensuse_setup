@@ -2,5 +2,5 @@
 Icon=application-x-shellscript
 Name=setup.sh
 Type=Link
-URL[$e]=file://$HOME/Documents/opensuse_setup/setup.sh
+URL[$e]=file://$HOME/openSUSE_setup/GNOME/setup.sh
 X-KDE-LastOpenedWith=org.kde.kate

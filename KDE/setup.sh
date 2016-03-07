@@ -9,6 +9,9 @@
 # Username
 user_name='bart'
 
+# Full name
+full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
+
 # OpenSUSE version
 os_version='openSUSE_Leap_42.1'
 
@@ -42,6 +45,30 @@ zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/
 
 # Server
 zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
+
+#####################################################################################
+#####################################################################################
+
+#		DEFAULT FOLDERS
+
+#####################################################################################
+#####################################################################################
+
+# Create folders inside home dir
+mkdir /home/$user_name/Desktop
+mkdir /home/$user_name/Downloads
+mkdir /home/$user_name/Documents
+mkdir /home/$user_name/Music
+mkdir /home/$user_name/Pictures
+mkdir /home/$user_name/Videos
+
+# Create folders inside /etc/skel dir
+mkdir /etc/skel/Desktop
+mkdir /etc/skel/Downloads
+mkdir /etc/skel/Documents
+mkdir /etc/skel/Music
+mkdir /etc/skel/Pictures
+mkdir /etc/skel/Videos
 
 #####################################################################################
 #####################################################################################
@@ -102,12 +129,8 @@ printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 echo 'Git e-mail address:'
 read git_mail
 
-# Ask for full name
-echo 'Git full name:'
-read git_name
-
 # Write git config
-printf '[user]\nemail='$git_mail'\nname='$git_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
+printf '[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -139,13 +162,13 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # KDE PIM suite
-zypper remove -U libkdepim
+zypper remove -u libkdepim
 
 # Akonadi
-zypper remove -U akonadi-server
+zypper remove -u akonadi-server
 
-# Flash player
-zypper remove -U flash-player
+# Openssh askpass
+zypper remove -u openssh-askpass
 
 #####################################################################################
 #####################################################################################
@@ -156,7 +179,7 @@ zypper remove -U flash-player
 #####################################################################################
 
 # Utilities
-zypper install git nano whois unetbootin openssh kfind krename luckybackup
+zypper install git gitg nano whois unetbootin kfind krename luckybackup
 
 # LaTex
 zypper install kile
@@ -301,8 +324,7 @@ cp -r configs/. /home/$user_name/.
 cp -r configs/. /etc/skel/.
 
 # Wallpaper
-cp wallpapers/d5esSs4.jpg /usr/share/arch_linux-wallpaper-1920x1080.jpg
-cp wallpapers/DanceOfTheSpirits.jpg /usr/share/DanceOfTheSpirits.jpg
+cp -r wallpapers/. /usr/share
 
 #####################################################################################
 #####################################################################################
@@ -312,48 +334,8 @@ cp wallpapers/DanceOfTheSpirits.jpg /usr/share/DanceOfTheSpirits.jpg
 #####################################################################################
 #####################################################################################
 
-# Config folder
-chown $user_name -R /home/$user_name/.config
-
-# Dia
-chown $user_name -R /home/$user_name/.dia
-
-# Gimp folder
-chown $user_name -R /home/$user_name/.gimp-2.8
-
-# Kde4 folder
-chown $user_name -R /home/$user_name/.kde4
-
-# Local folder
-chown $user_name -R /home/$user_name/.local
-
-# Icons folder
-chown $user_name -R /home/$user_name/.icons
-
-# Mozilla folder
-chown $user_name -R /home/$user_name/.mozilla
-
-# gtkrc file
-chown $user_name -R /home/$user_name/.gtkrc-2.0
-chown $user_name -R /home/$user_name/.gtkrc-2.0-kde4
-
-# Vimrc file
-chown $user_name -R /home/$user_name/.vimrc
-
-# Kdesurc file
-chown $user_name -R /home/$user_name/.config/kdesurc
-
-# Git config file
-chown $user_name -R /home/$user_name/.gitconfig
-
-# Atom config
-chown $user_name -R /home/$user_name/.atom
-
-# Composer config
-chown $user_name -R /home/$user_name/.composer
-
-# Docker files
-chown $user_name -R /home/docker-files
+# Home folder
+chown $user_name -R /home/$user_name
 
 #####################################################################################
 #####################################################################################
