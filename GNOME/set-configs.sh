@@ -10,7 +10,7 @@ cp -r /home/$USER/.mozilla configs/.
 cp -r /home/$USER/.themes configs/.
 cp -r /home/$USER/.vimrc configs/.
 
-# Remove kwallet content
+# Remove gnome keyring content
 rm -rf configs/.local/share/keyrings/*
 
 # Remove evolution data

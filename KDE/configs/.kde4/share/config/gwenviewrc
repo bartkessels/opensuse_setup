@@ -6,23 +6,23 @@ Width 1920=1921
 
 [Recent Files]
 File1[$e]=/usr/share/sddm/themes/breeze/breeze.jpg
-File2[$e]=$HOME/openSUSE_setup/KDE/wallpapers/fqopF9w.jpg
-File3[$e]=$HOME/openSUSE_setup/KDE/wallpapers/gIE3vSu.jpg
-File4[$e]=$HOME/openSUSE_setup/KDE/wallpapers/h7B55TS.jpg
-File5[$e]=$HOME/openSUSE_setup/KDE/wallpapers/WYqgUEb.jpg
-File6[$e]=$HOME/openSUSE_setup/KDE/wallpapers/pRGZi2M.jpg
-File7[$e]=$HOME/openSUSE_setup/KDE/wallpapers/p8d4ols.jpg
-File8[$e]=$HOME/openSUSE_setup/KDE/wallpapers/LTjkixq.jpg
-File9[$e]=$HOME/openSUSE_setup/KDE/wallpapers/jRr5Rbx.jpg
+File2[$e]=$HOME/openSUSE_setup/KDE/wallpapers/WYqgUEb.jpg
+File3[$e]=$HOME/openSUSE_setup/KDE/wallpapers/pRGZi2M.jpg
+File4[$e]=$HOME/openSUSE_setup/KDE/wallpapers/p8d4ols.jpg
+File5[$e]=$HOME/openSUSE_setup/KDE/wallpapers/LTjkixq.jpg
+File6[$e]=$HOME/openSUSE_setup/KDE/wallpapers/jRr5Rbx.jpg
+File7[$e]=$HOME/openSUSE_setup/KDE/wallpapers/fqopF9w.jpg
+File8[$e]=$HOME/openSUSE_setup/KDE/wallpapers/gIE3vSu.jpg
+File9[$e]=$HOME/openSUSE_setup/KDE/wallpapers/h7B55TS.jpg
 Name1[$e]=breeze.jpg
-Name2[$e]=fqopF9w.jpg
-Name3[$e]=gIE3vSu.jpg
-Name4[$e]=h7B55TS.jpg
-Name5[$e]=WYqgUEb.jpg
-Name6[$e]=pRGZi2M.jpg
-Name7[$e]=p8d4ols.jpg
-Name8[$e]=LTjkixq.jpg
-Name9[$e]=jRr5Rbx.jpg
+Name2[$e]=WYqgUEb.jpg
+Name3[$e]=pRGZi2M.jpg
+Name4[$e]=p8d4ols.jpg
+Name5[$e]=LTjkixq.jpg
+Name6[$e]=jRr5Rbx.jpg
+Name7[$e]=fqopF9w.jpg
+Name8[$e]=gIE3vSu.jpg
+Name9[$e]=h7B55TS.jpg
 
 [SideBar-ViewMode]
 IsVisible=true
