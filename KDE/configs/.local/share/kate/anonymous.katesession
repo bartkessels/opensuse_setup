@@ -5,7 +5,7 @@ Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-URL=file:///home/bart/openSUSE_setup/GNOME/setup.sh
+URL=file:///home/bart/openSUSE_setup/GNOME/set-configs.sh
 
 [Document 1]
 Bookmarks=
@@ -14,7 +14,7 @@ Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-URL=file:///home/bart/openSUSE_setup/KDE/setup.sh
+URL=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
 
 [Document 2]
 Bookmarks=
@@ -89,7 +89,7 @@ Kate-MDI-H-Splitter=200,1890,200
 Kate-MDI-Sidebar-0-Splitter=0,0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=1890,0
+Kate-MDI-Sidebar-3-Splitter=0,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
@@ -130,11 +130,11 @@ Orientation=1
 Sizes=1890
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/bart/openSUSE_setup/GNOME/installation.txt
-Count=5
-Documents=file:///home/bart/openSUSE_setup/GNOME/setup.sh,file:///home/bart/openSUSE_setup/KDE/setup.sh,,file:///home/bart/openSUSE_setup/KDE/set-configs.sh,file:///home/bart/openSUSE_setup/GNOME/installation.txt
-View 0=file:///home/bart/openSUSE_setup/GNOME/setup.sh
-View 1=file:///home/bart/openSUSE_setup/KDE/setup.sh
+Active View=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
+Count=2
+Documents=file:///home/bart/openSUSE_setup/GNOME/set-configs.sh,file:///home/bart/openSUSE_setup/KDE/set-configs.sh
+View 0=file:///home/bart/openSUSE_setup/GNOME/set-configs.sh
+View 1=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
 View 2=file:///home/bart/scripts/encrypt-chroot-install-efi.sh
 View 3=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
 View 4=file:///home/bart/openSUSE_setup/GNOME/installation.txt
@@ -288,6 +288,13 @@ JumpList=
 TextFolding=[]
 ViMarks=
 
+[MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/GNOME/set-configs.sh]
+CursorColumn=30
+CursorLine=12
+JumpList=
+TextFolding=[]
+ViMarks=.,12,0,[,12,0,],12,29
+
 [MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/GNOME/setup.sh]
 CursorColumn=16
 CursorLine=9
@@ -296,11 +303,11 @@ TextFolding=[]
 ViMarks=.,323,5,[,323,2,],323,5
 
 [MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/KDE/set-configs.sh]
-CursorColumn=37
-CursorLine=3
+CursorColumn=0
+CursorLine=16
 JumpList=
 TextFolding=[]
-ViMarks=.,3,36,[,3,15,],3,36
+ViMarks=.,18,0,[,17,0,],18,37
 
 [MainWindow0-ViewSpace 0 file:///home/bart/openSUSE_setup/KDE/setup.sh]
 CursorColumn=0
@@ -457,7 +464,7 @@ TextFolding=[]
 ViMarks=
 
 [Open Documents]
-Count=5
+Count=2
 
 [Open MainWindows]
 Count=1
@@ -498,10 +505,12 @@ UseRegExp=false
 File1[$e]=$HOME/openSUSE_setup/GNOME/setup.sh
 File2[$e]=$HOME/openSUSE_setup/KDE/setup.sh
 File3[$e]=$HOME/openSUSE_setup/GNOME/installation.txt
-File4[$e]=$HOME/openSUSE_setup/GNOME/set-configs.sh
+File4[$e]=$HOME/openSUSE_setup/KDE/missing_packages.txt
 File5[$e]=$HOME/openSUSE_setup/KDE/set-configs.sh
+File6[$e]=$HOME/openSUSE_setup/GNOME/set-configs.sh
 Name1[$e]=setup.sh
 Name2[$e]=setup.sh
 Name3[$e]=installation.txt
-Name4[$e]=set-configs.sh
+Name4[$e]=missing_packages.txt
 Name5[$e]=set-configs.sh
+Name6[$e]=set-configs.sh

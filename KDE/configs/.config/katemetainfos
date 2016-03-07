@@ -11,13 +11,13 @@ URL=file:///home/bart/openSUSE_setup/GNOME/installation.txt
 
 [file:///home/bart/openSUSE_setup/GNOME/set-configs.sh]
 Bookmarks=
-Checksum=0b024e010613e2e205e4ff61ec15469efdcfb308
+Checksum=b21099469e64723023a4a66012ba2d76079b4fb1
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-Time=2016,3,7,19,45,32
+Time=2016,3,7,19,56,39
 URL=file:///home/bart/openSUSE_setup/GNOME/set-configs.sh
 
 [file:///home/bart/openSUSE_setup/GNOME/setup.sh]
@@ -31,15 +31,26 @@ Mode=Bash
 Time=2016,3,7,19,48,57
 URL=file:///home/bart/openSUSE_setup/GNOME/setup.sh
 
+[file:///home/bart/openSUSE_setup/KDE/missing_packages.txt]
+Bookmarks=
+Checksum=ed970ded1e34b52ea13ba6c79ae936c0174162cd
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,3,7,19,55,32
+URL=file:///home/bart/openSUSE_setup/KDE/missing_packages.txt
+
 [file:///home/bart/openSUSE_setup/KDE/set-configs.sh]
 Bookmarks=
-Checksum=dd1bca5e65214814db99f160b1e24efb869909cd
+Checksum=79311797afc6f0ec1937fa0b2720bed8554a00fd
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
-Time=2016,3,7,19,48,57
+Time=2016,3,7,19,56,39
 URL=file:///home/bart/openSUSE_setup/KDE/set-configs.sh
 
 [file:///home/bart/openSUSE_setup/KDE/setup.sh]
