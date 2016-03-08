@@ -194,7 +194,7 @@ zypper install calligra-krita gimp kdegraphics-thumbnailers
 zypper install blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
-zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel
+zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
