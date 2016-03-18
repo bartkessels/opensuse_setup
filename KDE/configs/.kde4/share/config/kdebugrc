@@ -4,6 +4,9 @@ InfoOutput=4
 [kdecore (KConfigSkeleton)]
 InfoOutput=2
 
+[kio (delegateanimationhandler)]
+InfoOutput=4
+
 [kio_trash]
 InfoOutput=4
 

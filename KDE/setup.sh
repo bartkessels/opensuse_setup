@@ -54,7 +54,12 @@ zypper addrepo http://download.opensuse.org/repositories/server:/php:/applicatio
 #####################################################################################
 #####################################################################################
 
+# Remove default created folders
+rm -rf /home/$user_name/public_html
+rm -rf /home/$user_name/bin
+
 # Create folders inside home dir
+mkdir /home/$user_name/bk-cloud
 mkdir /home/$user_name/Desktop
 mkdir /home/$user_name/Downloads
 mkdir /home/$user_name/Documents
@@ -82,7 +87,7 @@ mkdir /etc/skel/Videos
 printf '\n\n[General]\nNumlock=on\n' >> /etc/sddm.conf
 
 # Set background for SDDM
-printf '\n[General]\nbackground=/usr/share/arch_linux-wallpaper-1920x1080.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
+printf '\n[General]\nbackground=/usr/share/d5esSs4.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
 
 # Virtualbox module
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf

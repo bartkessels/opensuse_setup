@@ -71,9 +71,6 @@ plugin=org.kde.plasma.pager
 DialogHeight=540
 DialogWidth=720
 
-[Containments][1][Applets][3][Configuration][General]
-currentDesktopSelected=ShowDesktop
-
 [Containments][1][Applets][4][Configuration][General]
 launchers=file:///usr/share/applications/org.kde.kontact.desktop,file:///home/bart/.local/share/applications/org.gnome.Builder.desktop
 middleClickAction=NewInstance
@@ -177,6 +174,7 @@ DialogWidth=720
 
 [Containments][1][Applets][50][Configuration][General]
 groupingStrategy=0
+middleClickAction=Close
 showOnlyCurrentDesktop=true
 showToolTips=false
 sortingStrategy=0
@@ -229,7 +227,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][16][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/arch_linux-wallpaper-1920x1080.jpg
+Image=file:///usr/share/d5esSs4.jpg
 height=1080
 width=1920
 
@@ -362,7 +360,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][7][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/arch_linux-wallpaper-1920x1080.jpg
+Image=file:///usr/share/d5esSs4.jpg
 height=1080
 width=1920
 

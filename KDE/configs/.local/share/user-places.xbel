@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <bookmark href="file:///home/bart">
   <title>Home</title>
   <info>
@@ -10,6 +10,18 @@
    <metadata owner="http://www.kde.org">
     <ID>1439746122/0</ID>
     <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/bart/bk-cloud">
+  <title>bk-cloud</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1458325809/0 (V2)</ID>
     <IsHidden>false</IsHidden>
    </metadata>
   </info>
@@ -56,7 +68,7 @@
   <title>Trash</title>
   <info>
    <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-trash-full"/>
+    <bookmark:icon name="user-trash"/>
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1439746122/3</ID>
@@ -177,6 +189,45 @@
    </metadata>
   </info>
  </bookmark>
+ <separator href="file:///">
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk"/>
+   </metadata>
+  </info>
+  <title>40.0 GiB Hard Drive</title>
+ </separator>
+ <separator href="file:///home">
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda3</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk"/>
+   </metadata>
+  </info>
+  <title>190.9 GiB Encrypted Drive</title>
+ </separator>
+ <separator href="file:///home">
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d0</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk"/>
+   </metadata>
+  </info>
+  <title>190.9 GiB Hard Drive</title>
+ </separator>
  <separator>
   <info>
    <metadata owner="http://www.kde.org">

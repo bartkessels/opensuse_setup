@@ -1,7 +1,7 @@
 [Devices][/org/freedesktop/UDisks2/block_devices/dm_2d0]
 EverMounted=true
 Icon=drive-harddisk
-LastNameSeen=423.6 GiB Hard Drive
+LastNameSeen=190.9 GiB Hard Drive
 LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/loop0]
@@ -16,10 +16,16 @@ Icon=drive-harddisk
 LastNameSeen=94.0 MiB Hard Drive
 LastSeenMounted=false
 
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=40.0 GiB Hard Drive
+LastSeenMounted=true
+
 [Devices][/org/freedesktop/UDisks2/block_devices/sda3]
 EverMounted=true
 Icon=drive-harddisk
-LastNameSeen=primary
+LastNameSeen=190.9 GiB Encrypted Drive
 LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda4]
@@ -39,6 +45,11 @@ EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=190.8 GiB Hard Drive
 LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sr0]
+Icon=media-optical-data
+LastNameSeen=openSUSE-Leap-42.1-DVD-x86_64026
+LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sr1]
 Icon=media-optical-data

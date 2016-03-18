@@ -836,3 +836,77 @@
 2016-03-07T20:29:05 kmymoney.upd: Found new update '1'
 2016-03-07T20:29:05 kmymoney.upd: Skipping update '1'
 2016-03-07T20:29:05 kmymoney.upd: File 'kmymoneyrc' does not exist or empty, skipping
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2016-03-18T19:08:58 kioslave.upd: Found new update 'kde2.2/r1'
+2016-03-18T19:08:58 kioslave.upd: Skipping update 'kde2.2/r1'
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kget.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/adjustlevelstool.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/mailtransports.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/newmailnotifier.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-cache.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/sysinfo_to_kinfocenter.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/grantleetheme.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kpgp.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/mailfilteragent.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/noteglobalsettings.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/korganizer.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kmail.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2016-03-18T19:08:58 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2016-03-18T19:08:58 kopete-nameTracking.upd: Skipping update 'kopete0.9/r1'
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_server.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_icq_ssl.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kgthemeprovider-migration.upd' for new updates
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kile.upd' for new updates
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile1.5v1'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile1.5v1'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile1.6v1'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile1.6v1'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile1.7v1'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile1.7v1'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile1.9v1'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile1.9v1'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile1.9v2'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile1.9v2'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile2.0v1'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile2.0v1'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile2.0v2'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile2.0v2'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile2.0v3'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile2.0v3'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile2.0v4'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile2.0v4'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 kile.upd: Found new update 'Kile2.0v5'
+2016-03-18T19:08:58 kile.upd: Skipping update 'Kile2.0v5'
+2016-03-18T19:08:58 kile.upd: File 'kilerc' does not exist or empty, skipping
+2016-03-18T19:08:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kmymoney.upd' for new updates
+2016-03-18T19:08:58 kmymoney.upd: Found new update '1'
+2016-03-18T19:08:58 kmymoney.upd: Skipping update '1'
+2016-03-18T19:08:58 kmymoney.upd: File 'kmymoneyrc' does not exist or empty, skipping
