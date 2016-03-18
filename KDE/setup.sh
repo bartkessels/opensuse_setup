@@ -202,7 +202,7 @@ zypper install atom.rpm
 rm atom.rpm
 
 # Development extra
-zypper install dia umbrello meld
+zypper install dia umbrello meld mysql-workbench
 
 # Web
 zypper install chromium qbittorrent evolution filezilla
