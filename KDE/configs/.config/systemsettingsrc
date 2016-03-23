@@ -11,8 +11,8 @@ Recent Files[$e]=BKarch.colors,$HOME/.kde4/share/apps/color-schemes/BKarch.color
 Recent URLs[$e]=$HOME/.kde4/share/apps/,$HOME/.kde4/share/apps/,$HOME/.kde4/,$HOME/.kde4/share/apps/color-schemes/,$HOME/.kde4/share/apps/co/,$HOME/.kde4/share/apps/color-schemes/
 
 [KPropertiesDialog]
-Height 1080=435
-Width 1920=276
+Height 1080=446
+Width 1920=412
 
 [Main]
 ShowToolTips=false
@@ -20,13 +20,17 @@ ShowToolTips=false
 [MainWindow]
 Height 1080=776
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAP3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABKkAAALiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1193
-Window-Maximized 1080x1920=true
+Window-Maximized 1200x1920=true
 
 [Notification Messages]
 welcome=false
+
+[Open-with settings]
+CompletionMode=5
+History=yakuake
 
 [PlasmaRunnerManager]
 LaunchCounts=
