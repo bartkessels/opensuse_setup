@@ -122,6 +122,9 @@ printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 
+# Unset items
+printf '\nunset SSH_ASKPASS' >> /home/$user_name/.bashrc
+
 #####################################################################################
 #####################################################################################
 
@@ -135,7 +138,7 @@ echo 'Git e-mail address:'
 read git_mail
 
 # Write git config
-printf '[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld' > /home/$user_name/.gitconfig
+printf "[user]\nemail='$(echo $git_mail)'\nname='$(echo $full_name)'\n[diff]\ntool = meld\n[push]\ndefault=simple" > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -166,12 +169,6 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 #####################################################################################
 
-# KDE PIM suite
-zypper remove -u libkdepim
-
-# Akonadi
-zypper remove -u akonadi-server
-
 # Openssh askpass
 zypper remove -u openssh-askpass
 
@@ -184,7 +181,7 @@ zypper remove -u openssh-askpass
 #####################################################################################
 
 # Utilities
-zypper install git gitg nano whois unetbootin kfind krename luckybackup
+zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake
 
 # LaTex
 zypper install kile

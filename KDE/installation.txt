@@ -89,4 +89,9 @@ BEFORE EXECUTING SETUP.SH
 Drop to tty2 (CTRL + ALT + F2)
 Clone repository
 Execute setup.sh
+
+execute (as normal user):
+composer require "laravel/installer"
+unset SSH_ASKPASS
+
 Reboot
