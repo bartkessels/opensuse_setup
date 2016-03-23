@@ -870,18 +870,9 @@ Type=ACTION_DATA_GROUP
 Comment=
 ConditionsCount=0
 
-[Data_4_1]
-Comment=Launches KSnapShot when PrintScrn is pressed.
-Enabled=true
-Name=PrintScreen
-Type=SIMPLE_ACTION_DATA
-
 [Data_4_1Actions]
 ActionsCount=1
 
-[Data_4_1Actions0]
-CommandURL=ksnapshot
-Type=COMMAND_URL
 
 [Data_4_1Conditions]
 Comment=
