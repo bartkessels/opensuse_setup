@@ -206,12 +206,23 @@ plugin=org.kde.plasma.showActivityManager
 immutability=1
 plugin=org.kde.plasma.userswitcher
 
+[Containments][1][Applets][71][Configuration][General]
+length=38
+
+[Containments][1][Applets][72]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][1][Applets][72][Configuration][General]
+expanding=false
+length=17
+
 [Containments][1][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][1][General]
-AppletOrder=59;70;50;28;3;5;65;19;47;48
+AppletOrder=59;70;72;50;28;3;5;65;19;47;48
 
 [Containments][16]
 activityId=68760b5e-c0c6-4929-a0bd-4a3e97a5ac9e
