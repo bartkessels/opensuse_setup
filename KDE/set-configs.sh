@@ -14,6 +14,8 @@ cp -r /home/$USER/.vimrc configs/.
 
 # Remove kwallet content
 rm -rf configs/.local/share/kwalletd/*
+rm configs/.config/kwalletmanager5rc
+rm configs/.config/kwalletrc
 
 # Remove gnome keyring content
 rm -rf configs/.local/share/keyrings/*
