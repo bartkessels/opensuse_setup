@@ -93,7 +93,7 @@ printf '\n[General]\nbackground=/usr/share/d5esSs4.jpg\n\n' > /usr/share/sddm/th
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 
 # Fonts
-zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts
+zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 mkfontscale
 mkfontdir
