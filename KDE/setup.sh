@@ -46,6 +46,9 @@ zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/
 # Server
 zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
 
+# X11 utils
+zypper addrepo http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
+
 #####################################################################################
 #####################################################################################
 
@@ -223,6 +226,9 @@ zypper install supertuxkart supertux2
 
 # Other
 zypper install kaccounts-providers tuxguitar
+
+# X11
+zypper install redshift redshift-gtk
 
 #####################################################################################
 #####################################################################################
