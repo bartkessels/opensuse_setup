@@ -170,6 +170,6 @@ WindowSnapZone=10
 [org.kde.kdecoration2]
 BorderSize=Tiny
 ButtonsOnLeft=MF
-ButtonsOnRight=AISX
+ButtonsOnRight=IASX
 CloseOnDoubleClickOnMenu=true
 library=org.kde.breeze
