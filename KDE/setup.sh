@@ -210,7 +210,7 @@ rm atom.rpm
 zypper install dia umbrello meld mysql-workbench
 
 # Web
-zypper install chromium qbittorrent evolution filezilla
+zypper install chromium chromium-pepper-flash qbittorrent evolution filezilla
 
 # Office
 zypper install aspell-nl planner libreoffice-l10n-nl
