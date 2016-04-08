@@ -7,8 +7,8 @@ Height 1080=522
 Width 1920=700
 
 [KFileDialog Settings]
-Recent Files[$e]=BKarch.colors,$HOME/.kde4/share/apps/color-schemes/BKarch.colors
-Recent URLs[$e]=$HOME/.kde4/share/apps/,$HOME/.kde4/share/apps/,$HOME/.kde4/,$HOME/.kde4/share/apps/color-schemes/,$HOME/.kde4/share/apps/co/,$HOME/.kde4/share/apps/color-schemes/
+Recent Files[$e]=BKarch.colors,file:///usr/bin/redshift,file:///usr/share/WYqgUEb.jpg
+Recent URLs[$e]=file:///usr/bin/,file:///usr/share/,file://$HOME/.kde4/share/apps/,file://$HOME/.kde4/
 
 [KPropertiesDialog]
 Height 1080=446
@@ -18,11 +18,12 @@ Width 1920=412
 ShowToolTips=false
 
 [MainWindow]
-Height 1080=776
+Height 1080=669
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABKkAAALiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1193
+Width 1920=1276
+Window-Maximized 1080x1920=true
 Window-Maximized 1200x1920=true
 
 [Notification Messages]

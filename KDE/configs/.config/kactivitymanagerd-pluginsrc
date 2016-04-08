@@ -5,3 +5,6 @@ blocked-by-default=false
 keep-history-for=0
 off-the-record-activities=
 what-to-remember=2
+
+[Plugin-org.kde.ActivityManager.VirtualDesktopSwitch]
+desktop-for-68760b5e-c0c6-4929-a0bd-4a3e97a5ac9e=7
