@@ -92,6 +92,6 @@ Execute setup.sh
 
 execute (as normal user):
 composer require "laravel/installer"
-unset SSH_ASKPASS
+composer require "slim/slim-skeleton"
 
 Reboot
