@@ -228,7 +228,7 @@ zypper install supertuxkart supertux2
 zypper install kaccounts-providers tuxguitar
 
 # X11
-zypper install redshift
+zypper install redshift redshift-gtk
 
 #####################################################################################
 #####################################################################################
