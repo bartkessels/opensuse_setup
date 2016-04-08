@@ -92,6 +92,5 @@ Execute setup.sh
 
 execute (as normal user):
 composer require "laravel/installer"
-composer require "slim/slim-skeleton"
 
 Reboot

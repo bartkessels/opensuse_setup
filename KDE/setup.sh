@@ -120,6 +120,8 @@ printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 100000
 
 # Aliases
 printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
+printf '\nalias slim="composer create-project slim/slim-skeleton"' >> /home/$user_name/.bashrc
+printf '\nalias laravel="laravel new"' >> /home/$user_name/.bashrc
 
 # Export paths
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
