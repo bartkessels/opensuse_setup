@@ -272,6 +272,9 @@ sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 # Install Rails
 zypper install ruby2.1-rubygem-rails-4_2
 
+# Install bower
+npm install -g bower
+
 # Read/write access for users in htdocs
 chown -R :users /srv/www/htdocs
 chmod 777 /srv/www/htdocs
@@ -346,6 +349,9 @@ cp -r wallpapers/. /usr/share
 
 # Home folder
 chown $user_name -R /home/$user_name
+
+# Redshift
+chmod +x /home/$user_name/.config/autostart/redshift-gtk.desktop
 
 #####################################################################################
 #####################################################################################
