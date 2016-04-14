@@ -129,6 +129,10 @@ DisabledSemiTransparent=true
 DisabledValue=1
 Size=32
 
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file://$HOME/bk-cloud/Prive/Werk/RazorBit/Data/InvoicePlane/customFactuur
+
 [General]
 BrowserApplication[$e]=!firefox
 ColorScheme=Breeze_modified
@@ -179,7 +183,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=107
+Speedbar Width=129
 View Style=Simple
 listViewIconSize=0
 

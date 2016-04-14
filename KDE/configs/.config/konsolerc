@@ -2,10 +2,14 @@
 DefaultProfile=Profile #1.profile
 
 [Favorite Profiles]
-Favorites=
+Favorites=ZSH.profile
 
 [MainWindow]
-Height 1080=449
-State=AAAA/wAAAAD9AAAAAAAAA0EAAAGjAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 1080=477
+Height 1200=449
+Height 768=434
+State=AAAA/wAAAAD9AAAAAAAABEUAAAG/AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1920=833
+Width 1024=1024
+Width 1920=1093
+Window-Maximized 768x1024=true

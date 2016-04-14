@@ -2,8 +2,8 @@
 Profile=Default
 
 [PROFILE_Default]
-EmailAddress=
-FullName=
+EmailAddress=b.kessels@bk-mail.com
+FullName=Bart Kessels
 Organization=
 OutgoingServer=
 ReplyAddr=
