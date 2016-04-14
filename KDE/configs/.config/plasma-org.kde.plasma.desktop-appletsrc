@@ -63,14 +63,6 @@ hiddenApplications=org.gnome.Builder.desktop
 showRecentApps=false
 showRecentDocs=false
 
-[Containments][1][Applets][3]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][1][Applets][3][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][1][Applets][4][Configuration][General]
 launchers=file:///usr/share/applications/org.kde.kontact.desktop,file:///home/bart/.local/share/applications/org.gnome.Builder.desktop
 middleClickAction=NewInstance
@@ -79,21 +71,9 @@ showOnlyCurrentDesktop=true
 showToolTips=false
 sortingStrategy=0
 
-[Containments][1][Applets][47]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
 [Containments][1][Applets][47][Configuration][General]
 expanding=false
 length=19
-
-[Containments][1][Applets][48]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][1][Applets][48][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][Applets][48][Configuration][General]
 show_requestShutDown=false
@@ -160,17 +140,9 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][1][Applets][5][Configuration][General]
-extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.plasma.networkmanagement
-knownItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates
+extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.plasma.networkmanagement,org.kde.kdeconnect
+knownItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.kdeconnect
 shownItems=org.kde.plasma.clipboard
-
-[Containments][1][Applets][50]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][1][Applets][50][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][Applets][50][Configuration][General]
 groupingStrategy=0
@@ -179,21 +151,10 @@ showOnlyCurrentDesktop=true
 showToolTips=false
 sortingStrategy=0
 
-[Containments][1][Applets][59]
-immutability=1
-plugin=org.kde.plasma.kicker
-
-[Containments][1][Applets][59][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][1][Applets][59][Configuration][General]
 favoriteApps=preferred://browser,atom.desktop,evolution.desktop,gitg.desktop,systemsettings.desktop,org.kde.dolphin.desktop
 showRecentApps=false
 showRecentDocs=false
-
-[Containments][1][Applets][59][Shortcuts]
-global=Alt+F1
 
 [Containments][1][Applets][6][Configuration][Appearance]
 selectedTimeZones=Europe/Amsterdam
@@ -201,6 +162,10 @@ selectedTimeZones=Europe/Amsterdam
 [Containments][1][Applets][70]
 immutability=1
 plugin=org.kde.plasma.userswitcher
+
+[Containments][1][Applets][70][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][Applets][71][Configuration][General]
 length=38
@@ -217,12 +182,16 @@ length=17
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][1][Applets][84][Configuration][General]
+expanding=false
+length=14
+
 [Containments][1][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][1][General]
-AppletOrder=59;70;72;50;28;3;74;5;19;47;48
+AppletOrder=70;72;28;74;5;19
 
 [Containments][16]
 activityId=68760b5e-c0c6-4929-a0bd-4a3e97a5ac9e
@@ -243,8 +212,8 @@ showToolbox=false
 
 [Containments][16][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/d5esSs4.jpg
-height=1080
-width=1920
+height=768
+width=1024
 
 [Containments][61]
 activityId=9fc0e4fe-60b3-4c4a-bca8-dc7a871d86a1
@@ -375,7 +344,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][7][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/d5esSs4.jpg
+Image=file:///usr/share/arch_linux-wallpaper-1920x1080.jpg
 height=1080
 width=1920
 
@@ -391,6 +360,63 @@ wallpaperplugin=org.kde.image
 [Containments][76][Wallpaper][org.kde.image][General]
 height=1080
 width=1920
+
+[Containments][78]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][78][Applets][79][Configuration][General]
+favorites=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+
+[Containments][78][Applets][80]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][78][Applets][80][Configuration][General]
+favoriteApps=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+
+[Containments][78][Applets][81]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][78][Applets][81][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][78][Applets][82]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][78][Applets][82][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][78][Applets][82][Configuration][General]
+groupingStrategy=0
+middleClickAction=Close
+showOnlyCurrentDesktop=true
+showToolTips=false
+sortingStrategy=0
+
+[Containments][78][Applets][83]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][78][Applets][83][Configuration][General]
+expanding=false
+length=19
+
+[Containments][78][ConfigDialog]
+DialogHeight=84
+DialogWidth=1920
+
+[Containments][78][General]
+AppletOrder=80;83;82;81
 
 [General]
 immutability=2

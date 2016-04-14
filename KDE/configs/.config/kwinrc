@@ -24,7 +24,7 @@ Name_7=Other
 Name_8=Other
 Name_9=Other
 Number=10
-Rows=2
+Rows=1
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -45,6 +45,9 @@ TabBoxAlternative=false
 
 [Effect-Glide]
 GlideEffect=1
+
+[Effect-MouseMark]
+Color=0,0,255
 
 [Effect-PresentWindows]
 BorderActivate=9
@@ -95,6 +98,7 @@ enforcedecoEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 minimizeallEnabled=false
+mousemarkEnabled=true
 slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
