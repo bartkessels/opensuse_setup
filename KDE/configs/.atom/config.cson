@@ -1,25 +1,24 @@
 "*":
   "atom-material-ui":
-    fonts:
-      useRoboto: true
-    tabs:
-      tabMinWidth: true
-      tabSize: "Big"
+    fonts: {}
+    tabs: {}
   "autocomplete-plus":
     confirmCompletion: "tab"
+  autosave:
+    enabled: true
   core:
     audioBeep: false
     automaticallyUpdate: false
-    disabledPackages: [
-      "docblock-format-helper"
-    ]
     openEmptyEditorOnStart: false
     themes: [
       "atom-material-ui"
       "material-syntax"
     ]
-  docblockr: {}
+  docblockr:
+    param_description: false
+    return_description: false
   editor:
+    fontSize: 16
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -28,8 +27,20 @@
     tabType: "hard"
   "exception-reporting":
     userId: "91a1d891-dc5e-9ff8-c930-bea26cf503b8"
+  "file-icons":
+    coloured: false
+    onChanges: true
+    tabPaneIcon: false
+  "git-diff":
+    showIconsInEditorGutter: true
   "git-plus": {}
   "info-comment": {}
   minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
