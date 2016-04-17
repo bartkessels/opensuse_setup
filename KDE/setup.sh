@@ -272,8 +272,8 @@ sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 # Install Rails
 zypper install ruby2.1-rubygem-rails-4_2
 
-# Install bower
-npm install -g bower
+# Install packages from npm
+npm install -g bower typescript grunt-cli
 
 # Read/write access for users in htdocs
 chown -R :users /srv/www/htdocs
