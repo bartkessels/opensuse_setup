@@ -859,7 +859,7 @@ Uuid={d8094c36-6740-47d4-bd01-0243697ed8ca}
 [Data_4]
 AllowMerge=true
 Comment=This group contains actions that are set up by default.
-DataCount=1
+DataCount=0
 Enabled=true
 ImportId=printscreen
 Name=Preset Actions
@@ -869,23 +869,6 @@ Type=ACTION_DATA_GROUP
 [Data_4Conditions]
 Comment=
 ConditionsCount=0
-
-[Data_4_1Actions]
-ActionsCount=1
-
-
-[Data_4_1Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_1Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_1Triggers0]
-Key=Print
-Type=SHORTCUT
-Uuid={dc774cfd-7450-472b-95bc-a286a607c75b}
 
 [Data_5]
 Comment=Opens Konsole
@@ -1054,6 +1037,9 @@ Timeout=300
 [GesturesExclude]
 Comment=
 WindowsCount=0
+
+[Icons]
+Theme[$d]
 
 [KDE]
 ChangeCursor[$d]

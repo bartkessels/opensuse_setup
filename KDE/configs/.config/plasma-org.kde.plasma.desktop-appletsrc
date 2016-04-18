@@ -186,12 +186,34 @@ plugin=org.kde.plasma.clipboard
 expanding=false
 length=14
 
+[Containments][1][Applets][86][Configuration][General]
+favorites=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+
+[Containments][1][Applets][87]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][1][Applets][87][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][1][Applets][87][Configuration][General]
+favoriteApps=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+showRecentApps=false
+showRecentDocs=false
+
+[Containments][1][Applets][87][Shortcuts]
+global=Alt+F1
+
+[Containments][1][Applets][88][Configuration][General]
+show_lockScreen=false
+
 [Containments][1][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][1][General]
-AppletOrder=70;72;28;74;5;19
+AppletOrder=87;70;72;28;74;5;19
 
 [Containments][16]
 activityId=68760b5e-c0c6-4929-a0bd-4a3e97a5ac9e
@@ -212,8 +234,8 @@ showToolbox=false
 
 [Containments][16][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/d5esSs4.jpg
-height=768
-width=1024
+height=1080
+width=1920
 
 [Containments][61]
 activityId=9fc0e4fe-60b3-4c4a-bca8-dc7a871d86a1
@@ -373,12 +395,11 @@ wallpaperplugin=org.kde.image
 [Containments][78][Applets][79][Configuration][General]
 favorites=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
 
-[Containments][78][Applets][80]
-immutability=1
-plugin=org.kde.plasma.kicker
-
 [Containments][78][Applets][80][Configuration][General]
 favoriteApps=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+showRecentApps=false
+showRecentDocs=false
+useExtraRunners=false
 
 [Containments][78][Applets][81]
 immutability=1
@@ -403,10 +424,6 @@ showOnlyCurrentDesktop=true
 showToolTips=false
 sortingStrategy=0
 
-[Containments][78][Applets][83]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
 [Containments][78][Applets][83][Configuration][General]
 expanding=false
 length=19
@@ -416,7 +433,7 @@ DialogHeight=84
 DialogWidth=1920
 
 [Containments][78][General]
-AppletOrder=80;83;82;81
+AppletOrder=82;81
 
 [General]
 immutability=2
