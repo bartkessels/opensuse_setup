@@ -17,11 +17,14 @@ AppletOrder=46
 [Containments][59][General]
 AppletOrder=60
 
+[Containments][90][General]
+AppletOrder=91;92;94;95
+
 [General]
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=arch_linux-wallpaper-1920x1080.jpg,file:///usr/share/WYqgUEb.jpg,file:///usr/share/pRGZi2M.jpg,file:///usr/share/p8d4ols.jpg,file:///usr/share/LTjkixq.jpg,file:///usr/share/jRr5Rbx.jpg,file:///usr/share/h7B55TS.jpg,file:///usr/share/gIE3vSu.jpg,file:///usr/share/fqopF9w.jpg,file:///usr/share/E19JYut.jpg,file:///usr/share/DanceOfTheSpirits.jpg,file:///usr/share/d5esSs4.jpg,file:///usr/share/a5UdRjt.jpg
+Recent Files[$e]=arch_linux-wallpaper-1920x1080.jpg,file:///usr/share/h7B55TS.jpg,file:///usr/share/p8d4ols.jpg,file:///usr/share/DanceOfTheSpirits.jpg,file:///usr/share/arch_linux-wallpaper-1920x1080.jpg
 Recent URLs[$e]=file:///usr/share/,file:///usr/share/,file://$HOME/Pictures/
 
 [KPropertiesDialog]
@@ -29,7 +32,7 @@ Height 1080=446
 Width 1920=412
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.gnome.Nautilus.desktop,1 baloosearch_/home/bart/bkarch/Kde/skel/instellingen.txt,1 services_powerdevilglobalconfig.desktop,1 services_systemsettings.desktop,1 services_writer.desktop,1 services_YaST.desktop
+LaunchCounts=1 baloosearch_/home/bart/bkarch/Kde/skel/instellingen.txt,1 services_systemsettings.desktop,1 services_org.gnome.Nautilus.desktop,1 services_chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop,1 services_org.kde.kate.desktop,1 services_YaST.desktop,1 services_writer.desktop,3 services_chromium-browser.desktop,1 services_powerdevilglobalconfig.desktop
 pluginWhiteList=services
 
 [PlasmaViews][Panel 1][Horizontal1920]

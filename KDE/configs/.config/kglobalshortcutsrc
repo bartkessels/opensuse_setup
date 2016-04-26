@@ -33,6 +33,12 @@ stop=,Media Stop,Stop
 stop_after_current=Meta+Shift+V,Meta+Shift+V,Stop after current Track
 toggleMainWindow=none,none,Toggle Main Window
 
+[choqok]
+_k_friendly_name=choqok
+choqok_new_post=Meta+Ctrl+T,Meta+Ctrl+T,Quick Post
+toggle_mainwin=Meta+Ctrl+C,Meta+Ctrl+C,
+update_timeline=Meta+Ctrl+F5,Meta+Ctrl+F5,Update Timelines
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=kaccess
@@ -70,6 +76,11 @@ _k_friendly_name=Audio Volume
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
 mute=Volume Mute,Volume Mute,Mute
+
+[konversation]
+_k_friendly_name=konversation
+next_active_tab=none,none,Next Active Tab
+toggle_mainwindow_visibility=none,none,Show/Hide Konversation
 
 [kopete]
 ReadMessage=Ctrl+Shift+I,Ctrl+Shift+I,Read Message
