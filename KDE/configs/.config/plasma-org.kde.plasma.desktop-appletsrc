@@ -228,12 +228,9 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][107][Applets][108]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
 [Containments][107][Applets][108][Configuration][General]
 favorites=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+showAppsByName=true
 
 [Containments][107][Applets][109]
 immutability=1
@@ -311,12 +308,25 @@ plugin=org.kde.plasma.panelspacer
 [Containments][107][Applets][123][Configuration][General]
 length=1449
 
+[Containments][107][Applets][129]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][107][Applets][129][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][107][Applets][129][Configuration][General]
+favoriteApps=preferred://browser,kde4-Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+showRecentApps=false
+showRecentDocs=false
+
 [Containments][107][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][107][General]
-AppletOrder=108;109;123;110;122
+AppletOrder=129;108;109;123;110;122
 
 [Containments][124]
 activityId=
@@ -342,6 +352,10 @@ showOnlyCurrentScreen=true
 [Containments][124][Applets][126]
 immutability=1
 plugin=org.kde.plasma.pager
+
+[Containments][124][Applets][126][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][124][ConfigDialog]
 DialogHeight=84
@@ -575,4 +589,4 @@ AppletOrder=82;81
 AppletOrder=91;92;94;95
 
 [General]
-immutability=1
+immutability=2
