@@ -124,9 +124,6 @@ chown $user_name /home/$user_name/.config/kdesurc
 printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
 printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
 
-# Disable akonadi start on boot
-sed -i 's|StartServer=true|StartServer=false|g' /home/$user_name/.config/akonadi/akonadiserverrc
-
 # Aliases
 printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
 printf '\nalias slim="composer create-project slim/slim-skeleton"' >> /home/$user_name/.bashrc
