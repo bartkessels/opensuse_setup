@@ -198,7 +198,7 @@ zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake
 zypper install kile
 
 # Audio
-zypper install clementine audacity ardour
+zypper install clementine audacity ardour calf
 
 # Image
 zypper install calligra-krita gimp kdegraphics-thumbnailers
