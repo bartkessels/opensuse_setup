@@ -198,7 +198,7 @@ zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake
 zypper install kile
 
 # Audio
-zypper install clementine audacity ardour calf
+zypper install clementine audacity ardour calf lv2-calf ladspa
 
 # Image
 zypper install calligra-krita gimp kdegraphics-thumbnailers
@@ -215,7 +215,7 @@ zypper install atom.rpm
 rm atom.rpm
 
 # Development extra
-zypper install dia umbrello meld mysql-workbench
+zypper install dia umbrello meld mysql-workbench sqlitebrowser
 
 # Web
 zypper install chromium chromium-pepper-flash qbittorrent evolution filezilla
@@ -233,7 +233,7 @@ zypper install kmymoney
 zypper install supertuxkart supertux2
 
 # Other
-zypper install kaccounts-providers tuxguitar
+zypper install kaccounts-providers tuxguitar youtube-dl
 
 # X11
 zypper install redshift redshift-gtk
@@ -246,8 +246,8 @@ zypper install redshift redshift-gtk
 #####################################################################################
 #####################################################################################
 
-# Set up mysql
-zypper install -f mariadb
+# Set up database
+zypper install -f mariadb sqlite3
 chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
@@ -277,7 +277,10 @@ sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 
 # Install Rails
-zypper install ruby2.1-rubygem-rails-4_2
+zypper install ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
+
+# Install gems
+gem install rails-api
 
 # Install packages from npm
 npm install -g bower typescript grunt-cli
