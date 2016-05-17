@@ -263,6 +263,7 @@ zypper install php7 php5-ZendFramework php-composer
 
 # Install laravel installer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
+composer global require --working-dir=/home/$user_name/.composer "laravel/lumen-installer"
 
 # Allow url rewriting
 sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
