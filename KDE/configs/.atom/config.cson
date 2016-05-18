@@ -9,6 +9,10 @@
   core:
     audioBeep: false
     automaticallyUpdate: false
+    disabledPackages: [
+      "docblock-format-helper"
+      "metrics"
+    ]
     openEmptyEditorOnStart: false
     themes: [
       "atom-material-ui"
@@ -31,16 +35,27 @@
     coloured: false
     onChanges: true
     tabPaneIcon: false
-  "git-diff":
-    showIconsInEditorGutter: true
   "git-plus": {}
   "info-comment": {}
   minimap: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnlyLines: true
+    removeTrailingWhitespace: false
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".erb.html.text":
+  editor:
+    tabLength: 2
+".html.ruby.text":
+  editor:
+    tabLength: 2
+".js.rails.source source.jquery.js":
+  editor:
+    tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2

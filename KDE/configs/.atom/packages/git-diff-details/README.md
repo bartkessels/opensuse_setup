@@ -1,4 +1,4 @@
-# git-diff-details package
+# Git Diff Details package
 
 View git diffs directly in atom.
 
@@ -8,4 +8,10 @@ Keybindings:
   * `alt-u` for undo
   * `alt-c` for copy
 
-![git-diff-details](https://github.com/samu/git-diff-details/blob/master/demo.png?raw=true)
+![git-diff-details](https://github.com/samu/git-diff-details/blob/master/demo.gif?raw=true)
+
+## TODOs
+
+- [ ] Tests!
+- [x] Clean up deprecated api calls
+- [x] Configuration options

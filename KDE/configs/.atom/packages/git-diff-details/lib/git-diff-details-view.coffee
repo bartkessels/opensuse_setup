@@ -1,6 +1,6 @@
 {View} = require 'atom-space-pen-views'
 {Range, Point} = require 'atom'
-_ = require 'underscore-plus'
+Highlights = require 'highlights'
 DiffDetailsDataManager = require './data-manager'
 Housekeeping = require './housekeeping'
 
@@ -11,6 +11,9 @@ module.exports = class AtomGitDiffDetailsView extends View
     @div class: "git-diff-details-outer", =>
       @div class: "git-diff-details-main-panel", outlet: "mainPanel", =>
         @div class: "editor git-diff-editor", outlet: "contents"
+      @div class: "git-diff-details-button-panel", outlet: "buttonPanel", =>
+        @button class: 'btn btn-primary inline-block-tight', click: "copy", 'Copy'
+        @button class: 'btn btn-error inline-block-tight', click: "undo", 'Undo'
 
   initialize: (@editor) ->
     @editorView = atom.views.getView(@editor)
@@ -18,6 +21,7 @@ module.exports = class AtomGitDiffDetailsView extends View
     @initializeHousekeeping()
     @preventFocusOut()
 
+    @highlighter = new Highlights()
     @diffDetailsDataManager = new DiffDetailsDataManager()
 
     @showDiffDetails = false
@@ -26,6 +30,9 @@ module.exports = class AtomGitDiffDetailsView extends View
     @updateCurrentRow()
 
   preventFocusOut: ->
+    @buttonPanel.on 'mousedown', () ->
+      false
+
     @mainPanel.on 'mousedown', () ->
       false
 
@@ -76,35 +83,30 @@ module.exports = class AtomGitDiffDetailsView extends View
 
     if selectedHunk? and buffer = @editor.getBuffer()
       if selectedHunk.kind is "m"
-        buffer.setTextInRange([[selectedHunk.start - 1, 0], [selectedHunk.end, 0]], selectedHunk.oldString)
+        buffer.deleteRows(selectedHunk.start - 1, selectedHunk.end - 1)
+        buffer.insert([selectedHunk.start - 1, 0], selectedHunk.oldString)
       else
         buffer.insert([selectedHunk.start, 0], selectedHunk.oldString)
       @closeDiffDetails() unless atom.config.get('git-diff-details.keepViewToggled')
 
   destroyDecoration: ->
-    @oldLinesMarker?.destroy()
-    @oldLinesMarker = null
-    @newLinesMarker?.destroy()
-    @newLinesMarker = null
+    @marker?.destroy()
+    @marker = null
 
-  attach: (selectedHunk) ->
+  attach: (position) ->
     @destroyDecoration()
-    range = new Range(new Point(selectedHunk.end - 1, 0), new Point(selectedHunk.end - 1, 0))
-    @oldLinesMarker = @editor.markBufferRange(range)
-    @editor.decorateMarker @oldLinesMarker,
-      type: 'block'
-      position: 'after'
+    range = new Range(new Point(position - 1, 0), new Point(position - 1, 0))
+    @marker = @editor.markBufferRange(range)
+    @editor.decorateMarker @marker,
+      type: 'overlay'
       item: this
 
-    unless selectedHunk.kind is "d"
-      range = new Range(new Point(selectedHunk.start - 1, 0), new Point(selectedHunk.end, 0))
-      @newLinesMarker = @editor.markBufferRange(range)
-      @editor.decorateMarker(@newLinesMarker, type: 'line', class: "git-diff-details-new")
-
   populate: (selectedHunk) ->
-    html = _.escape(selectedHunk.oldString).split(/\r\n?|\n/g)
-                                           .map((line) -> line.replace(/\s/g, '&nbsp;'))
-                                           .map((line) -> "<div class='line git-diff-details-old'>#{line}</div>")
+    html = @highlighter.highlightSync
+      filePath: @editor.getPath()
+      fileContents: selectedHunk.oldString
+
+    html = html.replace('<pre class="editor editor-colors">', '').replace('</pre>', '')
     @contents.html(html)
 
   updateDiffDetailsDisplay: ->
@@ -113,7 +115,7 @@ module.exports = class AtomGitDiffDetailsView extends View
 
       if selectedHunk?
         return unless isDifferent
-        @attach(selectedHunk)
+        @attach(selectedHunk.end)
         @populate(selectedHunk)
         return
       else
