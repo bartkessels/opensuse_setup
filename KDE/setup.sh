@@ -281,7 +281,7 @@ sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 zypper install ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
 
 # Install gems
-gem install rails-api
+gem install rails-api rdoc
 
 # Install packages from npm
 npm install -g bower typescript grunt-cli
