@@ -47,6 +47,9 @@ zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/
 zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
 zypper addrepo http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications
 
+# Editors
+zypper addrepo http://download.opensuse.org/repositories/editors/$os_version/ editors
+
 # X11 utils
 zypper addrepo http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
@@ -192,7 +195,7 @@ zypper remove -u openssh-askpass
 #####################################################################################
 
 # Utilities
-zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake
+zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter
 
 # LaTex
 zypper install kile

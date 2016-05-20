@@ -10,7 +10,7 @@ Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=KDE Daemon
 
 [amarok]
-_k_friendly_name=amarok
+_k_friendly_name=Amarok
 decreaseVolume=,Meta+-,Decrease Volume
 increaseVolume=Meta++,Meta++,Increase Volume
 loveTrack=Meta+L,Meta+L,Last.fm: Love Current Track
@@ -64,6 +64,7 @@ display=Display,Display,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
+{2d441962-996a-47aa-a4fa-a5f2bde19014}=Ctrl+Alt+N,none,Ghostwriter
 {36e5f09a-b2b0-4525-86ce-b023f1b023b1}=,none,Start Screenshot Tool
 {79ac2489-3305-44a9-a349-51592467a5ee}=Ctrl+Alt+E,none,Dolphin
 {7c450693-aff7-4a53-a131-fd14559b1520}=Meta+Print,none,Take Active Window Screenshot
@@ -261,7 +262,7 @@ view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
-_k_friendly_name=mediacontrol
+_k_friendly_name=Media Controller
 nextmedia=Media Next,Media Next,Media playback next
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
@@ -269,7 +270,6 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate widget 129=none,none,Activate Application Menu Widget
 activate widget 87=Alt+F1,none,Activate Application Menu Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
