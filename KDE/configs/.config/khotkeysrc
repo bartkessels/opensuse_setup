@@ -1,5 +1,5 @@
 [Data]
-DataCount=8
+DataCount=9
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -1047,6 +1047,32 @@ TriggersCount=1
 Key=Ctrl+Alt+N
 Type=SHORTCUT
 Uuid={2d441962-996a-47aa-a4fa-a5f2bde19014}
+
+[Data_9]
+Comment=Open password manager
+Enabled=true
+Name=Keepassx
+Type=SIMPLE_ACTION_DATA
+
+[Data_9Actions]
+ActionsCount=1
+
+[Data_9Actions0]
+CommandURL=keepassx
+Type=COMMAND_URL
+
+[Data_9Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_9Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_9Triggers0]
+Key=Ctrl+Alt+P
+Type=SHORTCUT
+Uuid={2e1421e5-5f67-4ea9-b583-49a218606f98}
 
 [Directories]
 dir_pixmap[$d]

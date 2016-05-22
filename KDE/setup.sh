@@ -238,6 +238,9 @@ zypper install supertuxkart supertux2
 # Other
 zypper install kaccounts-providers tuxguitar youtube-dl
 
+# Password manager
+zypper install keepassx
+
 # X11
 zypper install redshift redshift-gtk
 

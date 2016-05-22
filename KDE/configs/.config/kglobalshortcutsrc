@@ -65,6 +65,7 @@ display=Display,Display,Switch Display
 [khotkeys]
 _k_friendly_name=KDE Daemon
 {2d441962-996a-47aa-a4fa-a5f2bde19014}=Ctrl+Alt+N,none,Ghostwriter
+{2e1421e5-5f67-4ea9-b583-49a218606f98}=Ctrl+Alt+P,none,Keepassx
 {36e5f09a-b2b0-4525-86ce-b023f1b023b1}=,none,Start Screenshot Tool
 {79ac2489-3305-44a9-a349-51592467a5ee}=Ctrl+Alt+E,none,Dolphin
 {7c450693-aff7-4a53-a131-fd14559b1520}=Meta+Print,none,Take Active Window Screenshot
@@ -270,6 +271,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [plasmashell]
 _k_friendly_name=Plasma
+activate widget 129=none,none,Activate Application Menu Widget
 activate widget 87=Alt+F1,none,Activate Application Menu Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
