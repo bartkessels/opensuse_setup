@@ -136,9 +136,6 @@ printf '\nalias laravel="laravel new"' >> /home/$user_name/.bashrc
 printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
 
-# Unset items
-printf '\nunset SSH_ASKPASS' >> /home/$user_name/.bashrc
-
 #####################################################################################
 #####################################################################################
 
@@ -174,17 +171,6 @@ usermod -a -G wheel $user_name
 # Make KDESU authenticate with sudo $USER instead of root
 printf '[super-user-command]\nsuper-user-command=sudo' > /etc/skel/.config/kdesurc
 printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
-
-#####################################################################################
-#####################################################################################
-
-#		REMOVE SOFTWARE
-
-#####################################################################################
-#####################################################################################
-
-# Openssh askpass
-zypper remove -u openssh-askpass
 
 #####################################################################################
 #####################################################################################
@@ -239,7 +225,7 @@ zypper install supertuxkart supertux2
 zypper install kaccounts-providers tuxguitar youtube-dl
 
 # Password manager
-zypper install keepassx
+zypper install keepassx ksshaskpass5
 
 # X11
 zypper install redshift redshift-gtk
