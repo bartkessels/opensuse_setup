@@ -7,7 +7,7 @@ switch-to-activity-da1d0bc3-94f5-45f8-9c4f-d788895a54e1=none,none,
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
-_k_friendly_name=KDE Daemon
+_k_friendly_name=KDE Control Module
 
 [amarok]
 _k_friendly_name=Amarok
