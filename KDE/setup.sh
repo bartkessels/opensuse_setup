@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #####################################################################################
 #####################################################################################
 
@@ -54,7 +56,7 @@ zypper addrepo http://download.opensuse.org/repositories/editors/$os_version/ ed
 zypper addrepo http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
 # Refresh REPO list
-printf '\n\nPlease enter the "a" key to add the REPO\n'
+printf '\n\nPlease enter the "a" key to add the REPOs\n'
 zypper refresh
 
 #####################################################################################
@@ -111,10 +113,14 @@ mkfontscale
 mkfontdir
 
 # Settings
-zypper install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE gnome-control-center kcm_systemd
+zypper install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE kcm_systemd
 
 # Codecs
 zypper install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2
+
+# ZSH
+zypper install zsh
+usermod -s /bin/zsh $user_name
 
 # Remove gstreamer
 zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer
@@ -196,7 +202,7 @@ zypper install calligra-krita gimp kdegraphics-thumbnailers
 zypper install blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
-zypper install tmux vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
+zypper install vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
@@ -205,6 +211,13 @@ rm atom.rpm
 
 # Development extra
 zypper install dia umbrello meld mysql-workbench sqlitebrowser
+
+# Shell
+zypper install tmux docker-zsh-completion
+
+# Oh-my-zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git /home/$user_name/.oh-my-zsh
+chown -R $user_name:users /home/$user_name/.oh-my-zsh
 
 # Web
 zypper install chromium chromium-pepper-flash qbittorrent evolution filezilla
@@ -352,7 +365,7 @@ cp -r wallpapers/. /usr/share
 #####################################################################################
 
 # Home folder
-chown $user_name -R /home/$user_name
+chown $user_name:users -R /home/$user_name
 
 # Redshift
 chmod +x /home/$user_name/.config/autostart/redshift-gtk.desktop
