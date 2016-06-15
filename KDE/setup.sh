@@ -187,7 +187,7 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # Utilities
-zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter
+zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter kdeconnect-kde
 
 # LaTex
 zypper install kile
