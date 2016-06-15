@@ -241,7 +241,7 @@ zypper install kaccounts-providers tuxguitar youtube-dl
 zypper install keepassx ksshaskpass5
 
 # X11
-zypper install redshift redshift-gtk
+zypper install redshift
 
 #####################################################################################
 #####################################################################################
