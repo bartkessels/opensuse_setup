@@ -1,2 +1,0 @@
-OpenJDK location:
-/usr/lib64/jvm/java-1.7.0-openjdk-1.7.0

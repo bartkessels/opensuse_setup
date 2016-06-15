@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="main_window_maximized" mtime="1454704878" type="bool" value="true"/>
-	<entry name="active_view" mtime="1454704866" type="string">
-		<stringvalue>gantt_view</stringvalue>
-	</entry>
-</gconf>

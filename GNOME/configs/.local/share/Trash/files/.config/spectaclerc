@@ -1,7 +1,0 @@
-[GuiConfig]
-captureModeIndex=4
-includeDecorations=false
-includePointer=false
-transientOnly=false
-waitCaptureOnClick=false
-window-position=269,126
