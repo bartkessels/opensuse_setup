@@ -1,3 +1,61 @@
-2016/03/18-19:25:25.946 6618 Reusing MANIFEST /home/bart/.config/chromium/Default/Session Storage/MANIFEST-000001
-2016/03/18-19:25:25.946 6618 Recovering log #3
-2016/03/18-19:25:25.970 6618 Reusing old log /home/bart/.config/chromium/Default/Session Storage/000003.log 
+2016/06/15-19:38:43.090 6309 Reusing MANIFEST /home/bart/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/06/15-19:38:43.090 6309 Recovering log #3
+2016/06/15-19:38:43.095 6309 Level-0 table #3: started
+2016/06/15-19:38:43.173 6309 Level-0 table #3: 47004 bytes OK
+2016/06/15-19:38:43.173 6309 Level-0 table #4: started
+2016/06/15-19:38:43.217 6309 Level-0 table #4: 42558 bytes OK
+2016/06/15-19:38:43.218 6309 Level-0 table #5: started
+2016/06/15-19:38:43.283 6309 Level-0 table #5: 119846 bytes OK
+2016/06/15-19:38:43.284 6309 Level-0 table #6: started
+2016/06/15-19:38:43.317 6309 Level-0 table #6: 86187 bytes OK
+2016/06/15-19:38:43.317 6309 Level-0 table #7: started
+2016/06/15-19:38:43.361 6309 Level-0 table #7: 46615 bytes OK
+2016/06/15-19:38:43.361 6309 Level-0 table #8: started
+2016/06/15-19:38:43.394 6309 Level-0 table #8: 46634 bytes OK
+2016/06/15-19:38:43.395 6309 Level-0 table #9: started
+2016/06/15-19:38:43.427 6309 Level-0 table #9: 82171 bytes OK
+2016/06/15-19:38:43.428 6309 Level-0 table #10: started
+2016/06/15-19:38:43.472 6309 Level-0 table #10: 35258 bytes OK
+2016/06/15-19:38:43.472 6309 Level-0 table #11: started
+2016/06/15-19:38:43.505 6309 Level-0 table #11: 26563 bytes OK
+2016/06/15-19:38:43.505 6309 Level-0 table #12: started
+2016/06/15-19:38:43.549 6309 Level-0 table #12: 62034 bytes OK
+2016/06/15-19:38:43.550 6309 Level-0 table #13: started
+2016/06/15-19:38:43.594 6309 Level-0 table #13: 35235 bytes OK
+2016/06/15-19:38:43.594 6309 Level-0 table #14: started
+2016/06/15-19:38:43.638 6309 Level-0 table #14: 27174 bytes OK
+2016/06/15-19:38:43.638 6309 Level-0 table #15: started
+2016/06/15-19:38:43.682 6309 Level-0 table #15: 50694 bytes OK
+2016/06/15-19:38:43.683 6309 Level-0 table #16: started
+2016/06/15-19:38:43.716 6309 Level-0 table #16: 50205 bytes OK
+2016/06/15-19:38:43.716 6309 Level-0 table #17: started
+2016/06/15-19:38:43.749 6309 Level-0 table #17: 48350 bytes OK
+2016/06/15-19:38:43.749 6309 Level-0 table #18: started
+2016/06/15-19:38:43.782 6309 Level-0 table #18: 27057 bytes OK
+2016/06/15-19:38:43.782 6309 Level-0 table #19: started
+2016/06/15-19:38:43.815 6309 Level-0 table #19: 864 bytes OK
+2016/06/15-19:38:43.849 6309 Delete type=0 #3
+2016/06/15-19:38:43.849 6417 Compacting 17@0 + 0@1 files
+2016/06/15-19:38:43.882 6417 Generated table #21@0: 2 keys, 145 bytes
+2016/06/15-19:38:43.882 6417 Compacted 17@0 + 0@1 files => 145 bytes
+2016/06/15-19:38:43.915 6417 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/06/15-19:38:43.915 6417 Delete type=2 #3
+2016/06/15-19:38:43.915 6417 Delete type=2 #4
+2016/06/15-19:38:43.916 6417 Delete type=2 #5
+2016/06/15-19:38:43.916 6417 Delete type=2 #6
+2016/06/15-19:38:43.916 6417 Delete type=2 #7
+2016/06/15-19:38:43.916 6417 Delete type=2 #8
+2016/06/15-19:38:43.916 6417 Delete type=2 #9
+2016/06/15-19:38:43.916 6417 Delete type=2 #10
+2016/06/15-19:38:43.916 6417 Delete type=2 #11
+2016/06/15-19:38:43.916 6417 Delete type=2 #12
+2016/06/15-19:38:43.916 6417 Delete type=2 #13
+2016/06/15-19:38:43.916 6417 Delete type=2 #14
+2016/06/15-19:38:43.916 6417 Delete type=2 #15
+2016/06/15-19:38:43.916 6417 Delete type=2 #16
+2016/06/15-19:38:43.916 6417 Delete type=2 #17
+2016/06/15-19:38:43.916 6417 Delete type=2 #18
+2016/06/15-19:38:43.916 6417 Delete type=2 #19
+2016/06/15-19:42:25.966 6417 Level-0 table #23: started
+2016/06/15-19:42:26.021 6417 Level-0 table #23: 48502 bytes OK
+2016/06/15-19:42:26.088 6417 Delete type=0 #20
