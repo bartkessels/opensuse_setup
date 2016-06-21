@@ -74,20 +74,44 @@ rm -r /home/$user_name/bin
 mkdir -p /home/$user_name/bk-cloud
 mkdir -p /home/$user_name/Desktop
 mkdir -p /home/$user_name/Downloads
-mkdir -p /home/$user_name/Documents
-mkdir -p /home/$user_name/Music
-mkdir -p /home/$user_name/Pictures
+# mkdir -p /home/$user_name/Documents
+mkdir -p /home/$user_name/Git-projects
+# mkdir -p /home/$user_name/Music
+# mkdir -p /home/$user_name/Pictures
 mkdir -p /home/$user_name/public_html
-mkdir -p /home/$user_name/Videos
+# mkdir -p /home/$user_name/Videos
 
 # Create folders inside /etc/skel dir
 mkdir -p /etc/skel/Desktop
 mkdir -p /etc/skel/Downloads
 mkdir -p /etc/skel/Documents
+mkdir -p /etc/skel/Git-projects
 mkdir -p /etc/skel/Music
 mkdir -p /etc/skel/Pictures
 mkdir -p /etc/skel/public_html
 mkdir -p /etc/skel/Videos
+
+#####################################################################################
+#####################################################################################
+
+#		CREATE DEFAULT SYMLINKS
+
+#####################################################################################
+#####################################################################################
+
+# Default folders
+ln -sf /home/$user_name/bk-cloud/Documents /home/$user_name/Documents
+ln -sf /home/$user_name/bk-cloud/Muziek /home/$user_name/Music
+ln -sf /home/$user_name/bk-cloud/Afbeeldingen /home/$user_name/Pictures
+ln -sf /home/$user_name/bk-cloud/Videos /home/$user_name/Videos
+
+# Other folders
+ln -sf /home/$user_name/bk-cloud/School /home/$user_name/School
+ln -sf /home/$user_name/bk-cloud/Notities /home/$user_name/Notes
+ln -sf /home/$user_name/bk-cloud/Prive/Tabs /home/$user_name/Tabs
+ln -sf /home/$user_name/bk-cloud/Backups /home/$user_name/Backups
+ln -sf /home/$user_name/bk-cloud/Boeken /home/$user_name/Books
+ln -sf /home/$user_name/bk-cloud/Prive /home/$user_name/Other
 
 #####################################################################################
 #####################################################################################
