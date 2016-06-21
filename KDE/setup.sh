@@ -109,8 +109,6 @@ printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 # Fonts
 zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
-mkfontscale
-mkfontdir
 
 # Settings
 zypper install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE kcm_systemd
