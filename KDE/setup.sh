@@ -9,7 +9,7 @@
 #####################################################################################
 
 # Username
-user_name=$USER
+user_name='bart'
 
 # Full name
 full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
