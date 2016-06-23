@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=application-x-shellscript
-Name=set-configs.sh
-Type=Link
-URL[$e]=file://$HOME/opensuse_setup/KDE/set-configs.sh
-X-KDE-LastOpenedWith=org.kde.kate

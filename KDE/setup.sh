@@ -242,10 +242,10 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git /home/$user_name/.oh-my-
 chown -R $user_name:users /home/$user_name/.oh-my-zsh
 
 # Web
-zypper install chromium chromium-pepper-flash qbittorrent evolution filezilla
+zypper install chromium chromium-pepper-flash qbittorrent filezilla
 
 # Office
-zypper install aspell-nl planner libreoffice-l10n-nl
+zypper install aspell-nl libreoffice-l10n-nl
 
 # Virtualization
 zypper install virtualbox docker
