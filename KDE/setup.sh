@@ -9,7 +9,7 @@
 #####################################################################################
 
 # Username
-user_name='bart'
+user_name=$USER
 
 # Full name
 full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
@@ -56,8 +56,7 @@ zypper addrepo http://download.opensuse.org/repositories/editors/$os_version/ ed
 zypper addrepo http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
 # Refresh REPO list
-printf '\n\nPlease enter the "a" key to add the REPOs\n'
-zypper refresh
+zypper --gpg-auto-import-keys refresh
 
 #####################################################################################
 #####################################################################################
@@ -73,6 +72,7 @@ rm -r /home/$user_name/bin
 # Create folders inside home dir
 mkdir -p /home/$user_name/bk-cloud
 mkdir -p /home/$user_name/Desktop
+mkdir -p /home/$user_name/.development/docker-instances
 mkdir -p /home/$user_name/Downloads
 # mkdir -p /home/$user_name/Documents
 mkdir -p /home/$user_name/Git-projects
@@ -156,13 +156,14 @@ printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >
 printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
 
 # Aliases
-printf '\nalias zf=zf.sh' >> /home/$user_name/.bashrc
-printf '\nalias slim="composer create-project slim/slim-skeleton"' >> /home/$user_name/.bashrc
-printf '\nalias laravel="laravel new"' >> /home/$user_name/.bashrc
+printf '\nalias zf=zf.sh' >> /home/$user_name/.zshrc
+printf '\nalias slim="composer create-project slim/slim-skeleton"' >> /home/$user_name/.zshrc
+printf '\nalias laravel="laravel new"' >> /home/$user_name/.zshrc
 
 # Export paths
-printf '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> /home/$user_name/.bashrc
-printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.bashrc
+printf '\nexport PATH="$HOME/.composer/vendor/bin:$PATH"' >> /home/$user_name/.zshrc
+printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.zshrc
+printf '\nexport PATH="$HOME/.development/docker-instances:$PATH"' >> /home/$user_name/.zshrc
 
 #####################################################################################
 #####################################################################################
@@ -321,7 +322,7 @@ chown -R $user_name /home/$user_name/public_html
 #####################################################################################
 #####################################################################################
 
-#		COPY DOCKER FILES
+#		DOCKER
 
 #####################################################################################
 #####################################################################################
@@ -332,6 +333,9 @@ mkdir -p /home/$user_name/docker-files
 # Copy docker files
 cp -r dockerfiles/* /home/$user_name/docker-files/.
 
+# Build docker images
+docker build -t ubuntu_laravel /home/$user_name/docker-files/lamp/.
+
 #####################################################################################
 #####################################################################################
 
@@ -341,10 +345,10 @@ cp -r dockerfiles/* /home/$user_name/docker-files/.
 #####################################################################################
 
 # Apache
-systemctl enable apache2
+#systemctl enable apache2
 
 # Mysql
-systemctl enable mysql
+#systemctl enable mysql
 
 # Docker
 systemctl enable docker
@@ -388,9 +392,6 @@ cp -r wallpapers/. /usr/share
 
 # Home folder
 chown $user_name:users -R /home/$user_name
-
-# Redshift
-chmod +x /home/$user_name/.config/autostart/redshift-gtk.desktop
 
 #####################################################################################
 #####################################################################################
