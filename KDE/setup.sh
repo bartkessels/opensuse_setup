@@ -100,7 +100,7 @@ mkdir -p /etc/skel/Videos
 #####################################################################################
 
 # Default folders
-ln -sf /home/$user_name/bk-cloud/Documents /home/$user_name/Documents
+ln -sf /home/$user_name/bk-cloud/Documenten /home/$user_name/Documents
 ln -sf /home/$user_name/bk-cloud/Muziek /home/$user_name/Music
 ln -sf /home/$user_name/bk-cloud/Afbeeldingen /home/$user_name/Pictures
 ln -sf /home/$user_name/bk-cloud/Videos /home/$user_name/Videos
