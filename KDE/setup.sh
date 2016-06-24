@@ -263,7 +263,7 @@ zypper in redshift
 #####################################################################################
 
 # Set up database
-zypper in -f mariadb sqlite3
+zypper in -f mariadb sqlite3 sqlite-devel
 chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
