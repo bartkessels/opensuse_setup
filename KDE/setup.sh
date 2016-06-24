@@ -26,37 +26,37 @@ os_version='openSUSE_Leap_42.1'
 #####################################################################################
 
 # Multimedia
-zypper addrepo http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
-zypper addrepo http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
+zypper ar http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
+zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
 
 # Network
-zypper addrepo http://download.opensuse.org/repositories/network/$os_version/ network
+zypper ar http://download.opensuse.org/repositories/network/$os_version/ network
 
 # Games
-zypper addrepo http://download.opensuse.org/repositories/games/$os_version/ games
-zypper addrepo http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
+zypper ar http://download.opensuse.org/repositories/games/$os_version/ games
+zypper ar http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
 
 # Packman
-zypper addrepo http://packman.inode.at/suse/$os_version/ packman
+zypper ar http://packman.inode.at/suse/$os_version/ packman
 
 # Education
-zypper addrepo http://download.opensuse.org/repositories/Education/$os_version/ education
+zypper ar http://download.opensuse.org/repositories/Education/$os_version/ education
 
 # KDE:Extra
-zypper addrepo http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
+zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
 
 # PHP
-zypper addrepo http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
-zypper addrepo http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications
+zypper ar http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
+zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications
 
 # Editors
-zypper addrepo http://download.opensuse.org/repositories/editors/$os_version/ editors
+zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
 
 # X11 utils
-zypper addrepo http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
+zypper ar http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
 # Refresh REPO list
-zypper --gpg-auto-import-keys refresh
+zypper --gpg-auto-import-keys ref
 
 #####################################################################################
 #####################################################################################
@@ -130,21 +130,21 @@ printf '\n[General]\nbackground=/usr/share/d5esSs4.jpg\n\n' > /usr/share/sddm/th
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 
 # Fonts
-zypper install bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
+zypper in bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 
 # Settings
-zypper install kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE kcm_systemd
+zypper in kwayland-integration kwrited5 plasma5-workspace-wallpapers kdeclarative-tools krandr libKF5Screen6-32bit plasma5-workspace-libs-32bit kdm patterns-openSUSE-rest_cd_kde plasma5-openSUSE kcm_systemd
 
 # Codecs
-zypper install celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2 chromium-ffmpeg
+zypper in celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2 chromium-ffmpeg
 
 # ZSH
-zypper install zsh
+zypper in zsh
 usermod -s /bin/zsh $user_name
 
 # Remove gstreamer
-zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer
+zypper rm phonon-backend-gstreamer phonon4qt5-backend-gstreamer
 
 # Use kdesu instead of ROOT user
 printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.config/kdesurc
@@ -167,7 +167,7 @@ echo 'Git e-mail address:'
 read git_mail
 
 # Write git config
-printf "[user]\nemail='$(echo $git_mail)'\nname='$(echo $full_name)'\n[diff]\ntool = meld\n[push]\ndefault=simple" > /home/$user_name/.gitconfig
+printf "[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld\n[push]\ndefault=simple" > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -199,61 +199,60 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 #####################################################################################
 
 # Utilities
-zypper install git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter kdeconnect-kde
+zypper in git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter kdeconnect-kde
 
 # LaTex
-zypper install kile
+zypper in kile
 
 # Audio
-zypper install clementine audacity ardour calf lv2-calf ladspa
+zypper in clementine audacity ardour calf lv2-calf ladspa
 
 # Image
-zypper install calligra-krita gimp kdegraphics-thumbnailers
+zypper in calligra-krita gimp kdegraphics-thumbnailers
 
 # Video
-zypper install blender simplescreenrecorder kdenlive k3b kaffeine
+zypper in blender simplescreenrecorder kdenlive k3b kaffeine
 
 # Development
-zypper install vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
+zypper in vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
 
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
-zypper install atom.rpm
+zypper in atom.rpm
 rm atom.rpm
 
 # Development extra
-zypper install dia umbrello meld mysql-workbench sqlitebrowser
+zypper in dia umbrello meld mysql-workbench sqlitebrowser
 
 # Shell
-zypper install tmux docker-zsh-completion
+zypper in tmux docker-zsh-completion
 
 # Oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git /home/$user_name/.oh-my-zsh
-chown -R $user_name:users /home/$user_name/.oh-my-zsh
 
 # Web
-zypper install chromium chromium-pepper-flash qbittorrent filezilla
+zypper in chromium chromium-pepper-flash qbittorrent filezilla
 
 # Office
-zypper install aspell-nl libreoffice-l10n-nl
+zypper in aspell-nl libreoffice-l10n-nl
 
 # Virtualization
-zypper install virtualbox docker
+zypper in virtualbox docker
 
 # Financial
-zypper install kmymoney
+zypper in kmymoney
 
 # Games
-zypper install supertuxkart supertux2
+zypper in supertuxkart supertux2
 
 # Other
-zypper install kaccounts-providers tuxguitar youtube-dl
+zypper in kaccounts-providers tuxguitar youtube-dl
 
 # Password manager
-zypper install keepassx ksshaskpass5
+zypper in keepassx ksshaskpass5
 
 # X11
-zypper install redshift
+zypper in redshift
 
 #####################################################################################
 #####################################################################################
@@ -264,7 +263,7 @@ zypper install redshift
 #####################################################################################
 
 # Set up database
-zypper install -f mariadb sqlite3
+zypper in -f mariadb sqlite3
 chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
@@ -272,11 +271,11 @@ systemctl start mysql
 mysql_secure_installation
 
 # Install phpmyadmin
-zypper install phpmyadmin
+zypper in phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-zypper install php7 php5-ZendFramework php-composer
+zypper in php7 php5-ZendFramework php-composer
 
 # Install laravel installer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
@@ -295,7 +294,7 @@ sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 
 # Install Rails
-zypper install ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
+zypper in ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
 
 # Install gems
 gem install rails-api rdoc
@@ -334,10 +333,10 @@ docker build -t ubuntu_laravel /home/$user_name/docker-files/lamp/.
 #####################################################################################
 
 # Apache
-#systemctl enable apache2
+systemctl enable apache2
 
 # Mysql
-#systemctl enable mysql
+systemctl enable mysql
 
 # Docker
 systemctl enable docker
@@ -351,10 +350,10 @@ systemctl enable docker
 #####################################################################################
 
 # Virtualbox
-usermod -a -G vboxusers $user_name
+usermod -aG vboxusers $user_name
 
 # Docker
-usermod -a -G docker $user_name
+usermod -aG docker $user_name
 
 #####################################################################################
 #####################################################################################
