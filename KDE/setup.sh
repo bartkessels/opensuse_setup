@@ -154,16 +154,6 @@ chown $user_name /home/$user_name/.config/kdesurc
 printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' > /etc/sysctl.d/90-inotify.conf
 printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 1000000' >> /usr/lib/sysctl.d/50-default.conf
 
-# Aliases
-printf '\nalias zf=zf.sh' >> /home/$user_name/.zshrc
-printf '\nalias slim="composer create-project slim/slim-skeleton"' >> /home/$user_name/.zshrc
-printf '\nalias laravel="laravel new"' >> /home/$user_name/.zshrc
-
-# Export paths
-printf '\nexport PATH="$HOME/.composer/vendor/bin:$PATH"' >> /home/$user_name/.zshrc
-printf '\nexport PATH="./vendor/bin:$PATH"' >> /home/$user_name/.zshrc
-printf '\nexport PATH="$HOME/.development/docker-instances:$PATH"' >> /home/$user_name/.zshrc
-
 #####################################################################################
 #####################################################################################
 
