@@ -275,7 +275,7 @@ zypper in phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-zypper in php7 php5-ZendFramework php-composer
+zypper in php7 php7-fileinfo php5-ZendFramework php-composer
 
 # Install laravel installer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
