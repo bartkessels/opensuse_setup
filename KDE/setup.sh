@@ -81,6 +81,14 @@ mkdir -p /home/$user_name/Git-projects
 mkdir -p /home/$user_name/public_html
 # mkdir -p /home/$user_name/Videos
 
+# Delete folders
+rm -r /home/$user_name/Documents
+rm -r /home/$user_name/Music
+rm -r /home/$user_name/Pictures
+rm -r /home/$user_name/Public
+rm -r /home/$user_name/Templates
+rm -r /home/$user_name/Videos
+
 # Create folders inside /etc/skel dir
 mkdir -p /etc/skel/Desktop
 mkdir -p /etc/skel/Downloads
