@@ -49,7 +49,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][2][Configuration][General]
-favorites=org.gnome.Builder.desktop,geany.desktop,org.kde.kontact.desktop,firefox.desktop,chromium.desktop,org.kde.dolphin.desktop,virtualbox.desktop,systemsettings.desktop
+favorites=geany.desktop,org.kde.kontact.desktop,firefox.desktop,chromium.desktop,org.kde.dolphin.desktop,virtualbox.desktop,systemsettings.desktop
 icon=bleachbit
 showAppsByName=true
 
@@ -372,12 +372,6 @@ sources=cpu%2Fcpu0%2FTotalLoad,cpu%2Fcpu1%2FTotalLoad,cpu%2Fcpu2%2FTotalLoad,cpu
 [Containments][7][Applets][15][Configuration][General]
 sources=disk%2Fsda2_(8%3A2)%2FRate%2Fwblk,disk%2Fsda_(8%3A0)%2FRate%2Fwblk,disk%2Fsda1_(8%3A1)%2FRate%2Fwblk,disk%2Fsr0_(11%3A0)%2FRate%2Fwblk,disk%2Fsdb_(8%3A16)%2FRate%2Fwblk
 
-[Containments][7][Applets][61][Configuration][General]
-applicationName=gnome-builder
-genericName=gnome-builder
-iconName=application-x-executable
-url=file:///usr/bin/gnome-builder
-
 [Containments][7][ConfigDialog]
 DialogHeight=800
 DialogWidth=1276
@@ -388,7 +382,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][7][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/arch_linux-wallpaper-1920x1080.jpg
+Image=file:///usr/share/d5esSs4.jpg
 height=1080
 width=1920
 
