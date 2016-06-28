@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <bookmark href="file:///home/bart">
   <title>Home</title>
   <info>
@@ -50,6 +50,18 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/bart/bk-cloud/Software">
+  <title>Software</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1467140260/0 (V2)</ID>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/bart/Backups">
   <title>Backups</title>
   <info>
@@ -86,14 +98,14 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/bart/Other">
-  <title>Other</title>
+ <bookmark href="file:///home/bart/bk-cloud/Werk">
+  <title>Werk</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1466500796/3 (V2)</ID>
+    <ID>1467140276/1 (V2)</ID>
     <IsHidden>false</IsHidden>
    </metadata>
   </info>
@@ -237,6 +249,18 @@
   </info>
   <title>190.4 GiB Encrypted Drive</title>
  </separator>
+ <bookmark href="kdeconnect://4fb2acda2c367da2/">
+  <title>asus</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1467140033/0</ID>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
  <separator href="file:///">
   <info>
    <metadata owner="http://www.kde.org">
@@ -409,6 +433,17 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <OnlyInApp>kdenlive</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="kdeconnect://88b15ef8df664a25/">
+  <title>bq Aquaris E4.5</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1467140287/7</ID>
    </metadata>
   </info>
  </bookmark>
