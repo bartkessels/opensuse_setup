@@ -118,7 +118,7 @@ ln -sf /home/$user_name/bk-cloud/School /home/$user_name/School
 ln -sf /home/$user_name/bk-cloud/Notities /home/$user_name/Notes
 ln -sf /home/$user_name/bk-cloud/Tabs /home/$user_name/Tabs
 ln -sf /home/$user_name/bk-cloud/Backups /home/$user_name/Backups
-ln -sf /home/$user_name/bk-cloud/Documents/Boeken /home/$user_name/Books
+ln -sf /home/$user_name/bk-cloud/Boeken /home/$user_name/Books
 
 #####################################################################################
 #####################################################################################
