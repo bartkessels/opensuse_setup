@@ -7,4 +7,4 @@ LockGrace=0
 
 [Greeter]
 Theme=org.kde.breeze.desktop
-ThemeBackground=/usr/share/arch_linux-wallpaper-1920x1080.jpg
+ThemeBackground=/usr/share/laravel_white.png

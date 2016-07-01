@@ -255,7 +255,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][16][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/d5esSs4.jpg
+Image=file:///usr/share/laravel_white.png
 height=1080
 width=1920
 
@@ -382,7 +382,7 @@ pressToMoveHelp=false
 showToolbox=false
 
 [Containments][7][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/d5esSs4.jpg
+Image=file:///usr/share/laravel_white.png
 height=1080
 width=1920
 

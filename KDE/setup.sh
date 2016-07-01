@@ -132,7 +132,8 @@ ln -sf /home/$user_name/bk-cloud/Boeken /home/$user_name/Books
 printf '\n\n[General]\nNumlock=on\n' >> /etc/sddm.conf
 
 # Set background for SDDM
-printf '\n[General]\nbackground=/usr/share/d5esSs4.jpg\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
+printf '\n[General]\nbackground=/usr/share/laravel_white.png\n\n' > /usr/share/sddm/themes/breeze/theme.conf.user
+printf '\n[General]\nbackground=/usr/share/laravel_white.png\n\n' > /usr/share/sddm/themes/breeze/theme.conf
 
 # Virtualbox module
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
@@ -377,6 +378,18 @@ cp -r configs/. /etc/skel/.
 
 # Wallpaper
 cp -r wallpapers/. /usr/share
+
+#####################################################################################
+#####################################################################################
+
+#		COPY SCRIPTS
+
+#####################################################################################
+#####################################################################################
+
+cp -r sbin/* /sbin
+
+chmod +x /sbin/create-vhost
 
 #####################################################################################
 #####################################################################################

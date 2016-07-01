@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Check if script is run as root
+if [[ $EUID -ne 0 ]]; then
+  echo "This script must be run as root"
+  exit 1
+fi
+
+# Pull from repository
+cd /etc/apache2/vhosts.d
+git pull
+
+# Iterate trough files in vhosts.d
+for fileName in /etc/apache2/vhosts.d/*.dev.conf; do
+	projectName="${fileName/\/etc\/apache2\/vhosts.d\//}"
+	projectName="${projectName/.conf/}"
+	
+	# Check if projectName exists in the hosts file
+	if ! grep -q "$projectName" /etc/hosts; then
+		echo "127.0.0.1 $projectName" >> /etc/hosts
+	fi
+done
+
+# Restart apache
+systemctl restart apache2
+
+# Let user know everything is done
+echo "Pulled files, added entries to hosts file and restarted apache!"

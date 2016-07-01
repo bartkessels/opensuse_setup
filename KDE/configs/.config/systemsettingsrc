@@ -8,8 +8,8 @@ Width 1920=700
 
 [KFileDialog Settings]
 Height 1080=540
-Recent Files[$e]=BKarch.colors,file://$HOME/Pictures/bart-simpson-11.gif,file://$HOME/razorbit_logo.png,file:///usr/bin/redshift,file:///usr/share/WYqgUEb.jpg
-Recent URLs[$e]=file:///usr/bin/,file:///usr/share/,file://$HOME/.kde4/share/apps/,file://$HOME/.kde4/,file://$HOME/Pictures/
+Recent Files[$e]=BKarch.colors,file:///usr/share/laravel_white.png,file:///usr/bin/redshift,file:///usr/share/WYqgUEb.jpg
+Recent URLs[$e]=file:///usr/share/,file:///usr/bin/,file://$HOME/.kde4/share/apps/,file://$HOME/.kde4/,file://$HOME/Pictures/
 Width 1920=960
 
 [KPropertiesDialog]
