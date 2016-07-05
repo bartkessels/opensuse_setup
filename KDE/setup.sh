@@ -214,7 +214,7 @@ zypper in git gitg nano whois unetbootin kfind krename luckybackup yakuake ghost
 zypper in kile
 
 # Audio
-zypper in clementine audacity ardour calf lv2-calf ladspa
+zypper in audacity ardour calf lv2-calf ladspa
 
 # Image
 zypper in calligra-krita gimp kdegraphics-thumbnailers
