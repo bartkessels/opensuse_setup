@@ -59,12 +59,12 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][1][Applets][29][Configuration][General]
 favoriteApps=geany.desktop,kde4-kdevelop.desktop,chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop,org.kde.kontact.desktop,firefox.desktop,org.kde.dolphin.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,gimp.desktop,filezilla.desktop,virtualbox.desktop,systemsettings.desktop
-hiddenApplications=org.gnome.Builder.desktop
+hiddenApplications=
 showRecentApps=false
 showRecentDocs=false
 
 [Containments][1][Applets][4][Configuration][General]
-launchers=file:///usr/share/applications/org.kde.kontact.desktop,file:///home/bart/.local/share/applications/org.gnome.Builder.desktop
+launchers=file:///usr/share/applications/org.kde.kontact.desktop
 middleClickAction=NewInstance
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=true
@@ -149,6 +149,7 @@ plugin=org.kde.plasma.mediacontroller
 
 [Containments][1][Applets][5][Configuration][General]
 extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.plasma.networkmanagement,org.kde.kdeconnect
+hiddenItems=20971673
 knownItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.kdeconnect
 shownItems=org.kde.plasma.clipboard
 
@@ -383,8 +384,8 @@ showToolbox=false
 
 [Containments][7][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/laravel_white.png
-height=1080
-width=1920
+height=768
+width=1024
 
 [Containments][76]
 activityId=da1d0bc3-94f5-45f8-9c4f-d788895a54e1
