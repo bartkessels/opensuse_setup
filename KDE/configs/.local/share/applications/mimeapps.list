@@ -101,4 +101,4 @@ application/xml-external-parsed-entity=kde4-kfmclient_html.desktop;
 application/xsd=kde4-kfmclient_html.desktop;
 application/xslt+xml=kde4-kfmclient_html.desktop;
 application/xspf+xml=kde4-kfmclient_html.desktop;
-text/html=firefox.desktop
+text/html=chromium-browser.desktop
