@@ -7,7 +7,7 @@ switch-to-activity-da1d0bc3-94f5-45f8-9c4f-d788895a54e1=none,none,
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
-_k_friendly_name=KDE Control Module
+_k_friendly_name=KDE Daemon
 
 [amarok]
 _k_friendly_name=Amarok
@@ -273,7 +273,6 @@ stopmedia=Media Stop\tMeta+S,Media Stop,Stop media playback
 _k_friendly_name=Plasma
 activate widget 129=none,none,Activate Application Menu Widget
 activate widget 87=Alt+F1,none,Activate Application Menu Widget
-activate widget 90=Ctrl+Shift+N,none,Activate Notes Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
