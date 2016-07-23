@@ -225,6 +225,9 @@ zypper in blender simplescreenrecorder kdenlive k3b kaffeine
 # Development
 zypper in vim geany geany-plugins libqt5-creator kate kdevelop5 kdevelop5-plugin-php kdevelop5-pg-qt kuiviewer nodejs-npm kdewebkit-devel java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
 
+# Vim plugins
+zypper in vim-plugin-NERDcommenter vim-plugin-NERDtree
+
 # Install Atom
 wget -O atom.rpm https://atom.io/download/rpm
 zypper in atom.rpm
