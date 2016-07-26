@@ -131,7 +131,7 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=640,480
-History Items[$e]=file://$HOME/Pictures,file://$HOME/bk-cloud/Prive/Werk/RazorBit/Data/InvoicePlane/customFactuur
+History Items[$e]=file://$HOME/Pictures/Screenshots,file://$HOME/Pictures,file://$HOME/bk-cloud/Prive/Werk/RazorBit/Data/InvoicePlane/customFactuur
 
 [General]
 BrowserApplication[$e]=chromium-browser.desktop
@@ -183,7 +183,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=160
+Speedbar Width=185
 View Style=Simple
 listViewIconSize=0
 
