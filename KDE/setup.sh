@@ -339,19 +339,16 @@ docker build -t ubuntu_laravel /home/$user_name/docker-files/lamp/.
 #####################################################################################
 #####################################################################################
 
-#		START SERVICES ON BOOT
+#		SERVICES
 
 #####################################################################################
 #####################################################################################
 
-# Apache
-systemctl enable apache2
+# Enable services
+systemctl enable apache2 mysql docker
 
-# Mysql
-systemctl enable mysql
-
-# Docker
-systemctl enable docker
+# Mask services
+systemctl mask postfix lvm2-activation-net
 
 #####################################################################################
 #####################################################################################
