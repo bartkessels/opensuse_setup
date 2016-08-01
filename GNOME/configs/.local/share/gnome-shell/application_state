@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gucharmap.desktop" open-window-count="0" score="4" last-seen="1469922864"/>
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="15" last-seen="1469921772"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="4137" last-seen="1469951935"/>
+    <application id="firefox.desktop" open-window-count="0" score="306" last-seen="1469954048"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="2" score="66" last-seen="1469958024"/>
+    <application id="org.gnome.clocks.desktop" open-window-count="0" score="0" last-seen="1469919213"/>
+    <application id="eog.desktop" open-window-count="0" score="0" last-seen="1469922562"/>
+    <application id="gnome-tweak-tool.desktop" open-window-count="0" score="58" last-seen="1469957820"/>
+    <application id="clementine.desktop" open-window-count="0" score="3" last-seen="1469953515"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="79" last-seen="1469954699"/>
+    <application id="gnome-terminal.desktop" open-window-count="0" score="87" last-seen="1469954045"/>
+    <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="12" last-seen="1469953461"/>
+    <application id="bijiben.desktop" open-window-count="0" score="4" last-seen="1469957950"/>
+    <application id="alacarte.desktop" open-window-count="0" score="0" last-seen="1469920933"/>
+    <application id="tracker-preferences.desktop" open-window-count="0" score="3" last-seen="1469920564"/>
+    <application id="dia.desktop" open-window-count="0" score="0" last-seen="1469920914"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1469957863"/>
+    <application id="writer.desktop" open-window-count="0" score="9" last-seen="1469922362"/>
+    <application id="org.gnome.Documents.desktop" open-window-count="0" score="2" last-seen="1469953281"/>
+    <application id="gnome-system-monitor.desktop" open-window-count="0" score="5" last-seen="1469953758"/>
+  </context>
+</application-state>

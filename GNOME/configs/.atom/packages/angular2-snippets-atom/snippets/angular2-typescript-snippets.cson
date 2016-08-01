@@ -1,0 +1,108 @@
+# Author: Sumant Chhunchha
+# mr.chhunchha@gmail.com
+# @_Sumant_
+
+# Angular 2 Snippest for TypeScript (.ts) files
+
+'.source.ts' :
+################################################################################
+  'Angular 2 Component':
+    'prefix': 'ngComponent'
+    'body': """
+    import { Component, EventEmitter, Input, Output, OnInit, OnDestroy } from 'angular2/core';
+
+    @Component({
+        selector: '${1:selector}',
+        templateUrl: '${2:templateUrl}',
+        directives: [],
+        providers: [],
+        styleUrls: [],
+        pipes: []
+    })
+
+    export class ${3:Name}Component implements OnInit, OnDestroy {
+      @Input() ${4:name}: ${5:type};
+      @Output() ${6:eventName}: EventEmitter<string>;
+
+      constructor(
+      ) {}
+
+      ngOnInit() {
+      }
+
+      ngOnDestroy() {
+      }
+
+    }
+    """
+################################################################################
+  'Angular 2 Service':
+    'prefix': 'ngService'
+    'body':"""
+    import { Injectable } from 'angular2/core';
+
+    export interface ${1:IntefaceName} {
+      ${2:name}: ${3:type};
+    }
+
+    @Injectable()
+    export class ${4:Service} {
+
+      constructor() {
+      }
+
+    }
+    """
+################################################################################
+  'Angular 2 Pipe':
+    'prefix': 'ngPipe'
+    'body':"""
+    import { Pipe, PipeTransform } from 'angular2/core';
+
+    @Pipe({ name: '${1:pipeName}' })
+    export class ${1:PipeName}Pipe implements PipeTransform {
+
+      transform(value: string, args: any[]) {
+        return value;
+      }
+
+    }
+    """
+################################################################################
+  'Angular 2 import':
+    'prefix': 'ngImport'
+    'body':"""
+    import { ${1:Name} } from '${2:path}';
+    """
+################################################################################
+  'Angular 2 Import Component':
+    'prefix': 'ngImportComponent'
+    'body':"""
+    import { Component, OnInit, OnDestroy } from 'angular2/core';
+    """
+################################################################################
+  'Angular 2 Import Router':
+    'prefix': 'ngImportRouter'
+    'body':"""
+    import { ROUTER_DIRECTIVES } from 'angular2/router';
+    """
+################################################################################
+  'Angular 2 Import Http':
+    'prefix': 'ngImportHttp'
+    'body':"""
+    import { Http, Response } from 'angular2/http';
+    """
+################################################################################
+  'Angular 2 Import Rx':
+    'prefix': 'ngImportRx'
+    'body':"""
+    import { Observable, Subject } from 'rxjs/Rx';
+    """
+################################################################################
+
+# HTML #
+################################################################################
+'.text.html':
+  'Angular 2 ngFor':
+    'prefix': 'ngFor'
+    'body': '*ngFor="#${1:item} of ${2:items}, #${2:i} = index"'

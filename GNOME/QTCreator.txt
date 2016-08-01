@@ -1,0 +1,2 @@
+Qmake executable location:
+/usr/bin/qmake-qt5

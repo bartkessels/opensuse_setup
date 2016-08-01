@@ -1,0 +1,24 @@
+[Added Associations]
+video/x-matroska=vlc.desktop;
+video/mp4=vlc.desktop;
+audio/x-wav=vlc.desktop;
+text/html=chromium-browser.desktop;
+text/xml=chromium-browser.desktop;
+application/xhtml+xml=chromium-browser.desktop;
+x-scheme-handler/https=chromium-browser.desktop;
+x-content/video-dvd=vlc.desktop;
+x-content/audio-cdda=vlc.desktop;
+x-content/audio-player=clementine.desktop;
+x-content/unix-software=nautilus-autorun-software.desktop;
+text/x-tex=gummi.desktop;
+
+[Default Applications]
+x-scheme-handler/http=chromium-browser.desktop
+text/html=chromium-browser.desktop
+text/xml=chromium-browser.desktop
+application/xhtml+xml=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
+x-content/video-dvd=vlc.desktop
+x-content/audio-cdda=vlc.desktop
+x-content/audio-player=clementine.desktop
+x-content/unix-software=nautilus-autorun-software.desktop
