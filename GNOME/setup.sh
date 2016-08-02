@@ -129,6 +129,9 @@ ln -sf /home/$user_name/bk-cloud/Werk /home/$user_name/Work
 # Virtualbox module
 printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 
+# Settings
+zypper in dconf-editor
+
 # Fonts
 zypper in bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
@@ -196,7 +199,7 @@ usermod -a -G wheel $user_name
 #####################################################################################
 
 # Utilities
-zypper in git gitg nano whois unetbootin luckybackup ghostwriter
+zypper in git gitg nano whois unetbootin ghostwriter pandoc
 
 # LaTex
 zypper in texmaker
@@ -205,7 +208,7 @@ zypper in texmaker
 zypper in audacity ardour calf lv2-calf ladspa clementine
 
 # Image
-zypper in gimp
+zypper in inkscape gimp
 
 # Video
 zypper in blender simplescreenrecorder kdenlive

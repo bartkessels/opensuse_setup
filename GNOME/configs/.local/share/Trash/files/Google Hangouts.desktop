@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Google Hangouts
+Exec=/usr/lib64/chromium/chromium --profile-directory=Default --app-id=knipolnnllmklapflnccelgolnpehhpl
+Icon=$HOME/.local/share/applications/google_hangouts.png
+StartupWMClass=crx_knipolnnllmklapflnccelgolnpehhpl

@@ -1,3 +1,21 @@
-2016/07/31-22:23:22.380 25246 Reusing MANIFEST /home/bart/.config/chromium/Default/Session Storage/MANIFEST-000001
-2016/07/31-22:23:22.380 25246 Recovering log #24
-2016/07/31-22:23:22.380 25246 Reusing old log /home/bart/.config/chromium/Default/Session Storage/000024.log 
+2016/08/02-12:36:53.381 2558 Reusing MANIFEST /home/bart/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/08/02-12:36:53.381 2558 Recovering log #43
+2016/08/02-12:36:53.440 2558 Reusing old log /home/bart/.config/chromium/Default/Session Storage/000043.log 
+2016/08/02-12:37:09.445 2728 Level-0 table #47: started
+2016/08/02-12:37:09.509 2728 Level-0 table #47: 36021 bytes OK
+2016/08/02-12:37:09.543 2728 Delete type=0 #43
+2016/08/02-13:00:18.821 2728 Level-0 table #49: started
+2016/08/02-13:00:18.858 2728 Level-0 table #49: 114026 bytes OK
+2016/08/02-13:00:18.905 2728 Delete type=0 #46
+2016/08/02-13:01:02.770 2728 Level-0 table #51: started
+2016/08/02-13:01:02.918 2728 Level-0 table #51: 35708 bytes OK
+2016/08/02-13:01:03.015 2728 Delete type=0 #48
+2016/08/02-13:01:03.015 2728 Compacting 4@0 + 1@1 files
+2016/08/02-13:01:03.235 2728 Generated table #52@0: 70 keys, 183851 bytes
+2016/08/02-13:01:03.235 2728 Compacted 4@0 + 1@1 files => 183851 bytes
+2016/08/02-13:01:03.277 2728 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/08/02-13:01:03.277 2728 Delete type=2 #42
+2016/08/02-13:01:03.277 2728 Delete type=2 #44
+2016/08/02-13:01:03.278 2728 Delete type=2 #47
+2016/08/02-13:01:03.278 2728 Delete type=2 #49
+2016/08/02-13:01:03.278 2728 Delete type=2 #51

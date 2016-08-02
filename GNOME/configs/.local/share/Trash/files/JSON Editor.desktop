@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=JSON Editor
+Exec=/usr/lib64/chromium/chromium --profile-directory=Default --app-id=lhkmoheomjbkfloacpgllgjcamhihfaj
+Icon=$HOME/.local/share/applications/json_editor.png
+StartupWMClass=crx_lhkmoheomjbkfloacpgllgjcamhihfaj

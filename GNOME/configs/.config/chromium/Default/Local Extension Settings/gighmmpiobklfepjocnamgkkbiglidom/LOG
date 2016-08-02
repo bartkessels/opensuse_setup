@@ -1,6 +1,6 @@
-2016/07/31-22:25:39.090 25551 Reusing MANIFEST /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2016/07/31-22:25:39.090 25551 Recovering log #4
-2016/07/31-22:25:39.110 25551 Reusing old log /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000004.log 
-2016/07/31-22:26:41.174 25807 Level-0 table #8: started
-2016/07/31-22:26:41.221 25807 Level-0 table #8: 2423196 bytes OK
-2016/07/31-22:26:41.225 25807 Delete type=0 #4
+2016/08/02-13:14:13.110 9997 Reusing MANIFEST /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2016/08/02-13:14:13.110 9997 Recovering log #18
+2016/08/02-13:14:13.139 9997 Reusing old log /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000018.log 
+2016/08/02-13:15:15.029 10216 Level-0 table #23: started
+2016/08/02-13:15:15.122 10216 Level-0 table #23: 2400104 bytes OK
+2016/08/02-13:15:15.139 10216 Delete type=0 #18

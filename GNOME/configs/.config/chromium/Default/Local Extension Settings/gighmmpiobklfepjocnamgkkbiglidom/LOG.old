@@ -1,3 +1,15 @@
-2016/07/31-22:23:20.725 25221 Reusing MANIFEST /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2016/07/31-22:23:20.725 25221 Recovering log #4
-2016/07/31-22:23:20.752 25221 Reusing old log /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000004.log 
+2016/08/02-12:36:53.310 2560 Reusing MANIFEST /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2016/08/02-12:36:53.310 2560 Recovering log #15
+2016/08/02-12:36:53.501 2560 Reusing old log /home/bart/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000015.log 
+2016/08/02-12:37:54.776 2940 Level-0 table #19: started
+2016/08/02-12:37:54.866 2940 Level-0 table #19: 2400085 bytes OK
+2016/08/02-12:37:54.883 2940 Delete type=0 #15
+2016/08/02-12:37:54.884 2940 Compacting 4@0 + 1@1 files
+2016/08/02-12:37:55.016 2940 Generated table #20@0: 6 keys, 1200288 bytes
+2016/08/02-12:37:55.016 2940 Compacted 4@0 + 1@1 files => 1200288 bytes
+2016/08/02-12:37:55.033 2940 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/08/02-12:37:55.033 2940 Delete type=2 #8
+2016/08/02-12:37:55.034 2940 Delete type=2 #11
+2016/08/02-12:37:55.034 2940 Delete type=2 #13
+2016/08/02-12:37:55.034 2940 Delete type=2 #16
+2016/08/02-12:37:55.035 2940 Delete type=2 #19

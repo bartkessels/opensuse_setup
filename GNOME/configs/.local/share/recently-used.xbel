@@ -227,7 +227,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/bart/opensuse_setup/KDE/setup.sh" added="2016-07-31T08:34:17Z" modified="2016-07-31T08:34:17Z" visited="2016-07-31T08:34:17Z">
+  <bookmark href="file:///home/bart/opensuse_setup/KDE/setup.sh" added="2016-07-31T08:34:17Z" modified="2016-08-02T11:01:47Z" visited="2016-07-31T08:34:17Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -235,7 +235,616 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-31T08:34:17Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-08-02T11:01:47Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup" added="2016-08-01T21:07:20Z" modified="2016-08-01T21:07:20Z" visited="2016-08-01T21:07:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>gitg</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gitg" exec="&apos;gitg %u&apos;" modified="2016-08-01T21:07:20Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.config/chromium/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.9_0/icon_16.png" added="2016-08-01T21:10:56Z" modified="2016-08-01T21:10:56Z" visited="2016-08-01T21:10:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:10:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.config/chromium/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.9_0/icon_128.png" added="2016-08-01T21:11:03Z" modified="2016-08-01T21:11:03Z" visited="2016-08-01T21:11:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:11:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/icon_128.png" added="2016-08-01T21:11:11Z" modified="2016-08-01T21:11:11Z" visited="2016-08-01T21:11:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:11:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.config/chromium/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.9_0/icon_128.png" added="2016-08-01T21:11:24Z" modified="2016-08-01T21:11:24Z" visited="2016-08-01T21:11:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:11:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_docs.png" added="2016-08-01T21:11:31Z" modified="2016-08-02T10:47:08Z" visited="2016-08-01T21:11:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:11:31Z" count="1"/>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_keep.png" added="2016-08-01T21:13:03Z" modified="2016-08-02T10:47:16Z" visited="2016-08-01T21:13:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:13:03Z" count="1"/>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:16Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.config/chromium/Default/Extensions/mkaakpdehdafacodkgkpghoibnmamcme/1.1_0/icon_128.png" added="2016-08-01T21:13:31Z" modified="2016-08-01T21:13:31Z" visited="2016-08-01T21:13:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:13:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.0_0/images/icon_128.png" added="2016-08-01T21:13:46Z" modified="2016-08-01T21:13:46Z" visited="2016-08-01T21:13:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:13:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/gliffy.png" added="2016-08-01T21:13:50Z" modified="2016-08-02T10:46:29Z" visited="2016-08-01T21:13:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-01T21:13:50Z" count="1"/>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:46:29Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop" added="2016-08-01T21:15:06Z" modified="2016-08-02T10:44:11Z" visited="2016-08-01T21:15:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:44:11Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Slides.desktop" added="2016-08-01T21:16:03Z" modified="2016-08-02T10:46:45Z" visited="2016-08-01T21:16:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/google_slides.desktop" added="2016-08-01T21:25:24Z" modified="2016-08-01T21:25:24Z" visited="2016-08-01T21:25:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:25:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google-Slides.desktop" added="2016-08-01T21:26:14Z" modified="2016-08-01T21:26:14Z" visited="2016-08-01T21:26:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:26:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop" added="2016-08-01T21:28:59Z" modified="2016-08-02T10:44:13Z" visited="2016-08-01T21:28:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:44:13Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Docs.desktop" added="2016-08-01T21:29:11Z" modified="2016-08-02T10:46:44Z" visited="2016-08-01T21:29:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-bhmicilclplefnflapjmnngmkkkkpfad-Default.desktop" added="2016-08-01T21:29:59Z" modified="2016-08-01T21:37:49Z" visited="2016-08-01T21:29:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:37:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Gliffy%20Diagrams.desktop.desktop" added="2016-08-01T21:30:10Z" modified="2016-08-01T21:30:10Z" visited="2016-08-01T21:30:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:30:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-felcaaldnbdncclmgdcncolpebgiejap-Default.desktop" added="2016-08-01T21:30:49Z" modified="2016-08-01T21:37:51Z" visited="2016-08-01T21:30:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:37:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Gliffy%20Diagrams.desktop" added="2016-08-01T21:31:06Z" modified="2016-08-02T10:44:49Z" visited="2016-08-01T21:31:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:44:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Sheets.desktop" added="2016-08-01T21:31:19Z" modified="2016-08-02T10:46:45Z" visited="2016-08-01T21:31:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop" added="2016-08-01T21:31:36Z" modified="2016-08-01T21:31:36Z" visited="2016-08-01T21:31:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:31:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Postman.desktop" added="2016-08-01T21:31:43Z" modified="2016-08-02T10:46:45Z" visited="2016-08-01T21:31:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Redshift.desktop" added="2016-08-01T21:31:46Z" modified="2016-08-01T21:31:46Z" visited="2016-08-01T21:31:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:31:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop" added="2016-08-01T21:32:12Z" modified="2016-08-01T21:37:56Z" visited="2016-08-01T21:32:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:37:56Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Keep.desktop" added="2016-08-01T21:32:25Z" modified="2016-08-02T10:46:44Z" visited="2016-08-01T21:32:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop" added="2016-08-01T21:32:40Z" modified="2016-08-01T21:44:36Z" visited="2016-08-01T21:32:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:44:36Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Hangouts.desktop" added="2016-08-01T21:32:48Z" modified="2016-08-02T10:46:44Z" visited="2016-08-01T21:32:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-lhkmoheomjbkfloacpgllgjcamhihfaj-Default.desktop" added="2016-08-01T21:33:00Z" modified="2016-08-01T21:33:00Z" visited="2016-08-01T21:33:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:33:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/JSON%20Editor.desktop" added="2016-08-01T21:33:12Z" modified="2016-08-02T10:46:45Z" visited="2016-08-01T21:33:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-mkaakpdehdafacodkgkpghoibnmamcme-Default.desktop" added="2016-08-01T21:33:26Z" modified="2016-08-02T10:45:34Z" visited="2016-08-01T21:33:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:45:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop" added="2016-08-01T21:44:36Z" modified="2016-08-02T10:45:44Z" visited="2016-08-01T21:44:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:45:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/Desktop/chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop" added="2016-08-01T21:45:05Z" modified="2016-08-01T21:45:05Z" visited="2016-08-01T21:45:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-01T21:45:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/setup.sh" added="2016-08-02T10:37:04Z" modified="2016-08-02T11:19:15Z" visited="2016-08-02T10:37:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-08-02T10:37:04Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-08-02T11:19:15Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/json_editor.png" added="2016-08-02T10:39:44Z" modified="2016-08-02T10:39:51Z" visited="2016-08-02T10:39:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:39:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-lhkmoheomjbkfloacpgllgjcamhihfaj-Default.svg" added="2016-08-02T10:40:20Z" modified="2016-08-02T10:40:24Z" visited="2016-08-02T10:40:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:40:20Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-02T10:40:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.icons/Papirus-GTK/48x48/apps/chrome-okdgofnjkaimfebepijgaoimfphblkpd.svg" added="2016-08-02T10:41:28Z" modified="2016-08-02T10:41:34Z" visited="2016-08-02T10:41:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-08-02T10:41:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/.local/share/applications/Google%20Drawings.desktop" added="2016-08-02T10:46:44Z" modified="2016-08-02T10:46:44Z" visited="2016-08-02T10:46:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:46:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-bhmicilclplefnflapjmnngmkkkkpfad-Default.svg" added="2016-08-02T10:46:55Z" modified="2016-08-02T10:46:55Z" visited="2016-08-02T10:46:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:46:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_hangouts.png" added="2016-08-02T10:47:05Z" modified="2016-08-02T10:47:13Z" visited="2016-08-02T10:47:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_sheets.png" added="2016-08-02T10:47:05Z" modified="2016-08-02T10:47:18Z" visited="2016-08-02T10:47:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_slides.png" added="2016-08-02T10:47:05Z" modified="2016-08-02T10:47:21Z" visited="2016-08-02T10:47:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/postman.png" added="2016-08-02T10:47:05Z" modified="2016-08-02T10:47:24Z" visited="2016-08-02T10:47:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/google_draw.png" added="2016-08-02T10:47:05Z" modified="2016-08-02T10:47:11Z" visited="2016-08-02T10:47:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:47:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.svg" added="2016-08-02T10:47:55Z" modified="2016-08-02T10:48:31Z" visited="2016-08-02T10:47:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:48:31Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chromium%20chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.svg" added="2016-08-02T10:48:47Z" modified="2016-08-02T10:48:47Z" visited="2016-08-02T10:48:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:48:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/configs/.local/share/applications/chrome-felcaaldnbdncclmgdcncolpebgiejap-Default.desktop" added="2016-08-02T10:49:19Z" modified="2016-08-02T10:49:19Z" visited="2016-08-02T10:49:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-08-02T10:49:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-felcaaldnbdncclmgdcncolpebgiejap-Default.svg" added="2016-08-02T10:49:40Z" modified="2016-08-02T10:49:41Z" visited="2016-08-02T10:49:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:49:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.svg" added="2016-08-02T10:50:37Z" modified="2016-08-02T10:50:37Z" visited="2016-08-02T10:50:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:50:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-knipolnnllmklapflnccelgolnpehhpl-Default.svg" added="2016-08-02T10:50:56Z" modified="2016-08-02T10:50:56Z" visited="2016-08-02T10:50:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:50:56Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/icons/chrome-mkaakpdehdafacodkgkpghoibnmamcme-Default.svg" added="2016-08-02T10:51:12Z" modified="2016-08-02T10:51:12Z" visited="2016-08-02T10:51:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape" exec="&apos;inkscape %u&apos;" modified="2016-08-02T10:51:12Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bart/opensuse_setup/GNOME/set-configs.sh" added="2016-08-02T10:54:29Z" modified="2016-08-02T10:59:51Z" visited="2016-08-02T10:54:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-08-02T10:59:51Z" count="11"/>
         </bookmark:applications>
       </metadata>
     </info>
