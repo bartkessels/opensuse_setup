@@ -202,7 +202,7 @@ usermod -a -G wheel $user_name
 zypper in git gitg nano whois unetbootin ghostwriter pandoc
 
 # LaTex
-zypper in texmaker
+zypper in texmaker texlive-crossreference texlive-upquote
 
 # Audio
 zypper in audacity ardour calf lv2-calf ladspa clementine
