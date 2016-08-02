@@ -17,6 +17,10 @@ cp -r /home/$USER/.bashrc configs/.
 cp -r /home/$USER/.vimrc configs/.
 cp -r /home/$USER/.zshrc configs/.
 
+# Remove trashed files
+rm -rf configs/.local/share/Trash/files/*
+rm -rf configs/.local/share/Trash/info/*
+
 # Remove gnome keyring content
 rm -rf configs/.local/share/keyrings/*
 
