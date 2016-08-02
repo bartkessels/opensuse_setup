@@ -1,9 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Gliffy Diagrams
-Exec=/usr/lib64/chromium/chromium --profile-directory=Default --app-id=bhmicilclplefnflapjmnngmkkkkpfad
-Icon=$HOME/.local/share/applications/gliffy.png
-StartupWMClass=crx_bhmicilclplefnflapjmnngmkkkkpfad
