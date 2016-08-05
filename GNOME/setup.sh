@@ -370,7 +370,7 @@ chown $user_name:users -R /home/$user_name
 clear
 
 # Tell user everything is done
-echo 'Applications are installed and settings are applied! The system will reboot within 1 minute'
+echo 'Applications are installed and settings are applied! The system will shutdown within 1 minute'
 
 # Shutdown within 1 minute
 shutdown -h 1
