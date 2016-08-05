@@ -205,7 +205,7 @@ zypper in git gitg nano whois unetbootin ghostwriter pandoc
 zypper in texmaker texlive-crossreference texlive-upquote
 
 # Audio
-zypper in audacity ardour calf lv2-calf ladspa clementine
+zypper in audacity ardour calf lv2-calf ladspa clementine easytag nautilus-plugin-easytag
 
 # Image
 zypper in inkscape gimp
