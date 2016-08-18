@@ -246,7 +246,7 @@ zypper in aspell-nl libreoffice-l10n-nl
 zypper in virtualbox docker
 
 # Games
-zypper in supertuxkart supertux2
+zypper in supertuxkart supertux2 gnome-chess
 
 # Other
 zypper in tuxguitar youtube-dl
