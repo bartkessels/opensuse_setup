@@ -211,7 +211,7 @@ printf '[super-user-command]\nsuper-user-command=sudo' > /home/$user_name/.confi
 zypper in git gitg nano whois unetbootin kfind krename luckybackup yakuake ghostwriter kdeconnect-kde pandoc
 
 # LaTex
-zypper in kile
+zypper in kile texlive-crossreference texlive-upquote texlive-sourcesanspro
 
 # Audio
 zypper in audacity ardour calf lv2-calf ladspa
