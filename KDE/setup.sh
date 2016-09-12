@@ -29,6 +29,9 @@ os_version='openSUSE_Leap_42.1'
 zypper ar http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
 zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
 
+# Graphics
+zypper ar http://download.opensuse.org/repositories/graphics/$os_version/ graphics
+
 # Network
 zypper ar http://download.opensuse.org/repositories/network/$os_version/ network
 
@@ -234,7 +237,7 @@ zypper in atom.rpm
 rm atom.rpm
 
 # Development extra
-zypper in dia umbrello meld mysql-workbench sqlitebrowser
+zypper in dia umbrello meld mysql-workbench sqlitebrowser pencil
 
 # Shell
 zypper in tmux docker-zsh-completion
