@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=Redshift
-Comment=Change screencolor during the day
-Exec=/usr/bin/redshift 
-Icon=redshift
