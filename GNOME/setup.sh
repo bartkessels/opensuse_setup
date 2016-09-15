@@ -9,7 +9,7 @@
 #####################################################################################
 
 # Username
-user_name='bart'
+user_name='bkessels'
 
 # Full name
 full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
@@ -51,9 +51,6 @@ zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_ve
 
 # Editors
 zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
-
-# X11 utils
-zypper ar http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
 # Refresh REPO list
 zypper --gpg-auto-import-keys ref
@@ -214,7 +211,7 @@ zypper in audacity ardour calf lv2-calf ladspa clementine easytag nautilus-plugi
 zypper in inkscape gimp
 
 # Video
-zypper in blender simplescreenrecorder kdenlive
+zypper in blender simplescreenrecorder vlc vlc-gnome
 
 # Development
 zypper in vim geany geany-plugins nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
