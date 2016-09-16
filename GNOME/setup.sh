@@ -9,7 +9,7 @@
 #####################################################################################
 
 # Username
-user_name='bart'
+user_name='bkessels'
 
 # Full name
 full_name=$(getent passwd $user_name | cut -d: -f5 | cut -d, -f1)
@@ -26,37 +26,37 @@ os_version='openSUSE_Leap_42.1'
 #####################################################################################
 
 # Multimedia
-zypper ar http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
-zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
+#zypper ar http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ multimedia:libs
+#zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ multimedia:apps
 
 # Network
-zypper ar http://download.opensuse.org/repositories/network/$os_version/ network
+#zypper ar http://download.opensuse.org/repositories/network/$os_version/ network
 
 # Games
-zypper ar http://download.opensuse.org/repositories/games/$os_version/ games
-zypper ar http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
+#zypper ar http://download.opensuse.org/repositories/games/$os_version/ games
+#zypper ar http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
 
 # Packman
-zypper ar http://packman.inode.at/suse/$os_version/ packman
+#zypper ar http://packman.inode.at/suse/$os_version/ packman
 
 # Education
-zypper ar http://download.opensuse.org/repositories/Education/$os_version/ education
+#zypper ar http://download.opensuse.org/repositories/Education/$os_version/ education
 
 # KDE:Extra
-zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
+#zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
 
 # PHP
-zypper ar http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
-zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications
+#zypper ar http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
+#zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications
 
 # Editors
-zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
+#zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
 
 # X11 utils
-zypper ar http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
+#zypper ar http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
 # Refresh REPO list
-zypper --gpg-auto-import-keys ref
+#zypper --gpg-auto-import-keys ref
 
 #####################################################################################
 #####################################################################################
@@ -130,36 +130,36 @@ ln -sf /home/$user_name/bk-cloud/Werk /home/$user_name/Work
 #####################################################################################
 
 # Virtualbox module
-printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
+#printf 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 
 # Settings
-zypper in dconf-editor
+#zypper in dconf-editor
 
 # Fonts
-zypper in bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
-ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
+#zypper in bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
+#ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 
 # Codecs
-zypper in  chromium-ffmpeg celt flac faac libdv mp4als mp4v2 freeswitch-codec-mp4v speex wavpack ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs opensuse-codecs-installer
+#zypper in  chromium-ffmpeg celt flac faac libdv mp4als mp4v2 freeswitch-codec-mp4v speex wavpack ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs opensuse-codecs-installer
 
 # Remove gstreamer
-zypper rm phonon-backend-gstreamer phonon4qt5-backend-gstreamer
+#zypper rm phonon-backend-gstreamer phonon4qt5-backend-gstreamer
 
 # ssh-askpass
-zypper rm -u openssh-askpass
-zypper in openssh-askpass-gnome
+#zypper rm -u openssh-askpass
+#zypper in openssh-askpass-gnome
 
 # ZSH
-zypper in zsh
+#zypper in zsh
 usermod -s /bin/zsh $user_name
 
 # Increase inotify
-printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 10000000' > /etc/sysctl.d/90-inotify.conf
-printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 10000000' >> /usr/lib/sysctl.d/50-default.conf
+#printf '# Increase inofity watch limit\nfs.inotify.max_user_watches = 10000000' > /etc/sysctl.d/90-inotify.conf
+#printf '\n\n# Increase inofity watch limit\nfs.inotify.max_user_watches = 10000000' >> /usr/lib/sysctl.d/50-default.conf
 
 # Cursors
-zypper in breeze5-cursors
-sed -i 's|X_MOUSE_CURSOR=".*"|X_MOUSE_CURSOR="breeze_cursors"|g' /etc/sysconfig/windowmanager
+#zypper in breeze5-cursors
+#sed -i 's|X_MOUSE_CURSOR=".*"|X_MOUSE_CURSOR="breeze_cursors"|g' /etc/sysconfig/windowmanager
 
 #####################################################################################
 #####################################################################################
@@ -170,11 +170,11 @@ sed -i 's|X_MOUSE_CURSOR=".*"|X_MOUSE_CURSOR="breeze_cursors"|g' /etc/sysconfig/
 #####################################################################################
 
 # Ask for e-mail address
-echo 'Git e-mail address:'
-read git_mail
+#echo 'Git e-mail address:'
+#read git_mail
 
 # Write git config
-printf "[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld\n[push]\ndefault=simple" > /home/$user_name/.gitconfig
+printf "[user]\nemail='b.kessels@bk-mail.com'\nname='Bart Kessels'\n[diff]\ntool = meld\n[push]\ndefault=simple" > /home/$user_name/.gitconfig
 
 #####################################################################################
 #####################################################################################
@@ -185,13 +185,13 @@ printf "[user]\nemail='$git_mail'\nname='$full_name'\n[diff]\ntool = meld\n[push
 #####################################################################################
 
 # Give wheel group root rights
-sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
+#sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
 
 # Set insults on after wrong password
-printf '\nDefaults env_reset,insults\n' >> /etc/sudoers
+#printf '\nDefaults env_reset,insults\n' >> /etc/sudoers
 
 # Add user to wheel group
-usermod -a -G wheel $user_name
+#usermod -a -G wheel $user_name
 
 #####################################################################################
 #####################################################################################
@@ -202,57 +202,57 @@ usermod -a -G wheel $user_name
 #####################################################################################
 
 # Utilities
-zypper in git gitg nano whois unetbootin ghostwriter luckybackup pandoc
+#zypper in git gitg nano whois unetbootin ghostwriter luckybackup pandoc
 
 # LaTex
-zypper in texmaker texlive-crossreference texlive-upquote
+#zypper in texmaker texlive-crossreference texlive-upquote
 
 # Audio
-zypper in audacity ardour calf lv2-calf ladspa clementine easytag nautilus-plugin-easytag
+#zypper in audacity ardour calf lv2-calf ladspa clementine easytag nautilus-plugin-easytag
 
 # Image
-zypper in inkscape gimp
+#zypper in inkscape gimp
 
 # Video
-zypper in blender simplescreenrecorder kdenlive
+#zypper in blender simplescreenrecorder kdenlive
 
 # Development
-zypper in vim geany geany-plugins nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
+#zypper in vim geany geany-plugins nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
 
 # Vim plugins
-zypper in vim-plugin-NERDcommenter vim-plugin-NERDtree
+#z#ypper in vim-plugin-NERDcommenter vim-plugin-NERDtree
 
 # Install Atom
-wget -O atom.rpm https://atom.io/download/rpm
-zypper in atom.rpm
-rm atom.rpm
+#wget -O atom.rpm https://atom.io/download/rpm
+#zypper in atom.rpm
+#rm atom.rpm
 
 # Development extra
-zypper in dia umbrello meld mysql-workbench sqlitebrowser
+#zypper in dia umbrello meld mysql-workbench sqlitebrowser
 
 # Shell
-zypper in tmux docker-zsh-completion
+#zypper in tmux docker-zsh-completion
 
 # Oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git /home/$user_name/.oh-my-zsh
 
 # Web
-zypper in chromium chromium-pepper-flash qbittorrent filezilla
+#zypper in chromium chromium-pepper-flash qbittorrent filezilla
 
 # Office
-zypper in aspell-nl libreoffice-l10n-nl
+#zypper in aspell-nl libreoffice-l10n-nl
 
 # Virtualization
-zypper in virtualbox docker
+#zypper in virtualbox docker
 
 # Games
-zypper in supertuxkart supertux2 gnome-chess
+#zypper in supertuxkart supertux2 gnome-chess
 
 # Other
-zypper in tuxguitar youtube-dl
+#zypper in tuxguitar youtube-dl
 
 # Password manager
-zypper in keepassx
+#zypper in keepassx
 
 #####################################################################################
 #####################################################################################
@@ -263,44 +263,44 @@ zypper in keepassx
 #####################################################################################
 
 # Set up database
-zypper in -f mariadb sqlite3 sqlite3-devel
-chown -R mysql:mysql /var/lib/mysql
+#zypper in -f mariadb sqlite3 sqlite3-devel
+#chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
-systemctl start mysql
-mysql_secure_installation
+#systemctl start mysql
+#mysql_secure_installation
 
 # Install phpmyadmin
-zypper in phpmyadmin
-sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
+#zypper in phpmyadmin
+#sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-zypper in php7 php7-fileinfo php5-ZendFramework php-composer
+#zypper in php7 php7-fileinfo php5-ZendFramework php-composer
 
 # Install laravel installer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
 composer global require --working-dir=/home/$user_name/.composer "laravel/lumen-installer"
 
 # Allow url rewriting
-sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
-sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
-a2enmod rewrite
+#sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
+#sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
+#a2enmod rewrite
 
 # Enable php module
-a2enmod php7
+#a2enmod php7
 
 # Set PHP display_errors to on
-sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
-sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
+#sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
+#sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 
 # Install Rails
-zypper in ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
+#zypper in ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
 
 # Install gems
-gem install rails-api rdoc
+#gem install rails-api rdoc
 
 # Install packages from npm
-npm install -g bower typescript grunt-cli
+#npm install -g bower typescript grunt-cli
 
 # Read/write access for user in own html folder
 ln -s /home/$user_name/public_html /srv/www/htdocs/$user_name
@@ -316,7 +316,7 @@ chown -R $user_name /home/$user_name/public_html
 #####################################################################################
 
 # Enable services
-systemctl enable apache2 mysql docker
+#systemctl enable apache2 mysql docker
 
 #####################################################################################
 #####################################################################################
@@ -342,10 +342,10 @@ usermod -aG docker $user_name
 
 # Settings
 cp -r configs/. /home/$user_name/.
-cp -r configs/. /etc/skel/.
+#cp -r configs/. /etc/skel/.
 
 # Wallpaper
-cp -r wallpapers/. /usr/share
+#cp -r wallpapers/. /usr/share
 
 #####################################################################################
 #####################################################################################
@@ -356,8 +356,8 @@ cp -r wallpapers/. /usr/share
 #####################################################################################
 
 # Markdown to PDF
-cp bin/md2pdf.sh /usr/bin/md2pdf
-chmod +x /usr/bin/md2pdf
+#cp bin/md2pdf.sh /usr/bin/md2pdf
+#chmod +x /usr/bin/md2pdf
 
 #####################################################################################
 #####################################################################################
