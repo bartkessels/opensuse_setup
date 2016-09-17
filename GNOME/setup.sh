@@ -142,7 +142,7 @@ zypper in bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-liber
 ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 
 # Codecs
-zypper in  chromium-ffmpeg celt flac faac libdv mp4als mp4v2 freeswitch-codec-mp4v speex wavpack ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs opensuse-codecs-installer
+zypper in celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2 chromium-ffmpeg
 
 # Remove gstreamer
 zypper rm phonon-backend-gstreamer phonon4qt5-backend-gstreamer
@@ -216,7 +216,7 @@ zypper in audacity ardour calf lv2-calf ladspa clementine easytag nautilus-plugi
 zypper in inkscape gimp
 
 # Video
-zypper in blender simplescreenrecorder vlc vlc-gnome
+zypper in blender simplescreenrecorder dragonplayer
 
 # Development
 zypper in vim geany geany-plugins nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
