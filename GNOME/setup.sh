@@ -251,7 +251,7 @@ zypper in virtualbox docker
 zypper in supertuxkart supertux2 gnome-chess
 
 # Other
-zypper in tuxguitar youtube-dl
+zypper in tuxguitar youtube-dl offlineimap
 
 # Password manager
 zypper in keepassx
@@ -360,6 +360,10 @@ cp -r wallpapers/. /usr/share
 # Markdown to PDF
 cp bin/md2pdf.sh /usr/bin/md2pdf
 chmod +x /usr/bin/md2pdf
+
+# Mail backup
+cp bin/mailbackup.sh /usr/bin/mailbackup
+chmod +x /usr/bin/mailbackup
 
 #####################################################################################
 #####################################################################################

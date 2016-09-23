@@ -261,13 +261,10 @@ zypper in kmymoney
 zypper in supertuxkart supertux2
 
 # Other
-zypper in kaccounts-providers tuxguitar youtube-dl
+zypper in kaccounts-providers tuxguitar youtube-dl offlineimap
 
 # Password manager
 zypper in keepassx ksshaskpass5
-
-# X11
-zypper in redshift
 
 #####################################################################################
 #####################################################################################
@@ -397,6 +394,10 @@ chmod +x /usr/bin/md2pdf
 # Create vhost
 cp -r sbin/* /sbin
 chmod +x /sbin/create-vhost
+
+# Mail backup
+cp bin/mailbackup.sh /usr/bin/mailbackup
+chmod +x /usr/bin/mailbackup
 
 #####################################################################################
 #####################################################################################
