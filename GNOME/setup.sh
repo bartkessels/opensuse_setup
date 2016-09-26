@@ -55,6 +55,9 @@ zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_ve
 # Editors
 zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
 
+# Virtualization
+zypper ar http://download.opensuse.org/repositories/Virtualization/$os_version/ virtualization
+
 # Refresh REPO list
 zypper --gpg-auto-import-keys ref
 
@@ -245,7 +248,7 @@ zypper in chromium chromium-pepper-flash qbittorrent filezilla
 zypper in aspell-nl libreoffice-l10n-nl
 
 # Virtualization
-zypper in virtualbox docker
+zypper in virtualbox docker vagrant
 
 # Games
 zypper in supertuxkart supertux2 gnome-chess

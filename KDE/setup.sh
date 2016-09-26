@@ -55,6 +55,9 @@ zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_ve
 # Editors
 zypper ar http://download.opensuse.org/repositories/editors/$os_version/ editors
 
+# Virtualization
+zypper ar http://download.opensuse.org/repositories/Virtualization/$os_version/ virtualization
+
 # X11 utils
 zypper ar http://download.opensuse.org/repositories/X11:/Utilities/$os_version/ X11:Utils 
 
@@ -252,7 +255,7 @@ zypper in chromium chromium-pepper-flash qbittorrent filezilla
 zypper in aspell-nl libreoffice-l10n-nl
 
 # Virtualization
-zypper in virtualbox docker
+zypper in virtualbox docker vagrant
 
 # Financial
 zypper in kmymoney
