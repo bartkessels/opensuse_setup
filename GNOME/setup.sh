@@ -368,6 +368,10 @@ chmod +x /usr/bin/md2pdf
 cp bin/mailbackup.sh /usr/bin/mailbackup
 chmod +x /usr/bin/mailbackup
 
+# Backup
+cp bin/backup.sh /usr/bin/backup
+chmod +x /usr/bin/backup
+
 #####################################################################################
 #####################################################################################
 
