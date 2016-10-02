@@ -286,6 +286,9 @@ zypper in php7 php7-fileinfo php5-ZendFramework php-composer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
 composer global require --working-dir=/home/$user_name/.composer "laravel/lumen-installer"
 
+# Install phpUnit
+composer global require --working-dir=/home/$user_name/.composer "phpunit/phpunit"
+
 # Allow url rewriting
 sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
 sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
