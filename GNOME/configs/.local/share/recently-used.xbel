@@ -27,7 +27,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/bkessels/.config/gtk-3.0/bookmarks" added="2016-09-15T19:03:29Z" modified="2016-09-15T19:05:17Z" visited="2016-09-15T19:03:29Z">
+  <bookmark href="file:///home/bkessels/.config/gtk-3.0/bookmarks" added="2016-09-15T19:03:29Z" modified="2016-10-09T18:01:10Z" visited="2016-09-15T19:03:29Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -35,7 +35,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-09-15T19:05:17Z" count="7"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-09T18:01:10Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -77,7 +77,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/bkessels/.config/user-dirs.dirs" added="2016-09-16T08:11:48Z" modified="2016-09-16T08:19:06Z" visited="2016-09-16T08:11:49Z">
+  <bookmark href="file:///home/bkessels/.config/user-dirs.dirs" added="2016-09-16T08:11:48Z" modified="2016-10-09T18:02:03Z" visited="2016-09-16T08:11:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -85,7 +85,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-09-16T08:19:06Z" count="11"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-09T18:02:03Z" count="16"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -96,6 +96,100 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="Clementine" exec="&apos;clementine %u&apos;" modified="2016-09-16T08:14:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/.config/ardour5/ui_config" added="2016-10-09T17:49:01Z" modified="2016-10-09T17:49:09Z" visited="2016-10-09T17:49:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;geany %F&apos;" modified="2016-10-09T17:49:09Z" count="2"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2016-10-09T17:49:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud" added="2016-10-09T17:55:43Z" modified="2016-10-09T17:55:43Z" visited="2016-10-09T17:55:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:55:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Muziek/Artiesten" added="2016-10-09T17:56:07Z" modified="2016-10-09T17:56:07Z" visited="2016-10-09T17:56:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:56:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Videos/How%20to%20create%20Android%20apps" added="2016-10-09T17:56:31Z" modified="2016-10-09T17:56:31Z" visited="2016-10-09T17:56:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:56:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Videos/Laracast" added="2016-10-09T17:57:14Z" modified="2016-10-09T17:57:14Z" visited="2016-10-09T17:57:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:57:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Videos/Rails%20tutorials%20by%20schneems" added="2016-10-09T17:57:24Z" modified="2016-10-09T17:57:24Z" visited="2016-10-09T17:57:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:57:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Videos/Udemy" added="2016-10-09T17:57:40Z" modified="2016-10-09T17:57:40Z" visited="2016-10-09T17:57:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:57:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/bk-cloud/Videos/Pluralsight" added="2016-10-09T17:57:47Z" modified="2016-10-09T17:57:47Z" visited="2016-10-09T17:57:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:57:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/bkessels/USB%20Bart" added="2016-10-09T17:58:49Z" modified="2016-10-09T17:58:49Z" visited="2016-10-09T17:58:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Backups" exec="&apos;deja-dup-preferences %u&apos;" modified="2016-10-09T17:58:49Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

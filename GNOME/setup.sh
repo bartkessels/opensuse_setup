@@ -45,9 +45,6 @@ zypper ar http://ftp.gwdg.de/pub/linux/misc/packman/suse/$os_version/ Packman-re
 # Education
 zypper ar http://download.opensuse.org/repositories/Education/$os_version/ education
 
-# KDE:Extra
-zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:extra
-
 # PHP
 zypper ar http://download.opensuse.org/repositories/server:/php:/applications/$os_version/ php:applications
 zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/$os_version/ php7:applications

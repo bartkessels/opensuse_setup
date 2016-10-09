@@ -1,29 +1,6 @@
-2016/09/15-20:55:53.147 2419 Reusing MANIFEST /home/bkessels/.config/chromium/Default/Session Storage/MANIFEST-000001
-2016/09/15-20:55:53.147 2419 Recovering log #56
-2016/09/15-20:55:53.291 2419 Level-0 table #59: started
-2016/09/15-20:55:53.435 2419 Level-0 table #59: 184190 bytes OK
-2016/09/15-20:55:53.532 2419 Delete type=0 #3
-2016/09/15-20:55:53.532 2419 Delete type=2 #21
-2016/09/15-20:55:53.532 2419 Delete type=0 #22
-2016/09/15-20:55:53.532 2419 Delete type=2 #23
-2016/09/15-20:55:53.532 2419 Delete type=0 #29
-2016/09/15-20:55:53.532 2419 Delete type=2 #31
-2016/09/15-20:55:53.532 2419 Delete type=0 #56
-2016/09/15-20:56:07.504 2578 Level-0 table #62: started
-2016/09/15-20:56:07.576 2578 Level-0 table #62: 122557 bytes OK
-2016/09/15-20:56:07.609 2578 Delete type=0 #60
-2016/09/15-20:56:07.609 2578 Compacting 4@0 + 1@1 files
-2016/09/15-20:56:07.697 2578 Generated table #63@0: 186 keys, 414806 bytes
-2016/09/15-20:56:07.697 2578 Compacted 4@0 + 1@1 files => 414806 bytes
-2016/09/15-20:56:07.731 2578 compacted to: files[ 0 1 0 0 0 0 0 ]
-2016/09/15-20:56:07.731 2578 Delete type=2 #52
-2016/09/15-20:56:07.731 2578 Delete type=2 #55
-2016/09/15-20:56:07.731 2578 Delete type=2 #57
-2016/09/15-20:56:07.731 2578 Delete type=2 #59
-2016/09/15-20:56:07.731 2578 Delete type=2 #62
-2016/09/15-21:07:50.985 2578 Level-0 table #65: started
-2016/09/15-21:07:51.087 2578 Level-0 table #65: 35745 bytes OK
-2016/09/15-21:07:51.154 2578 Delete type=0 #61
-2016/09/15-21:27:54.311 2578 Level-0 table #67: started
-2016/09/15-21:27:54.363 2578 Level-0 table #67: 84647 bytes OK
-2016/09/15-21:27:54.419 2578 Delete type=0 #64
+2016/09/16-10:03:52.843 4822 Reusing MANIFEST /home/bkessels/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/09/16-10:03:52.843 4822 Recovering log #66
+2016/09/16-10:03:52.935 4822 Reusing old log /home/bkessels/.config/chromium/Default/Session Storage/000066.log 
+2016/09/16-10:05:51.211 5085 Level-0 table #70: started
+2016/09/16-10:05:51.258 5085 Level-0 table #70: 36191 bytes OK
+2016/09/16-10:05:51.291 5085 Delete type=0 #66
