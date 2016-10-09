@@ -147,13 +147,6 @@ ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 # Codecs
 zypper in celt flac libdv speex wavpack k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs libdvdcss2 chromium-ffmpeg
 
-# Remove gstreamer
-zypper rm phonon-backend-gstreamer phonon4qt5-backend-gstreamer
-
-# ssh-askpass
-zypper rm -u openssh-askpass
-zypper in openssh-askpass-gnome
-
 # ZSH
 zypper in zsh
 usermod -s /bin/zsh $user_name
@@ -222,7 +215,7 @@ zypper in inkscape gimp
 zypper in blender simplescreenrecorder dragonplayer
 
 # Development
-zypper in vim geany geany-plugins nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
+zypper in vim geany geany-plugins gnome-builder nodejs-npm java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
 
 # Vim plugins
 zypper in vim-plugin-NERDcommenter vim-plugin-NERDtree
