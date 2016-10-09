@@ -1,4 +1,3 @@
-
 syntax on 
  
 set ruler 
@@ -21,8 +20,8 @@ set number
 set numberwidth=5 
 highlight lineNr ctermfg=black ctermbg=gray 
 highlight Normal ctermfg=gray ctermbg=black 
-set background=dark 
- 
+colorscheme desert
+
 " SPLIT WINDOWS 
  
 set splitbelow 
