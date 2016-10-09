@@ -200,7 +200,7 @@ usermod -a -G wheel $user_name
 #####################################################################################
 
 # Utilities
-zypper in git gitg nano whois unetbootin ghostwriter luckybackup pandoc
+zypper in git gitg nano whois unetbootin ghostwriter pandoc
 
 # LaTex
 zypper in texmaker texlive-crossreference texlive-upquote
