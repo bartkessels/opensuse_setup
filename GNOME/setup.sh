@@ -40,7 +40,7 @@ zypper ar http://download.opensuse.org/repositories/games/$os_version/ games
 zypper ar http://download.opensuse.org/repositories/games:tools/$os_version/ games:tools
 
 # Packman
-zypper ar http://packman.inode.at/suse/$os_version/ packman
+zypper ar http://ftp.gwdg.de/pub/linux/misc/packman/suse/$os_version/ Packman-repository
 
 # Education
 zypper ar http://download.opensuse.org/repositories/Education/$os_version/ education
@@ -279,52 +279,52 @@ sudo su -c 'vagrant box add laravel/homestead' $user_name
 #####################################################################################
 
 # Set up database
-#zypper in -f mariadb sqlite3 sqlite3-devel
-#chown -R mysql:mysql /var/lib/mysql
+zypper in -f mariadb sqlite3 sqlite3-devel
+chown -R mysql:mysql /var/lib/mysql
 
 # Start mysql to make sure the installation can be run
-#systemctl start mysql
-#mysql_secure_installation
+systemctl start mysql
+mysql_secure_installation
 
 # Install phpmyadmin
-#zypper in phpmyadmin
-#sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
+zypper in phpmyadmin
+sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-#zypper in php7 php7-fileinfo php5-ZendFramework php-composer
+zypper in php7 php7-fileinfo php5-ZendFramework php-composer
 
 # Install laravel installer
-#composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
-#composer global require --working-dir=/home/$user_name/.composer "laravel/lumen-installer"
+composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
+composer global require --working-dir=/home/$user_name/.composer "laravel/lumen-installer"
 
 # Install phpUnit
-#composer global require --working-dir=/home/$user_name/.composer "phpunit/phpunit"
+composer global require --working-dir=/home/$user_name/.composer "phpunit/phpunit"
 
 # Allow url rewriting
-#sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
-#sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
-#a2enmod rewrite
+sed -i 's|AllowOverride None|AllowOverride All|g' /etc/apache2/default-server.conf
+sed -i 's|Options None|Options Indexes FollowSymLinks|g' /etc/apache2/default-server.conf
+a2enmod rewrite
 
 # Enable php module
-#a2enmod php7
+a2enmod php7
 
 # Set PHP display_errors to on
-#sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
-#sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
+sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
+sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 
 # Install Rails
-#zypper in ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
+zypper in ruby2.1-rubygem-rails-4_2 ruby2.1-rubygem-json-schema ruby2.1-devel
 
 # Install gems
-#gem install rails-api rdoc
+gem install rails-api rdoc
 
 # Install packages from npm
-#npm install -g bower typescript grunt-cli
+npm install -g bower typescript grunt-cli
 
 # Read/write access for user in own html folder
-#ln -s /home/$user_name/public_html /srv/www/htdocs/$user_name
+ln -s /home/$user_name/public_html /srv/www/htdocs/$user_name
 
-#chown -R $user_name /home/$user_name/public_html
+chown -R $user_name /home/$user_name/public_html
 
 #####################################################################################
 #####################################################################################
@@ -381,10 +381,6 @@ chmod +x /usr/bin/md2pdf
 # Mail backup
 cp bin/mailbackup.sh /usr/bin/mailbackup
 chmod +x /usr/bin/mailbackup
-
-# Backup
-cp bin/backup.sh /usr/bin/backup
-chmod +x /usr/bin/backup
 
 #####################################################################################
 #####################################################################################
