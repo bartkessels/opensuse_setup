@@ -325,7 +325,10 @@ chown -R $user_name /home/$user_name/public_html
 #####################################################################################
 
 # Enable services
-systemctl enable apache2 mysql docker
+systemctl enable docker
+
+# Disable services
+systemctl disable ModemManager.service apache2 mysql
 
 #####################################################################################
 #####################################################################################
