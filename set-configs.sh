@@ -11,6 +11,7 @@ cp -r /home/$USER/.config skel/.
 rm -rf skel/.config/Atom
 rm -rf skel/.config/chromium
 rm -rf skel/.config/google-chrome
+rm -rf skel/.config/kdeconnect
 
 # Gimp
 cp -r /home/$USER/.gimp-* skel/.
