@@ -56,10 +56,6 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-# Export
-export SSH_ASKPASS=/usr/lib/ssh/gnome-ssh-askpass
-
-
 # Aliases
 alias zf=zf.sh
 alias slim="composer create-project slim/slim-skeleton"
