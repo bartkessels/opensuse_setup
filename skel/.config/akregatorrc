@@ -1,0 +1,30 @@
+[$Version]
+update_info=fonts_akregator.upd:Plasma_Fonts_Akregator
+
+[Appearance]
+Fixed Font=Hack
+Sans Serif Font=Noto Sans
+Serif Font=Noto Sans
+Standard Font=Noto Sans
+
+[General]
+ArticleListFeedHeaders=
+ArticleListGroupHeaders=
+SubscriptionListHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAADBgAAAAIAAAABAAAAAwAAAAIAAABkAAAAZAAAAAMBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAABkAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAA==
+
+[HTML Settings]
+Fonts=Noto Sans,Hack,Noto Sans,Noto Sans,0
+MediumFontSize=10
+
+[Migratekde4]
+Version=1
+
+[MimePartTree]
+State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06 \x00\x00\x00\x03\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00e\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x009\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x05Ç\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x03Ë\x00
+
+[Reader]
+attachment-strategy=smart
+htmlMail=true
+
+[View]
+Splitter 1 Sizes=49,49

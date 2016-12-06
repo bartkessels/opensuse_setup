@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=set-configs.sh
+Type=Link
+URL[$e]=file:$HOME/KDE_setup/set-configs.sh
+X-KDE-LastOpenedWith=org.kde.kate

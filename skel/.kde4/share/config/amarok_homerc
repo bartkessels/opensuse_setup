@@ -1,0 +1,36 @@
+[Containment 0]
+firstShowingApplet=0
+plugins=currenttrack,analyzer,wikipedia,lyrics
+
+[Directories]
+dir_html[$d]
+dir_locale[$d]
+dir_pixmap[$d]
+prefixes[$d]
+
+[General]
+BrowserApplication[$d]
+shadeSortColumn[$d]
+
+[Icons]
+Theme[$d]
+
+[KDE]
+ChangeCursor[$d]
+LookAndFeelPackage[$d]
+contrast[$d]
+
+[KDE URL Restrictions]
+rule_1[$d]
+rule_count[$d]
+
+[KFileDialog Settings]
+Breadcrumb Navigation[$d]
+
+[Paths]
+Trash[$d]
+
+[PreviewSettings]
+camera[$d]
+file[$d]
+fonts[$d]

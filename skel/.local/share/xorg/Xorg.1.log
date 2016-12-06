@@ -1,0 +1,147 @@
+[ 16088.105] 
+X.Org X Server 1.18.3
+Release Date: 2016-04-04
+[ 16088.105] X Protocol Version 11, Revision 0
+[ 16088.105] Build Operating System: openSUSE SUSE LINUX
+[ 16088.105] Current Operating System: Linux linux-hksi 4.4.27-2-default #1 SMP Thu Nov 3 14:59:54 UTC 2016 (5c21e7c) x86_64
+[ 16088.105] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.27-2-default root=UUID=72c6550a-9af1-488a-b2a9-6e792a1bb594 resume=/dev/sda1 showopts
+[ 16088.105] Build Date: 22 November 2016  02:59:06PM
+[ 16088.105]  
+[ 16088.105] Current version of pixman: 0.34.0
+[ 16088.105] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 16088.105] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 16088.105] (==) Log file: "/home/bkessels/.local/share/xorg/Xorg.1.log", Time: Fri Dec  2 23:52:21 2016
+[ 16088.106] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[ 16088.106] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 16088.106] (==) No Layout section.  Using the first Screen section.
+[ 16088.106] (==) No screen section available. Using defaults.
+[ 16088.106] (**) |-->Screen "Default Screen Section" (0)
+[ 16088.106] (**) |   |-->Monitor "<default monitor>"
+[ 16088.106] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 16088.106] (==) Automatically adding devices
+[ 16088.106] (==) Automatically enabling devices
+[ 16088.106] (==) Automatically adding GPU devices
+[ 16088.106] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 16088.106] (WW) The directory "/usr/share/fonts/misc/sgi" does not exist.
+[ 16088.106] 	Entry deleted from font path.
+[ 16088.106] (==) FontPath set to:
+	/usr/share/fonts/misc:unscaled,
+	/usr/share/fonts/Type1/,
+	/usr/share/fonts/100dpi:unscaled,
+	/usr/share/fonts/75dpi:unscaled,
+	/usr/share/fonts/ghostscript/,
+	/usr/share/fonts/cyrillic:unscaled,
+	/usr/share/fonts/truetype/,
+	built-ins
+[ 16088.106] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[ 16088.106] (**) Extension "XFree86-DGA" is disabled
+[ 16088.106] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 16088.106] (II) Loader magic: 0x80fce0
+[ 16088.106] (II) Module ABI versions:
+[ 16088.106] 	X.Org ANSI C Emulation: 0.4
+[ 16088.106] 	X.Org Video Driver: 20.0
+[ 16088.106] 	X.Org XInput driver : 22.1
+[ 16088.106] 	X.Org Server Extension : 9.0
+[ 16088.116] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_32
+[ 16088.117] (II) xfree86: Adding drm device (/dev/dri/card0)
+[ 16088.118] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 8 paused 1
+[ 16088.118] (EE) Error systemd-logind returned paused fd for drm node
+[ 16088.118] (II) systemd-logind: releasing fd for 226:0
+[ 16088.120] (--) PCI:*(0:1:0:0) 10de:0a65:1458:3530 rev 162, Mem @ 0xfd000000/16777216, 0xd0000000/268435456, 0xce000000/33554432, I/O @ 0x0000cc00/128, BIOS @ 0x????????/524288
+[ 16088.120] (II) LoadModule: "glx"
+[ 16088.120] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[ 16088.122] (II) Module glx: vendor="X.Org Foundation"
+[ 16088.122] 	compiled for 1.18.3, module version = 1.0.0
+[ 16088.122] 	ABI class: X.Org Server Extension, version 9.0
+[ 16088.122] (==) AIGLX enabled
+[ 16088.122] (II) Scanning /etc/X11/xorg_pci_ids directory for additional PCI ID's supported by the drivers
+[ 16088.122] (==) Matched nvidia as autoconfigured driver 0
+[ 16088.122] (==) Matched nouveau as autoconfigured driver 1
+[ 16088.122] (==) Matched nv as autoconfigured driver 2
+[ 16088.122] (==) Matched modesetting as autoconfigured driver 3
+[ 16088.122] (==) Matched fbdev as autoconfigured driver 4
+[ 16088.122] (==) Matched vesa as autoconfigured driver 5
+[ 16088.122] (==) Assigned the driver to the xf86ConfigLayout
+[ 16088.122] (II) LoadModule: "nvidia"
+[ 16088.123] (WW) Warning, couldn't open module nvidia
+[ 16088.123] (II) UnloadModule: "nvidia"
+[ 16088.123] (II) Unloading nvidia
+[ 16088.123] (EE) Failed to load module "nvidia" (module does not exist, 0)
+[ 16088.123] (II) LoadModule: "nouveau"
+[ 16088.123] (II) Loading /usr/lib64/xorg/modules/drivers/nouveau_drv.so
+[ 16088.123] (II) Module nouveau: vendor="X.Org Foundation"
+[ 16088.123] 	compiled for 1.18.3, module version = 1.0.12
+[ 16088.123] 	Module class: X.Org Video Driver
+[ 16088.123] 	ABI class: X.Org Video Driver, version 20.0
+[ 16088.123] (II) LoadModule: "nv"
+[ 16088.123] (II) Loading /usr/lib64/xorg/modules/drivers/nv_drv.so
+[ 16088.123] (II) Module nv: vendor="X.Org Foundation"
+[ 16088.123] 	compiled for 1.18.3, module version = 2.1.20
+[ 16088.123] 	Module class: X.Org Video Driver
+[ 16088.123] 	ABI class: X.Org Video Driver, version 20.0
+[ 16088.123] (II) LoadModule: "modesetting"
+[ 16088.123] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[ 16088.123] (II) Module modesetting: vendor="X.Org Foundation"
+[ 16088.123] 	compiled for 1.18.3, module version = 1.18.3
+[ 16088.123] 	Module class: X.Org Video Driver
+[ 16088.123] 	ABI class: X.Org Video Driver, version 20.0
+[ 16088.123] (II) LoadModule: "fbdev"
+[ 16088.124] (II) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[ 16088.124] (II) Module fbdev: vendor="X.Org Foundation"
+[ 16088.124] 	compiled for 1.18.3, module version = 0.4.4
+[ 16088.124] 	Module class: X.Org Video Driver
+[ 16088.124] 	ABI class: X.Org Video Driver, version 20.0
+[ 16088.124] (II) LoadModule: "vesa"
+[ 16088.124] (II) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[ 16088.124] (II) Module vesa: vendor="X.Org Foundation"
+[ 16088.124] 	compiled for 1.18.3, module version = 2.3.4
+[ 16088.124] 	Module class: X.Org Video Driver
+[ 16088.124] 	ABI class: X.Org Video Driver, version 20.0
+[ 16088.124] (II) NOUVEAU driver 
+[ 16088.124] (II) NOUVEAU driver for NVIDIA chipset families :
+[ 16088.124] 	RIVA TNT        (NV04)
+[ 16088.124] 	RIVA TNT2       (NV05)
+[ 16088.124] 	GeForce 256     (NV10)
+[ 16088.124] 	GeForce 2       (NV11, NV15)
+[ 16088.124] 	GeForce 4MX     (NV17, NV18)
+[ 16088.124] 	GeForce 3       (NV20)
+[ 16088.124] 	GeForce 4Ti     (NV25, NV28)
+[ 16088.124] 	GeForce FX      (NV3x)
+[ 16088.124] 	GeForce 6       (NV4x)
+[ 16088.124] 	GeForce 7       (G7x)
+[ 16088.124] 	GeForce 8       (G8x)
+[ 16088.124] 	GeForce GTX 200 (NVA0)
+[ 16088.124] 	GeForce GTX 400 (NVC0)
+[ 16088.124] (II) NOUVEAU driver 
+[ 16088.124] (II) NOUVEAU driver for NVIDIA chipset families :
+[ 16088.124] 	RIVA TNT        (NV04)
+[ 16088.124] 	RIVA TNT2       (NV05)
+[ 16088.124] 	GeForce 256     (NV10)
+[ 16088.124] 	GeForce 2       (NV11, NV15)
+[ 16088.124] 	GeForce 4MX     (NV17, NV18)
+[ 16088.124] 	GeForce 3       (NV20)
+[ 16088.124] 	GeForce 4Ti     (NV25, NV28)
+[ 16088.124] 	GeForce FX      (NV3x)
+[ 16088.124] 	GeForce 6       (NV4x)
+[ 16088.124] 	GeForce 7       (G7x)
+[ 16088.124] 	GeForce 8       (G8x)
+[ 16088.124] 	GeForce GTX 200 (NVA0)
+[ 16088.125] 	GeForce GTX 400 (NVC0)
+[ 16088.125] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[ 16088.125] (II) FBDEV: driver for framebuffer: fbdev
+[ 16088.125] (II) VESA: driver for VESA chipsets: vesa
+[ 16088.125] (EE) 
+Fatal server error:
+[ 16088.125] (EE) parse_vt_settings: Cannot open /dev/tty0 (No such file or directory)
+[ 16088.125] (EE) 
+[ 16088.125] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[ 16088.125] (EE) Please also check the log file at "/home/bkessels/.local/share/xorg/Xorg.1.log" for additional information.
+[ 16088.125] (EE) 

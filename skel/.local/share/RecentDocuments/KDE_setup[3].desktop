@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=KDE_setup
+Type=Link
+URL[$e]=file:$HOME/KDE_setup
+X-KDE-LastOpenedWith=

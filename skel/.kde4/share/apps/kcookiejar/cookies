@@ -1,0 +1,9 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.wikia.com]
+lyrics.wikia.com     ".wikia.com"         "/"          1496583649    0 wikia_beacon_id      4    7Q76C-aFV5
+[.wikipedia.org]
+en.wikipedia.org     ""                   "/"          1483790400    0 WMF-Last-Access      7    06-Dec-2016
+[librivox.org]
+librivox.org         ""                   "/"          1481038883    0 ci_session           4    a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22593bcbb0e9a7827daa69c7eccd8718a8%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%22127.0.0.1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A12%3A%22Amarok%2F2.8.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1481031683%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7De70143c7dee81d396e0c893bb81e1b4d

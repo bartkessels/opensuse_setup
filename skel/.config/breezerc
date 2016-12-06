@@ -1,0 +1,7 @@
+[Common]
+ShadowStrength=89
+
+[Windeco]
+AnimationsEnabled=false
+ButtonSize=ButtonSmall
+TitleAlignment=AlignLeft

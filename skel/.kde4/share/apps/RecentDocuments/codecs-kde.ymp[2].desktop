@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-suse-ymp
+Name=codecs-kde.ymp
+Type=Link
+URL[$e]=file://$HOME/Downloads/codecs-kde.ymp
+X-KDE-LastOpenedWith=kdialog

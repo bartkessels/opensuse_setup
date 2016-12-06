@@ -1,0 +1,27 @@
+[DVB]
+ChannelViewState=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAMgAAAACAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAABAAAAyAAAAAIAAAAA
+LastChannel=
+TabSplitterState=AAAA/wAAAAAAAAACAAAAxAAAAAABAAAAAQEAAAAB
+
+[MainWindow]
+DisplayMode=0
+Height 1080=415
+State=AAAA/wAAAAD9AAAAAAAAAskAAAFdAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAAAAAAEAAAAcAG4AYQB2AGkAZwBhAHQAaQBvAG4AXwBiAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAAWAGMAbwBuAHQAcgBvAGwAXwBiAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=745
+
+[MainWindow][Toolbar control_bar]
+ToolButtonStyle=IconOnly
+
+[MediaObject]
+AutoResizeFactor=0
+Deinterlace=true
+LongSkipDuration=60
+ShortSkipDuration=15
+Volume=100
+
+[Recent Files]
+File1[$e]=$HOME/7. Git aliases.mp4
+File2[$e]=$HOME/MARTIN - The KKK Took My Baby Away.mp4
+Name1[$e]=7. Git aliases.mp4
+Name2[$e]=MARTIN - The KKK Took My Baby Away.mp4

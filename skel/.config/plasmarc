@@ -1,0 +1,8 @@
+[PlasmaToolTips]
+Delay=-1
+
+[Theme]
+name=breeze-light
+
+[Wallpapers]
+usersWallpapers=/usr/share/wallpaper.png,/usr/share/wallpapers/openSUSEdefault/

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-suse-ymp
+Name=codecs-kde.ymp
+Type=Link
+URL[$e]=file:///tmp/mozilla_bkessels0/codecs-kde.ymp
+X-KDE-LastOpenedWith=yast2-metapackage-handler

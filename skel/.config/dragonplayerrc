@@ -1,0 +1,22 @@
+[General]
+TimeFormat=1
+Volume=1
+
+[KFileDialog Settings]
+Recent Files[$e]=7. Git aliases.mp4,file:$HOME/7. Git aliases.mp4
+Recent URLs[$e]=file:$HOME/Videos/
+
+[MainWindow]
+Height 1080=575
+State=AAAA/wAAAAD9AAAAAAAAAosAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=651
+
+[file:///home/bkessels/7. Git aliases.mp4]
+Brightness=0
+Contrast=0
+Date=2016,12,3
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0

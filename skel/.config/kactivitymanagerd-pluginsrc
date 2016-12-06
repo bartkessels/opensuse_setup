@@ -1,0 +1,7 @@
+[Plugin-org.kde.ActivityManager.Resources.Scoring]
+allowed-applications=org.kde.dragonplayer,org.kde.krunner,org.kde.plasma.kicker
+blocked-applications=
+blocked-by-default=false
+keep-history-for=0
+off-the-record-activities=
+what-to-remember=0

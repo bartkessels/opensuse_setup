@@ -1,0 +1,17 @@
+161206 15:23:49 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+161206 15:23:49 [Note] InnoDB: The InnoDB memory heap is disabled
+161206 15:23:49 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161206 15:23:49 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+161206 15:23:49 [Note] InnoDB: Compressed tables use zlib 1.2.8
+161206 15:23:49 [Note] InnoDB: Using Linux native AIO
+161206 15:23:49 [Note] InnoDB: Not using CPU crc32 instructions
+161206 15:23:49 [Note] InnoDB: Initializing buffer pool, size = 80.0M
+161206 15:23:49 [Note] InnoDB: Completed initialization of buffer pool
+161206 15:23:49 [Note] InnoDB: Highest supported file format is Barracuda.
+161206 15:23:49 [Note] InnoDB: 128 rollback segment(s) are active.
+161206 15:23:49 [Note] InnoDB: Waiting for purge to start
+161206 15:23:49 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.31-77.0 started; log sequence number 2088109
+161206 15:23:49 [Note] Reading of all Master_info entries succeded
+161206 15:23:49 [Note] Added new Master_info '' to hash table
+161206 15:23:49 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.27-MariaDB'  socket: '/tmp/akonadi-bkessels.F5BL2K/mysql.socket'  port: 0  SLE 12 SP1 package

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///tmp/mozilla_bkessels0/opensuse-codecs-installer.ymp" added="2016-12-02T12:40:37Z" modified="2016-12-02T12:40:37Z" visited="2016-12-02T12:40:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-suse-ymp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-02T12:40:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_bkessels0/codecs-kde.ymp" added="2016-12-02T17:31:59Z" modified="2016-12-02T17:31:59Z" visited="2016-12-02T17:32:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-suse-ymp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-02T17:31:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/7. Git aliases.mp4" added="2016-12-03T11:20:43Z" modified="2016-12-03T11:20:43Z" visited="2016-12-03T11:20:44Z">
+    <title>7. Git aliases - 7. Git aliases.mp4</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-mplayer" exec="&apos;gnome-mplayer %u&apos;" modified="2016-12-03T11:20:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bkessels/opensuse_setup/KDE/setup.sh" added="2016-12-03T11:58:55Z" modified="2016-12-03T11:58:55Z" visited="2016-12-03T11:58:55.806468Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2016-12-03T11:58:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

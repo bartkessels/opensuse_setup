@@ -1,0 +1,22 @@
+[KFileDialog Settings]
+Recent Files[$e]=wallpaper.png,file:///usr/share/wallpaper.png
+Recent URLs[$e]=file:///usr/share/,file:$HOME/Pictures/
+
+[PIMEventsPlugin]
+calendars=10
+
+[PlasmaViews][Panel 21][Horizontal1920]
+thickness=32
+
+[PlasmaViews][Panel 3][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 43][Horizontal1920]
+thickness=28
+
+[ScreenConnectors]
+0=DVI-I-1
+1=HDMI-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

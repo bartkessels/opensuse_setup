@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=folder
+Name=Wachtwoorden.kdbx
+Type=Link
+URL[$e]=file://$HOME/Wachtwoorden.kdbx
+X-KDE-LastOpenedWith=startkdeinitlock

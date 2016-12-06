@@ -1,0 +1,19 @@
+[MainWindow]
+Height 1080=480
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=709
+Window-Maximized 1080x1920=true
+
+[Recent Files]
+File1[$e]=/usr/share/wallpapers/openSUSEdefault/screenshot.jpg
+File2[$e]=/usr/share/wallpapers/openSUSEdefault/contents/images/1440x1080.jpg
+File3[$e]=/usr/share/wallpapers/Next/contents/images/3840x2160.png
+File4[$e]=/usr/share/wallpapers/Next/contents/images/1920x1080.png
+Name1[$e]=screenshot.jpg
+Name2[$e]=1440x1080.jpg
+Name3[$e]=3840x2160.png
+Name4[$e]=1920x1080.png
+
+[SideBar-ViewMode]
+IsVisible=true

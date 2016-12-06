@@ -1,0 +1,10 @@
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAF7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/google-chrome-stable_current_x86_64.rpm
+File2[$e]=$HOME/Downloads/atom.x86_64.rpm
+Name1[$e]=google-chrome-stable_current_x86_64.rpm
+Name2[$e]=atom.x86_64.rpm

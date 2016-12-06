@@ -1,0 +1,51 @@
+[AdditionalInfoDialog]
+Height 1080=294
+Width 1920=300
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[DownloadDialog Settings]
+Height 1080=522
+Width 1920=700
+
+[General]
+EditableUrl=true
+GlobalViewProps=true
+Version=200
+ViewPropsTimestamp=2016,12,1,23,17,26
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Height 1080=478
+Width 1920=446
+
+[MainWindow]
+Height 1080=649
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAADnfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABEAAAAnQAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAADnQAAAFABAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAGxwAAA50AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1276
+Window-Maximized 1080x1920=true
+
+[Open-with settings]
+CompletionMode=5
+History=kaffeine,dragon %u
+
+[PreviewSettings]
+Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,svgthumbnail,textthumbnail
+
+[SettingsDialog]
+Height 1080=464
+Width 1920=512
+
+[ViewPropertiesDialog]
+Height 1080=294
+Width 1920=361
+
+[kuick-copy]
+Paths[$e]=$HOME/

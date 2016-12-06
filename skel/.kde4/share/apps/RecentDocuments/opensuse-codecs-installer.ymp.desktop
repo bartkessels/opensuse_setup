@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-suse-ymp
+Name=opensuse-codecs-installer.ymp
+Type=Link
+URL[$e]=file:///tmp/mozilla_bkessels0/opensuse-codecs-installer.ymp
+X-KDE-LastOpenedWith=yast2-metapackage-handler

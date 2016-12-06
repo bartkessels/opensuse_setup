@@ -1,0 +1,113 @@
+[$Version]
+update_info=amarok.upd:1
+
+[Analyzer Applet]
+Current Analyzer=Blocky
+Height=120
+
+[Collection]
+Monitor Changes=false
+
+[Collection Browser]
+TreeCategory=3,1
+View Mode=NormalCollections
+
+[Collection Transcoding Preference]
+Encoder=INVALID
+TrackSelection=0
+
+[ConfigDialog]
+Height 1080=546
+Width 1920=586
+
+[Context View]
+firstTimeWithAnalyzer=false
+
+[File Browser]
+Current Directory=file:///home/bkessels
+
+[General]
+Browser Path=root list
+First Run=false
+HiddenOnExit=true
+
+[General Options]
+PlayFirstRunJingle=false
+ShowBrowserBackgroundImage=false
+
+[KNotify]
+KNotify Enabled=true
+
+[MainWindow]
+Height 1080=993
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAeAAAADifwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAGeAAAAzAEAAAP7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAGfAAAEPwAAAZQBAAAD+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAXfAAABoQAAAMwBAAADAAAAAAAAA4kAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1920
+
+[Notification Messages]
+hideOnCloseInfo=false
+systemtrayquitAmarok=false
+
+[OSD]
+Osd Alignment=Right
+Osd Enabled=false
+Osd Use Translucency=false
+
+[Playback]
+Start Playing On Add=false
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchTrack=true
+ShowOnlyMatches=false
+
+[Plugins]
+Amarok Script ConsoleEnabled=false
+Cool StreamsEnabled=false
+Free Music ChartsEnabled=false
+Librivox.orgEnabled=false
+LyricWikiEnabled=true
+amarok_collection-audiocdcollectionEnabled=true
+amarok_collection-daapcollectionEnabled=false
+amarok_collection-ipodcollectionEnabled=false
+amarok_collection-mtpcollectionEnabled=true
+amarok_collection-umscollectionEnabled=true
+amarok_collection-upnpcollectionEnabled=false
+amarok_service_amazonstoreEnabled=true
+amarok_service_ampacheEnabled=false
+amarok_service_gpodderEnabled=false
+amarok_service_jamendoEnabled=true
+amarok_service_lastfmEnabled=true
+amarok_service_magnatunestoreEnabled=true
+amarok_service_mp3tunesEnabled=false
+amarok_service_opmldirectoryEnabled=false
+
+[Podcast View]
+Merged View=false
+
+[Podcasts]
+AutoUpdate Interval=30
+Maximum Simultaneous Downloads=4
+Maximum Simultaneous Updates=4
+
+[Recently Played]
+Display Names=allMeadow & Rob Costlow - Art Of Nations (Amarok Theme),allMeadow & Rob Costlow - Art Of Nations (Amarok Theme)
+Last Played Dates=2016-12-06T14:40:56,2016-12-06T14:41:39
+Urls=file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg,file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+LastUpdateCheck=1480631855
+
+[Session]
+LastPlaying=0
+
+[StatSyncing]
+checkedFields=
+excludedLabels=
+providerEnabledStatuses=true
+providerIds=localCollection
+providerNames=Local Collection

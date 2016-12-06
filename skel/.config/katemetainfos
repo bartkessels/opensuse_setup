@@ -1,0 +1,131 @@
+[file:///home/bkessels/.atom/snippets.cson]
+Bookmarks=
+Checksum=cd66bba04d7c534d2cda3f38e6e0c2d1f8085767
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,12,3,12,0,48
+URL=file:///home/bkessels/.atom/snippets.cson
+
+[file:///home/bkessels/.config/kwalletrc]
+Bookmarks=
+Checksum=25ea05e35b3b85e419627f87faefd0dcbd86b65d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,12,3,15,50,9
+URL=file:///home/bkessels/.config/kwalletrc
+
+[file:///home/bkessels/.config/user-dirs.dirs]
+Bookmarks=
+Checksum=0d19da4e4909b27f1248076c67611cb72259f56b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,12,3,15,50,19
+URL=file:///home/bkessels/.config/user-dirs.dirs
+
+[file:///home/bkessels/.kde4/share/templates/Report.desktop]
+Bookmarks=
+Checksum=0a9e923dde4ffb98e29d42ddf75e7f50e7b6c154
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Time=2016,12,3,17,47,54
+URL=file:///home/bkessels/.kde4/share/templates/Report.desktop
+
+[file:///home/bkessels/KDE_setup/install.sh]
+Bookmarks=
+Checksum=5ad5deba0b50685683b5147308d3099d92d7fabf
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,12,6,14,25,26
+URL=file:///home/bkessels/KDE_setup/install.sh
+
+[file:///home/bkessels/KDE_setup/set-configs.sh]
+Bookmarks=
+Checksum=69f727c8c0f75c5bdc1d268c7b8697a635efec70
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,12,6,14,25,59
+URL=file:///home/bkessels/KDE_setup/set-configs.sh
+
+[file:///home/bkessels/fedora_setup/setup.sh]
+Bookmarks=
+Checksum=b40301c42ff7f899d3e624e74c1f710f186beb66
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,12,6,13,31,21
+URL=file:///home/bkessels/fedora_setup/setup.sh
+
+[file:///home/bkessels/install.sh]
+Bookmarks=
+Checksum=4f6185e261faf4594fb0f85ce86f7dc23693f126
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,12,2,22,43,14
+URL=file:///home/bkessels/install.sh
+
+[file:///home/bkessels/opensuse_setup/KDE/configs/.kde4/share/config/amarokrc]
+Bookmarks=
+Checksum=a41c70db2265468ed5f6be05634e2dc0eece1833
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Time=2016,12,2,16,50,21
+URL=file:///home/bkessels/opensuse_setup/KDE/configs/.kde4/share/config/amarokrc
+
+[file:///home/bkessels/set-configs.sh]
+Bookmarks=
+Checksum=dbb9c20efaaa04aebe6b404f56e526a5821ac3bb
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Time=2016,12,3,15,44,37
+URL=file:///home/bkessels/set-configs.sh
+
+[file:///usr/share/kde4/templates/Directory.desktop]
+Bookmarks=
+Checksum=3addf61289f54fe660ee55ff73f6300bbef66652
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Time=2016,12,3,16,3,2
+URL=file:///usr/share/kde4/templates/Directory.desktop
+
+[file:///usr/share/kde4/templates/TextFile.desktop]
+Bookmarks=
+Checksum=e2c3fcae4f15b0b07361e4ab3f1de8cab9e48c75
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Time=2016,12,3,17,47,54
+URL=file:///usr/share/kde4/templates/TextFile.desktop

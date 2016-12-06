@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <text/>
+ </head>
+ <body>
+  <outline text="KDE" isOpen="false" id="159195318">
+   <outline text="KDE Dot News" archiveMode="globalDefault" version="RSS" type="rss" id="1670706111" maxArticleNumber="0" xmlUrl="http://www.kde.org/dotkdeorg.rdf" htmlUrl="" title="KDE Dot News" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   <outline text="Linux.com" archiveMode="globalDefault" version="RSS" type="rss" id="886409073" maxArticleNumber="0" xmlUrl="https://www.linux.com/rss/feeds.php" htmlUrl="" title="Linux.com" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   <outline text="Planet KDE" archiveMode="globalDefault" version="RSS" type="rss" id="1764836759" maxArticleNumber="0" xmlUrl="http://planetkde.org/rss20.xml" htmlUrl="" title="Planet KDE" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   <outline text="Planet KDE PIM" archiveMode="globalDefault" version="RSS" type="rss" id="691154150" maxArticleNumber="0" xmlUrl="http://pim.planetkde.org/rss20.xml" htmlUrl="" title="Planet KDE PIM" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   <outline text="KDE Apps" archiveMode="globalDefault" version="RSS" type="rss" id="165119943" maxArticleNumber="0" xmlUrl="https://store.kde.org/content.rdf" htmlUrl="" title="KDE Apps" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   <outline text="Brazilian Portuguese feeds" isOpen="false" id="884730166">
+    <outline text="Planet KDE Brazilian Portuguese" archiveMode="globalDefault" version="RSS" type="rss" id="1284437960" maxArticleNumber="0" xmlUrl="http://planetkde.org/pt-br/rss20.xml" htmlUrl="" title="Planet KDE Brazilian Portuguese" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   </outline>
+   <outline text="Spanish feeds" isOpen="false" id="1490730099">
+    <outline text="Planet KDE España" archiveMode="globalDefault" version="RSS" type="rss" id="1685020583" maxArticleNumber="0" xmlUrl="http://planet.kde-espana.org/atom.xml" htmlUrl="" title="Planet KDE España" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   </outline>
+   <outline text="French feeds" isOpen="false" id="101269286">
+    <outline text="Planet KDE France" archiveMode="globalDefault" version="RSS" type="rss" id="206600803" maxArticleNumber="0" xmlUrl="https://fr.planetkde.org/rss20.xml" htmlUrl="" title="Planet KDE France" useCustomFetchInterval="false" description="" maxArticleAge="0" fetchInterval="0"/>
+   </outline>
+  </outline>
+ </body>
+</opml>
+

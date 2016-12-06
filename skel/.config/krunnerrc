@@ -1,0 +1,5 @@
+[General]
+history=settings,yast,network inter,konta,amarok,autostart,tux,writer,default,atom,chrome,kate,ksys,keepas,killall -9 dolphin,vlc,application,network,chrom,bootl,firefo,git-cola,software,disvo,configure,amar,system mon,kons
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_kde4-amarok.desktop,1 services_tuxguitar.desktop,1 services_khotkeys.desktop,1 services_org.kde.kontact.desktop,1 services_componentchooser.desktop,1 services_google-chrome.desktop,1 services_firefox.desktop,1 services_atom.desktop,1 services_org.kde.discover.desktop,1 services_org.kde.ksysguard.desktop,1 services_keepassx.desktop,1 services_org.kde.kate.desktop,1 services_autostart.desktop,1 services_libreoffice --writer,1 services_nic.desktop,1 services_writer.desktop,2 shell_killall -9 dolphin,1 shell_git-cola,1 services_YaST.desktop,1 services_org.kde.konsole.desktop,1 services_systemsettings.desktop,3 services_YaST2-bootloader.desktop,1 services_yast2-packager.desktop

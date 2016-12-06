@@ -1,0 +1,44 @@
+[KSharedDataCache]
+InfoOutput=4
+
+[LibreOffice]
+InfoOutput=4
+
+[amarok]
+InfoOutput=4
+
+[kaffeine]
+InfoOutput=4
+
+[kbuildsycoca4]
+InfoOutput=4
+
+[kdecore (KConfigSkeleton)]
+InfoOutput=2
+
+[kdecore (KPluginInfo)]
+InfoOutput=2
+
+[kded]
+InfoOutput=4
+
+[kdialog]
+InfoOutput=4
+
+[kfilemodule]
+InfoOutput=4
+
+[kio (delegateanimationhandler)]
+InfoOutput=4
+
+[kio_trash]
+InfoOutput=4
+
+[knotify]
+InfoOutput=4
+
+[kuiserver]
+InfoOutput=4
+
+[startkdeinitlock]
+InfoOutput=4

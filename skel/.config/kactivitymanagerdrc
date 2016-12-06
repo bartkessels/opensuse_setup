@@ -1,0 +1,13 @@
+[Plugins]
+org.kde.ActivityManager.ResourceScoringEnabled=true
+org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
+
+[activities]
+4dae38da-fadf-4a42-a16b-79860d9adc7d=Default
+79651b41-1d1a-4da8-bff4-499fb4c0b4b8=School
+
+[activities-descriptions]
+79651b41-1d1a-4da8-bff4-499fb4c0b4b8=School dingen
+
+[main]
+currentActivity=4dae38da-fadf-4a42-a16b-79860d9adc7d
