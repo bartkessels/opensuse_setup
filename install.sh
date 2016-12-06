@@ -116,7 +116,7 @@ usermod -s /bin/zsh $user_name
 zypper in -y dolphin-plugins
 
 # Codecs
-zypper in -y vlc-codecs ffmpeg lame
+zypper in -y vlc-codecs ffmpeg lame libmpeg3-utils gstreamer-fluendo-mp3
 
 # Fonts
 zypper in -y bitstream-vera-fonts google-inconsolata-fonts ubuntu-fonts linux-libertine-fonts noto-emoji
