@@ -49,9 +49,11 @@ zypper ar http://download.opensuse.org/repositories/Education/$os_version/ Educa
 # Multimedia
 zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/$os_version/ Packman
 zypper ar http://opensuse-guide.org/repo/$os_version/ libdvdcss
+zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ Multimedia:apps
 
 # Other
 zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:Extra
+zypper ar http://download.opensuse.org/repositories/graphics/$os_version/ Graphics
 
 zypper --gpg-auto-import-keys ref
 
@@ -145,8 +147,9 @@ zypper in -y whois pandoc nmap offlineimap
 zypper in -y kile
 zypper in -y texlive-crossreference texlive-upquote texlive-sourcesanspro
 
-# Audio Editors
+# Audio Editors / Players
 zypper in -y ardour
+zypper in -y amarok
 
 # Video Editors / Recorders / Players / Other
 zypper in -y kdenlive blender
