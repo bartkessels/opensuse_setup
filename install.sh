@@ -50,6 +50,7 @@ zypper ar http://download.opensuse.org/repositories/Education/$os_version/ Educa
 zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/$os_version/ Packman
 zypper ar http://opensuse-guide.org/repo/$os_version/ libdvdcss
 zypper ar http://download.opensuse.org/repositories/multimedia:/apps/$os_version/ Multimedia:apps
+zypper ar http://download.opensuse.org/repositories/multimedia:/libs/$os_version/ Multimedia:libs
 
 # Other
 zypper ar http://download.opensuse.org/repositories/KDE:/Extra/$os_version/ KDE:Extra
