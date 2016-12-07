@@ -141,7 +141,7 @@ printf '\nDefaults env_reset,insults\n' >> /etc/sudoers
 #####################################################################################
 
 # Utils GUI / CLI
-zypper in -y krdc ghostwriter luckybackup yakuake
+zypper in -y krdc ghostwriter luckybackup yakuake partitionmanager
 zypper in -y whois pandoc nmap offlineimap
 
 # LaTeX Editors / Packages
