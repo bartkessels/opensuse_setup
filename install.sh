@@ -240,6 +240,11 @@ a2enmod php7
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php5/apache2/php.ini
 sed -i 's|display_errors = Off|display_errors = On|g' /etc/php7/apache2/php.ini
 
+# Composer
+mkdir $home/.composer
+composer global require --working-dir=$home/.composer "laravel/installer"
+composer global require --working-dir=$home/.composer "phpunit/phpunit"
+
 # Read/write access for user in own html folder
 ln -s /home/$user_name/public_html /srv/www/htdocs/$user_name
 
