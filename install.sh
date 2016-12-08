@@ -162,7 +162,7 @@ zypper in -y k3b
 zypper in -y gimp krita
 
 # Development Editors / DB / Other / SDKs / Atom / Atom Packages
-zypper in -y vim nano kate
+zypper in -y vim nano kate libqt5-creator
 zypper in -y mysql-workbench sqlitebrowser
 zypper in -y umbrello pencil dia meld
 zypper in -y java-1_7_0-openjdk-devel java-1_8_0-openjdk-devel
@@ -222,7 +222,7 @@ zypper in phpmyadmin
 sed -i -e '1iAlias /phpmyadmin /srv/www/htdocs/phpMyAdmin\' /etc/apache2/conf.d/phpMyAdmin.conf
 
 # Install PHP
-zypper in php7 php7-fileinfo php5-ZendFramework php-composer
+zypper in php7 php7-fileinfo php7-zip php5-ZendFramework php-composer
 
 # Install laravel installer
 composer global require --working-dir=/home/$user_name/.composer "laravel/installer"
