@@ -1,5 +1,5 @@
 [Plugin-org.kde.ActivityManager.Resources.Scoring]
-allowed-applications=org.kde.dragonplayer,org.kde.krunner,org.kde.plasma.kicker
+allowed-applications=QtCreator,atom,dragonplayer,gnome-mplayer,impress,kate,mpv,okularapplication_pdf,org.kde.ark,org.kde.dolphin,org.kde.dragonplayer,org.kde.gwenview,org.kde.kate,org.kde.krunner,org.kde.plasma.kicker,plasmashell,vlc,xine,yast2-metapackage-handler
 blocked-applications=
 blocked-by-default=false
 keep-history-for=0

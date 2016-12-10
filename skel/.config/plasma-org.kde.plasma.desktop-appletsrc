@@ -232,10 +232,6 @@ favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop
 showRecentApps=false
 showRecentDocs=false
 
-[Containments][43][Applets][64]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
 [Containments][43][Applets][68][Configuration][General]
 favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
 
@@ -244,7 +240,7 @@ DialogHeight=84
 DialogWidth=1920
 
 [Containments][43][General]
-AppletOrder=62;61;58;64;47;49
+AppletOrder=62;61;58;47;49
 
 [Containments][48]
 activityId=
