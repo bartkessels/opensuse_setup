@@ -1,0 +1,12 @@
+[General]
+copySaveLocation=false
+default-save-location[$e]=$HOME/Pictures/Screenshots
+save-filename-format=Screenshot_%Y%M%D_%H%m%S
+
+[GuiConfig]
+dynamicSaveButton=false
+includeDecorations=true
+includePointer=true
+rememberLastRectangularRegion=false
+useLightMaskColour=false
+window-position=2369,185
